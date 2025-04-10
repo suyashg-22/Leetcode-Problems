@@ -15,6 +15,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0026-remove-duplicates-from-sorted-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0125-valid-palindrome](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0125-valid-palindrome) |
 | [0189-rotate-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0189-rotate-array) |
+| [0283-move-zeroes](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0283-move-zeroes) |
 ## String
 |  |
 | ------- |
@@ -36,6 +37,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0189-rotate-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0189-rotate-array) |
+| [0283-move-zeroes](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0283-move-zeroes) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1966-frequency-of-the-most-frequent-element) |
 ## Binary Search
 |  |
