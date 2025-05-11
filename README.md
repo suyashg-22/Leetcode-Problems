@@ -57,6 +57,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0268-missing-number](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0283-move-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0485-max-consecutive-ones) |
+| [0560-subarray-sum-equals-k](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0560-subarray-sum-equals-k) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Binary Search
@@ -82,6 +83,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Prefix Sum
 |  |
 | ------- |
+| [0560-subarray-sum-equals-k](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0560-subarray-sum-equals-k) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1966-frequency-of-the-most-frequent-element) |
 ## Hash Table
 |  |
@@ -90,6 +92,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0073-set-matrix-zeroes](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0073-set-matrix-zeroes) |
 | [0169-majority-element](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0268-missing-number) |
+| [0560-subarray-sum-equals-k](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0560-subarray-sum-equals-k) |
 ## Bit Manipulation
 |  |
 | ------- |
