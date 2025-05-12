@@ -56,6 +56,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0136-single-number](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0189-rotate-array) |
+| [0229-majority-element-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0283-move-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0485-max-consecutive-ones) |
@@ -81,6 +82,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0075-sort-colors](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0268-missing-number) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1966-frequency-of-the-most-frequent-element) |
 ## Prefix Sum
@@ -94,6 +96,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0001-two-sum](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0001-two-sum) |
 | [0073-set-matrix-zeroes](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0073-set-matrix-zeroes) |
 | [0169-majority-element](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0268-missing-number) |
 | [0560-subarray-sum-equals-k](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0560-subarray-sum-equals-k) |
 ## Bit Manipulation
@@ -110,6 +113,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0229-majority-element-ii) |
 ## Simulation
 |  |
 | ------- |
