@@ -233,6 +233,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0124-binary-tree-maximum-path-sum](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0144-binary-tree-preorder-traversal](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0145-binary-tree-postorder-traversal) |
+| [0975-range-sum-of-bst](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0975-range-sum-of-bst) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -252,6 +253,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0124-binary-tree-maximum-path-sum](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0144-binary-tree-preorder-traversal](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0145-binary-tree-postorder-traversal) |
+| [0975-range-sum-of-bst](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0975-range-sum-of-bst) |
 ## Stack
 |  |
 | ------- |
@@ -268,6 +270,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0124-binary-tree-maximum-path-sum](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0144-binary-tree-preorder-traversal](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0145-binary-tree-postorder-traversal) |
+| [0975-range-sum-of-bst](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0975-range-sum-of-bst) |
 ## Design
 |  |
 | ------- |
@@ -276,4 +279,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0535-encode-and-decode-tinyurl](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0535-encode-and-decode-tinyurl) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0975-range-sum-of-bst](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0975-range-sum-of-bst) |
 <!---LeetCode Topics End-->
