@@ -92,6 +92,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0907-koko-eating-bananas](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0907-koko-eating-bananas) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
+| [1528-kids-with-the-greatest-number-of-candies](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1646-kth-missing-positive-number](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1646-kth-missing-positive-number) |
 | [1675-magnetic-force-between-two-balls](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1675-magnetic-force-between-two-balls) |
