@@ -170,6 +170,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0268-missing-number](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0268-missing-number) |
 | [0535-encode-and-decode-tinyurl](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0535-encode-and-decode-tinyurl) |
 | [0560-subarray-sum-equals-k](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0560-subarray-sum-equals-k) |
+| [0893-all-nodes-distance-k-in-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Bit Manipulation
 |  |
@@ -244,6 +245,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0199-binary-tree-right-side-view](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0199-binary-tree-right-side-view) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0662-maximum-width-of-binary-tree) |
+| [0893-all-nodes-distance-k-in-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0975-range-sum-of-bst](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0975-range-sum-of-bst) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Breadth-First Search
@@ -256,6 +258,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0104-maximum-depth-of-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0199-binary-tree-right-side-view) |
 | [0662-maximum-width-of-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0662-maximum-width-of-binary-tree) |
+| [0893-all-nodes-distance-k-in-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Binary Tree
 |  |
@@ -273,6 +276,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0199-binary-tree-right-side-view](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0199-binary-tree-right-side-view) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0662-maximum-width-of-binary-tree) |
+| [0893-all-nodes-distance-k-in-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0975-range-sum-of-bst](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0975-range-sum-of-bst) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Stack
@@ -295,6 +299,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0199-binary-tree-right-side-view](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0199-binary-tree-right-side-view) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0662-maximum-width-of-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0662-maximum-width-of-binary-tree) |
+| [0893-all-nodes-distance-k-in-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0975-range-sum-of-bst](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0975-range-sum-of-bst) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Design
