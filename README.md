@@ -468,4 +468,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0328-odd-even-linked-list](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0328-odd-even-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0908-middle-of-the-linked-list) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
+## Database
+|  |
+| ------- |
+| [1892-find-total-time-spent-by-each-employee](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1892-find-total-time-spent-by-each-employee) |
 <!---LeetCode Topics End-->
