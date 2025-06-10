@@ -472,5 +472,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0176-second-highest-salary](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0176-second-highest-salary) |
+| [0182-duplicate-emails](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0182-duplicate-emails) |
 | [1892-find-total-time-spent-by-each-employee](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1892-find-total-time-spent-by-each-employee) |
 <!---LeetCode Topics End-->
