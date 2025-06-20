@@ -510,6 +510,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0197-rising-temperature](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0197-rising-temperature) |
 | [0595-big-countries](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0595-big-countries) |
 | [0620-not-boring-movies](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0620-not-boring-movies) |
+| [1452-restaurant-growth](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1452-restaurant-growth) |
 | [1892-find-total-time-spent-by-each-employee](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1892-find-total-time-spent-by-each-employee) |
 | [1908-recyclable-and-low-fat-products](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1908-recyclable-and-low-fat-products) |
 ## Enumeration
