@@ -409,6 +409,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0496-next-greater-element-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0503-next-greater-element-ii) |
 | [0735-asteroid-collision](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0735-asteroid-collision) |
+| [0937-online-stock-span](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0943-sum-of-subarray-minimums) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [2227-sum-of-subarray-ranges](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2227-sum-of-subarray-ranges) |
@@ -452,6 +453,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0232-implement-queue-using-stacks](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0232-implement-queue-using-stacks) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0535-encode-and-decode-tinyurl](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0535-encode-and-decode-tinyurl) |
+| [0937-online-stock-span](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0937-online-stock-span) |
 ## Hash Function
 |  |
 | ------- |
@@ -478,6 +480,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0402-remove-k-digits](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0503-next-greater-element-ii) |
+| [0937-online-stock-span](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0943-sum-of-subarray-minimums) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [2227-sum-of-subarray-ranges](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2227-sum-of-subarray-ranges) |
@@ -553,4 +556,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0232-implement-queue-using-stacks](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0232-implement-queue-using-stacks) |
+## Data Stream
+|  |
+| ------- |
+| [0937-online-stock-span](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0937-online-stock-span) |
 <!---LeetCode Topics End-->
