@@ -1,40 +1,50 @@
-class Solution {
+#include <bits/stdc++.h>
+using namespace std;
 
+class Solution {
 public:
-    bool f(vector<vector<int>>& trust,int first,int last){
-        int n = trust.size();
-        for(int i=0;i<n;i++){
-            if(trust[i][0]==first && trust[i][1]==last){
-                return true;
-            }
-        }
-        return false;
+    unordered_set<string> trustset;
+
+    bool f(int first, int last) {
+        return trustset.count(to_string(first) + "," + to_string(last));
     }
+
     int findJudge(int n, vector<vector<int>>& trust) {
-        if(n==1)return 1;
-        if(trust.size()<=0)return -1;
+        if(n == 1) return 1;
+        if(trust.size() == 0) return -1;
+
+        // Preprocess trust into unordered_set for O(1) lookup
+        for(auto& t : trust) {
+            trustset.insert(to_string(t[0]) + "," + to_string(t[1]));
+        }
+
         int first = 1;
         int last = n;
-        while(first<last){
-            if(f(trust,first,last)==1){
-                first+=1;
-            }
-            else if(f(trust,last,first)==1){
-                last-=1;
-            }
-            else{
-                first+=1;
-                last-=1;
+
+        while(first < last) {
+            if(f(first, last)) {
+                first++;
+            } else if(f(last, first)) {
+                last--;
+            } else {
+                first++;
+                last--;
             }
         }
-        if(last>first)return -1;
-        for(int i=0;i<trust.size();i++){
-            if(trust[i][0]==first)return -1;
+
+        if(last > first) return -1;
+
+        // Check that candidate doesn't trust anyone
+        for(auto& t : trust) {
+            if(t[0] == first) return -1;
         }
+
+        // Check that candidate is trusted by exactly (n - 1) others
         int cnt = 0;
-        for(int i = 0; i < trust.size(); i++) {
-            if(trust[i][1] == first) cnt++;
+        for(auto& t : trust) {
+            if(t[1] == first) cnt++;
         }
+
         if(cnt != n - 1) return -1;
 
         return first;
