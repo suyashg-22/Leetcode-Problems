@@ -15,6 +15,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0150-evaluate-reverse-polish-notation](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0204-count-primes) |
+| [0231-power-of-two](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0268-missing-number) |
 | [1013-fibonacci-number](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1013-fibonacci-number) |
 | [2610-closest-prime-numbers-in-range](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2610-closest-prime-numbers-in-range) |
@@ -75,6 +76,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0025-reverse-nodes-in-k-group](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0025-reverse-nodes-in-k-group) |
 | [0050-powx-n](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0206-reverse-linked-list) |
+| [0231-power-of-two](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0234-palindrome-linked-list) |
 | [1013-fibonacci-number](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1013-fibonacci-number) |
 ## Memoization
@@ -252,6 +254,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0136-single-number](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0136-single-number) |
 | [0222-count-complete-tree-nodes](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0222-count-complete-tree-nodes) |
+| [0231-power-of-two](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0268-missing-number) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2323-minimum-bit-flips-to-convert-number) |
 ## Divide and Conquer
