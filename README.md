@@ -55,6 +55,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0020-valid-parentheses](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0020-valid-parentheses) |
 | [0125-valid-palindrome](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0151-reverse-words-in-a-string) |
+| [0205-isomorphic-strings](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0205-isomorphic-strings) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0402-remove-k-digits](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0402-remove-k-digits) |
 | [0535-encode-and-decode-tinyurl](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0535-encode-and-decode-tinyurl) |
@@ -251,6 +252,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0146-lru-cache](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0169-majority-element) |
+| [0205-isomorphic-strings](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0205-isomorphic-strings) |
 | [0229-majority-element-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0268-missing-number) |
 | [0496-next-greater-element-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0496-next-greater-element-i) |
