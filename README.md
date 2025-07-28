@@ -42,6 +42,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0189-rotate-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0234-palindrome-linked-list) |
 | [0283-move-zeroes](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0283-move-zeroes) |
+| [0455-assign-cookies](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0455-assign-cookies) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0557-reverse-words-in-a-string-iii) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0908-middle-of-the-linked-list](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0908-middle-of-the-linked-list) |
@@ -146,6 +147,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0268-missing-number](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0283-move-zeroes) |
 | [0410-split-array-largest-sum](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0410-split-array-largest-sum) |
+| [0455-assign-cookies](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0455-assign-cookies) |
 | [0485-max-consecutive-ones](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0485-max-consecutive-ones) |
 | [0493-reverse-pairs](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0493-reverse-pairs) |
 | [0496-next-greater-element-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0496-next-greater-element-i) |
@@ -212,6 +214,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0011-container-with-most-water](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0011-container-with-most-water) |
 | [0402-remove-k-digits](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0402-remove-k-digits) |
 | [0410-split-array-largest-sum](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0410-split-array-largest-sum) |
+| [0455-assign-cookies](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0455-assign-cookies) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2032-largest-odd-number-in-string](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2032-largest-odd-number-in-string) |
 ## Sliding Window
@@ -234,6 +237,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0242-valid-anagram](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0268-missing-number) |
 | [0451-sort-characters-by-frequency](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0451-sort-characters-by-frequency) |
+| [0455-assign-cookies](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0455-assign-cookies) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
 | [1675-magnetic-force-between-two-balls](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1675-magnetic-force-between-two-balls) |
