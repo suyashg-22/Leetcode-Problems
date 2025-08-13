@@ -8,13 +8,14 @@ public:
         int r = n-k-1;
         int sum =0;
         int totalsum=0;
-        for(int i=0;i<n;i++){
-            if(i<n-k)sum+=arr[i];
-            totalsum+=arr[i];
+        for(int i=0;i<n-k;i++){
+            sum+=arr[i];            
         }
+        totalsum+=sum;
         minisum=min(minisum,sum);
         while(r<n-1){
             r+=1;
+            totalsum+=arr[r];
             sum+=arr[r];
             sum-=arr[l];
             l+=1;
