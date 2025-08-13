@@ -53,6 +53,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0008-string-to-integer-atoi](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0008-string-to-integer-atoi) |
 | [0012-integer-to-roman](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0012-integer-to-roman) |
 | [0014-longest-common-prefix](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0014-longest-common-prefix) |
@@ -229,6 +230,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sliding Window
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0239-sliding-window-maximum](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0239-sliding-window-maximum) |
 | [0940-fruit-into-baskets](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0940-fruit-into-baskets) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
@@ -269,6 +271,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0001-two-sum) |
+| [0003-longest-substring-without-repeating-characters](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0012-integer-to-roman](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0012-integer-to-roman) |
 | [0073-set-matrix-zeroes](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0073-set-matrix-zeroes) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
