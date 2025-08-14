@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int f(vector<int>nums,int goal){
+    int f(vector<int>&nums,int goal){
         int n = nums.size();
         int l =0;
         int r =0;
