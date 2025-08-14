@@ -7,14 +7,14 @@ public:
         map<int,int>mpp;
         int cnt =0;
         while(r<n){
-            mpp[nums[r]]+=1;
+            mpp[nums[r]]++;
             while(mpp.size()>k){
-                mpp[nums[l]]-=1;
+                mpp[nums[l]]--;
                 if(mpp[nums[l]]==0)mpp.erase(nums[l]);
-                l+=1;
+                l++;
             }
             cnt+=r-l+1;
-            r+=1;
+            r++;
         }
         return cnt;
     }
