@@ -164,6 +164,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0485-max-consecutive-ones](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0485-max-consecutive-ones) |
 | [0493-reverse-pairs](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0493-reverse-pairs) |
 | [0496-next-greater-element-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0496-next-greater-element-i) |
+| [0498-diagonal-traverse](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0498-diagonal-traverse) |
 | [0503-next-greater-element-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0503-next-greater-element-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0540-single-element-in-a-sorted-array) |
 | [0542-01-matrix](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0542-01-matrix) |
@@ -367,6 +368,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0054-spiral-matrix) |
+| [0498-diagonal-traverse](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0498-diagonal-traverse) |
 | [0735-asteroid-collision](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0735-asteroid-collision) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2271-rearrange-array-elements-by-sign) |
 | [3790-fruits-into-baskets-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3790-fruits-into-baskets-ii) |
@@ -381,6 +383,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0130-surrounded-regions](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0200-number-of-islands) |
 | [0240-search-a-2d-matrix-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0240-search-a-2d-matrix-ii) |
+| [0498-diagonal-traverse](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0498-diagonal-traverse) |
 | [0542-01-matrix](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1036-rotting-oranges) |
