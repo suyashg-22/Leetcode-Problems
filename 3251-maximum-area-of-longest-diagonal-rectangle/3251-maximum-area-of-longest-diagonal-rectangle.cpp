@@ -1,14 +1,14 @@
 class Solution {
 public:
     int areaOfMaxDiagonal(vector<vector<int>>& dimensions) {
-        auto arr = dimensions;
-        int n = arr.size();
-        double maxid =0;
-        int maxia = 0;
+        int n = dimensions.size();
+        double maxid =-1.0;
+        int maxia = -1;
         for(int i=0;i<n;i++){
-            double temp = pow(arr[i][0],2) + pow(arr[i][1],2);
-            double d= pow(temp,0.5);
-            int a= arr[i][0]*arr[i][1];
+
+            double temp = 1.0*dimensions[i][0]*dimensions[i][0] + (1.0*dimensions[i][1]*dimensions[i][1]);
+            double d= sqrt(temp);
+            int a= dimensions[i][0]*dimensions[i][1];
             if(d>maxid){
                 maxid=d;
                 maxia=a;
