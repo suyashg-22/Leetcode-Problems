@@ -6,7 +6,8 @@ public:
 
         for (int k = n - 1; k >= 1 - n; k--) {
             vector<int> temp;
-
+        
+        
             int start = max(0, -k);
             int end   = min(n, n - k);
 
