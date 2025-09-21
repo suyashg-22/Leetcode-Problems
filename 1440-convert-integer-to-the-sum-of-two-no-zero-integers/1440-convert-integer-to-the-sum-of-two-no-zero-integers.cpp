@@ -1,12 +1,10 @@
 class Solution {
 public:
     bool check(int x){
-        string s = to_string(x);
-        int n =s.size();
-        for(int i=0;i<n;i++){
-            if(s[i]=='0'){
-                return false;
-            }
+        while(x>0){
+            int temp = x%10;
+            if(temp==0)return false;
+            x/=10;
         }
         return true;
     }
