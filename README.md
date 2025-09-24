@@ -14,6 +14,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0050-powx-n](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0050-powx-n) |
 | [0069-sqrtx](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0069-sqrtx) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0166-fraction-to-recurring-decimal](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0166-fraction-to-recurring-decimal) |
 | [0189-rotate-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0231-power-of-two) |
@@ -65,6 +66,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0076-minimum-window-substring](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0151-reverse-words-in-a-string) |
+| [0166-fraction-to-recurring-decimal](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0166-fraction-to-recurring-decimal) |
 | [0205-isomorphic-strings](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0242-valid-anagram) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0297-serialize-and-deserialize-binary-tree) |
@@ -324,6 +326,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0142-linked-list-cycle-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0160-intersection-of-two-linked-lists) |
+| [0166-fraction-to-recurring-decimal](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0166-fraction-to-recurring-decimal) |
 | [0169-majority-element](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0205-isomorphic-strings) |
 | [0229-majority-element-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0229-majority-element-ii) |
