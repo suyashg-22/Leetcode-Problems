@@ -22,6 +22,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0830-largest-triangle-area](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0830-largest-triangle-area) |
 | [0900-reordered-power-of-2](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0900-reordered-power-of-2) |
 | [1013-fibonacci-number](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1013-fibonacci-number) |
+| [1018-largest-perimeter-triangle](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1018-largest-perimeter-triangle) |
 | [1370-count-number-of-nice-subarrays](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1370-count-number-of-nice-subarrays) |
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
 | [1440-convert-integer-to-the-sum-of-two-no-zero-integers](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1440-convert-integer-to-the-sum-of-two-no-zero-integers) |
@@ -187,6 +188,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0940-fruit-into-baskets](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0940-fruit-into-baskets) |
 | [0943-sum-of-subarray-minimums](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0943-sum-of-subarray-minimums) |
 | [0966-binary-subarrays-with-sum](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0966-binary-subarrays-with-sum) |
+| [1018-largest-perimeter-triangle](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1018-largest-perimeter-triangle) |
 | [1034-subarrays-with-k-different-integers](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1034-subarrays-with-k-different-integers) |
 | [1036-rotting-oranges](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1036-rotting-oranges) |
 | [1039-find-the-town-judge](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1039-find-the-town-judge) |
@@ -258,6 +260,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0455-assign-cookies](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0455-assign-cookies) |
 | [0678-valid-parenthesis-string](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0678-valid-parenthesis-string) |
 | [0890-lemonade-change](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0890-lemonade-change) |
+| [1018-largest-perimeter-triangle](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1018-largest-perimeter-triangle) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2032-largest-odd-number-in-string](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2032-largest-odd-number-in-string) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2497-maximum-matching-of-players-with-trainers) |
@@ -293,6 +296,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0451-sort-characters-by-frequency](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0451-sort-characters-by-frequency) |
 | [0455-assign-cookies](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0455-assign-cookies) |
 | [0900-reordered-power-of-2](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0900-reordered-power-of-2) |
+| [1018-largest-perimeter-triangle](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1018-largest-perimeter-triangle) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
 | [1675-magnetic-force-between-two-balls](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1675-magnetic-force-between-two-balls) |
