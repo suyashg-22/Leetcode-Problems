@@ -222,6 +222,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3748-sort-matrix-by-diagonals](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3748-sort-matrix-by-diagonals) |
 | [3790-fruits-into-baskets-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3790-fruits-into-baskets-ii) |
 | [3998-minimum-operations-to-equalize-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3998-minimum-operations-to-equalize-array) |
+| [4005-maximum-total-subarray-value-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/4005-maximum-total-subarray-value-i) |
 | [4009-bitwise-or-of-even-numbers-in-an-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/4009-bitwise-or-of-even-numbers-in-an-array) |
 | [4011-smallest-absent-positive-greater-than-average](https://github.com/suyashg-22/Leetcode-Problems/tree/master/4011-smallest-absent-positive-greater-than-average) |
 ## Binary Search
@@ -271,6 +272,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2032-largest-odd-number-in-string](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2032-largest-odd-number-in-string) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [3999-minimum-operations-to-transform-string](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3999-minimum-operations-to-transform-string) |
+| [4005-maximum-total-subarray-value-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/4005-maximum-total-subarray-value-i) |
 ## Sliding Window
 |  |
 | ------- |
