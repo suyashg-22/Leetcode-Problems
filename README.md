@@ -220,6 +220,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3251-maximum-area-of-longest-diagonal-rectangle](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3251-maximum-area-of-longest-diagonal-rectangle) |
 | [3748-sort-matrix-by-diagonals](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3748-sort-matrix-by-diagonals) |
 | [3790-fruits-into-baskets-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3790-fruits-into-baskets-ii) |
+| [3998-minimum-operations-to-equalize-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3998-minimum-operations-to-equalize-array) |
 ## Binary Search
 |  |
 | ------- |
@@ -369,6 +370,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [2529-range-product-queries-of-powers](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2529-range-product-queries-of-powers) |
 | [2837-minimum-operations-to-make-the-integer-zero](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2837-minimum-operations-to-make-the-integer-zero) |
+| [3998-minimum-operations-to-equalize-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3998-minimum-operations-to-equalize-array) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -748,6 +750,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2837-minimum-operations-to-make-the-integer-zero](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2837-minimum-operations-to-make-the-integer-zero) |
+| [3998-minimum-operations-to-equalize-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3998-minimum-operations-to-equalize-array) |
 ## Geometry
 |  |
 | ------- |
