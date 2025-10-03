@@ -222,6 +222,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3748-sort-matrix-by-diagonals](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3748-sort-matrix-by-diagonals) |
 | [3790-fruits-into-baskets-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3790-fruits-into-baskets-ii) |
 | [3998-minimum-operations-to-equalize-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3998-minimum-operations-to-equalize-array) |
+| [4009-bitwise-or-of-even-numbers-in-an-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/4009-bitwise-or-of-even-numbers-in-an-array) |
 | [4011-smallest-absent-positive-greater-than-average](https://github.com/suyashg-22/Leetcode-Problems/tree/master/4011-smallest-absent-positive-greater-than-average) |
 ## Binary Search
 |  |
@@ -375,6 +376,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2529-range-product-queries-of-powers](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2529-range-product-queries-of-powers) |
 | [2837-minimum-operations-to-make-the-integer-zero](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2837-minimum-operations-to-make-the-integer-zero) |
 | [3998-minimum-operations-to-equalize-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3998-minimum-operations-to-equalize-array) |
+| [4009-bitwise-or-of-even-numbers-in-an-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/4009-bitwise-or-of-even-numbers-in-an-array) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -405,6 +407,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2271-rearrange-array-elements-by-sign](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2271-rearrange-array-elements-by-sign) |
 | [3336-water-bottles-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3336-water-bottles-ii) |
 | [3790-fruits-into-baskets-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3790-fruits-into-baskets-ii) |
+| [4009-bitwise-or-of-even-numbers-in-an-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/4009-bitwise-or-of-even-numbers-in-an-array) |
 ## Matrix
 |  |
 | ------- |
