@@ -222,6 +222,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3748-sort-matrix-by-diagonals](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3748-sort-matrix-by-diagonals) |
 | [3790-fruits-into-baskets-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3790-fruits-into-baskets-ii) |
 | [3998-minimum-operations-to-equalize-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3998-minimum-operations-to-equalize-array) |
+| [4011-smallest-absent-positive-greater-than-average](https://github.com/suyashg-22/Leetcode-Problems/tree/master/4011-smallest-absent-positive-greater-than-average) |
 ## Binary Search
 |  |
 | ------- |
@@ -359,6 +360,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1264-maximum-number-of-words-you-can-type](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1370-count-number-of-nice-subarrays](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1460-number-of-substrings-containing-all-three-characters) |
+| [4011-smallest-absent-positive-greater-than-average](https://github.com/suyashg-22/Leetcode-Problems/tree/master/4011-smallest-absent-positive-greater-than-average) |
 ## Bit Manipulation
 |  |
 | ------- |
