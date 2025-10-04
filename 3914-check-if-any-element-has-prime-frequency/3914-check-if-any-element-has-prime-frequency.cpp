@@ -1,12 +1,6 @@
 class Solution {
 public:
-    bool check(int x){
-        if (x == 2 || x == 3 || x == 5 || x == 7 || x == 11 || x == 13 || x == 17 || x == 19 ||
-    x == 23 || x == 29 || x == 31 || x == 37 || x == 41 || x == 43 || x == 47 ||
-    x == 53 || x == 59 || x == 61 || x == 67 || x == 71 || x == 73 || x == 79 ||
-    x == 83 || x == 89 || x == 97)return true;
-    return false;
-    }
+
     bool checkPrimeFrequency(vector<int>& nums) {
         int n =nums.size();
         unordered_map<int,int>mpp;
@@ -14,9 +8,10 @@ public:
             mpp[nums[i]]+=1;
         }
         for(auto it:mpp){
-            if(check(it.second)){
-                return true;
-            }
+            if (it.second == 2 || it.second == 3 || it.second == 5 || it.second == 7 || it.second == 11 || it.second == 13 || it.second == 17 || it.second == 19 ||
+    it.second == 23 || it.second == 29 || it.second == 31 || it.second == 37 || it.second == 41 || it.second == 43 || it.second == 47 ||
+    it.second == 53 || it.second == 59 || it.second == 61 || it.second == 67 || it.second == 71 || it.second == 73 || it.second == 79 ||
+    it.second == 83 || it.second == 89 || it.second == 97)return true;
         }
         return false;
     }
