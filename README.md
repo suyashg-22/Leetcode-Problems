@@ -81,6 +81,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0402-remove-k-digits](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0402-remove-k-digits) |
 | [0424-longest-repeating-character-replacement](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0451-sort-characters-by-frequency) |
+| [0474-ones-and-zeroes](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0474-ones-and-zeroes) |
 | [0535-encode-and-decode-tinyurl](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0535-encode-and-decode-tinyurl) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0557-reverse-words-in-a-string-iii) |
 | [0678-valid-parenthesis-string](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0678-valid-parenthesis-string) |
@@ -109,6 +110,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0124-binary-tree-maximum-path-sum](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0152-maximum-product-subarray](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0152-maximum-product-subarray) |
 | [0410-split-array-largest-sum](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0410-split-array-largest-sum) |
+| [0474-ones-and-zeroes](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0474-ones-and-zeroes) |
 | [0542-01-matrix](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0542-01-matrix) |
 | [0678-valid-parenthesis-string](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0678-valid-parenthesis-string) |
 | [0943-sum-of-subarray-minimums](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0943-sum-of-subarray-minimums) |
@@ -184,6 +186,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0303-range-sum-query-immutable](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0303-range-sum-query-immutable) |
 | [0410-split-array-largest-sum](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0410-split-array-largest-sum) |
 | [0455-assign-cookies](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0455-assign-cookies) |
+| [0474-ones-and-zeroes](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0474-ones-and-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0485-max-consecutive-ones) |
 | [0493-reverse-pairs](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0493-reverse-pairs) |
 | [0496-next-greater-element-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0496-next-greater-element-i) |
