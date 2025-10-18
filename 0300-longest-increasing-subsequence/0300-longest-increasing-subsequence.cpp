@@ -1,29 +1,17 @@
 class Solution {
 public:
-    int dp[10001];
-    vector<int>*arr;
-    int n;
-    int rec(int level){
-        if(level<0)return 0;
-
-        if(dp[level]!=-1)return dp[level];
-
-        int maxi =1;
-        for(int i=0;i<level;i++){
-            if((*arr)[i]<(*arr)[level]){
-                maxi=max(maxi,1+rec(i));
+    int lengthOfLIS(vector<int>& nums) {
+        int n =nums.size();
+        vector<int>lis;
+        for(int i=0;i<n;i++){
+            if(lis.empty() || lis.back()<nums[i]){
+                lis.push_back(nums[i]);
+            }
+            else{
+                int ind = lower_bound(lis.begin(),lis.end(),nums[i]) - lis.begin();
+                lis[ind] = nums[i];
             }
         }
-        return dp[level]=maxi;
-    }
-    int lengthOfLIS(vector<int>& nums) {
-        n= nums.size();
-        arr= &nums;
-        memset(dp,-1,sizeof(dp));
-        int ans =1;
-        for(int i=0;i<n;i++){
-            ans=max(ans,rec(i));
-        }
-        return ans;
+        return lis.size();
     }
 };
