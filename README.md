@@ -73,6 +73,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0012-integer-to-roman](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0012-integer-to-roman) |
 | [0014-longest-common-prefix](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0022-generate-parentheses) |
 | [0076-minimum-window-substring](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0076-minimum-window-substring) |
 | [0125-valid-palindrome](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0151-reverse-words-in-a-string) |
@@ -104,6 +105,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0053-maximum-subarray) |
@@ -814,6 +816,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0022-generate-parentheses) |
 | [0051-n-queens](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0051-n-queens) |
 | [0052-n-queens-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0052-n-queens-ii) |
 | [0078-subsets](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0078-subsets) |
