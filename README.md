@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0029-divide-two-integers](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0029-divide-two-integers) |
 | [0048-rotate-image](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0050-powx-n) |
+| [0062-unique-paths](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0062-unique-paths) |
 | [0069-sqrtx](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0070-climbing-stairs) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -110,6 +111,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0045-jump-game-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0055-jump-game) |
+| [0062-unique-paths](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0062-unique-paths) |
 | [0064-minimum-path-sum](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0070-climbing-stairs) |
 | [0085-maximal-rectangle](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0085-maximal-rectangle) |
@@ -847,4 +849,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1086-divisor-game](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1086-divisor-game) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
