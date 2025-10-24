@@ -119,6 +119,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0152-maximum-product-subarray](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0152-maximum-product-subarray) |
+| [0221-maximal-square](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0221-maximal-square) |
 | [0300-longest-increasing-subsequence](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0300-longest-increasing-subsequence) |
 | [0410-split-array-largest-sum](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0416-partition-equal-subset-sum) |
@@ -196,6 +197,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0200-number-of-islands) |
 | [0204-count-primes](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0204-count-primes) |
 | [0215-kth-largest-element-in-an-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0215-kth-largest-element-in-an-array) |
+| [0221-maximal-square](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0221-maximal-square) |
 | [0229-majority-element-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0229-majority-element-ii) |
 | [0239-sliding-window-maximum](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0239-sliding-window-maximum) |
 | [0240-search-a-2d-matrix-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0240-search-a-2d-matrix-ii) |
@@ -495,6 +497,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0085-maximal-rectangle](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0085-maximal-rectangle) |
 | [0130-surrounded-regions](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0200-number-of-islands) |
+| [0221-maximal-square](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0221-maximal-square) |
 | [0240-search-a-2d-matrix-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0240-search-a-2d-matrix-ii) |
 | [0498-diagonal-traverse](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0498-diagonal-traverse) |
 | [0542-01-matrix](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0542-01-matrix) |
