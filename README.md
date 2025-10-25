@@ -94,6 +94,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1250-longest-common-subsequence](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1250-longest-common-subsequence) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1353-find-resultant-array-after-removing-anagrams) |
+| [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
@@ -131,6 +132,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1086-divisor-game](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1086-divisor-game) |
 | [1236-n-th-tribonacci-number](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1236-n-th-tribonacci-number) |
 | [1250-longest-common-subsequence](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1250-longest-common-subsequence) |
+| [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1669-minimum-cost-to-cut-a-stick) |
 ## Recursion
 |  |
