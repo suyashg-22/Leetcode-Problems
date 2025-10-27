@@ -32,6 +32,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1440-convert-integer-to-the-sum-of-two-no-zero-integers](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1440-convert-integer-to-the-sum-of-two-no-zero-integers) |
 | [1642-water-bottles](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1642-water-bottles) |
 | [2032-largest-odd-number-in-string](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2032-largest-odd-number-in-string) |
+| [2244-number-of-laser-beams-in-a-bank](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [2610-closest-prime-numbers-in-range](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2610-closest-prime-numbers-in-range) |
 | [3279-alice-and-bob-playing-flower-game](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3279-alice-and-bob-playing-flower-game) |
 | [3336-water-bottles-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3336-water-bottles-ii) |
@@ -101,6 +102,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2032-largest-odd-number-in-string](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2032-largest-odd-number-in-string) |
 | [2107-find-unique-binary-string](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2107-find-unique-binary-string) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2137-final-value-of-variable-after-performing-operations) |
+| [2244-number-of-laser-beams-in-a-bank](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [3800-longest-common-prefix-between-adjacent-strings-after-removals](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3800-longest-common-prefix-between-adjacent-strings-after-removals) |
 | [3893-generate-tag-for-video-caption](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3893-generate-tag-for-video-caption) |
 | [3999-minimum-operations-to-transform-string](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3999-minimum-operations-to-transform-string) |
@@ -257,6 +259,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2107-find-unique-binary-string](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2107-find-unique-binary-string) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2227-sum-of-subarray-ranges](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2227-sum-of-subarray-ranges) |
+| [2244-number-of-laser-beams-in-a-bank](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2392-successful-pairs-of-spells-and-potions) |
@@ -509,6 +512,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1663-detect-cycles-in-2d-grid) |
 | [2047-find-a-peak-element-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2047-find-a-peak-element-ii) |
+| [2244-number-of-laser-beams-in-a-bank](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [3748-sort-matrix-by-diagonals](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3748-sort-matrix-by-diagonals) |
 ## Binary Indexed Tree
 |  |
