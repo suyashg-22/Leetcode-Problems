@@ -4,7 +4,7 @@ public:
     int minScoreTriangulation(vector<int>& values) {
         ll n = values.size();
         ll dp[51][51];
-        memset(dp,-1,sizeof(dp));
+        // memset(dp,-1,sizeof(dp));
         for(ll len =3;len<=n;len++){
             for(ll l = 1;l+len-1<=n;l++){
                 ll r = l+len-1;
