@@ -1,16 +1,11 @@
 class Solution {
 public:
     int minimumOperations(vector<int>& nums) {
-        
-        int count =0;
-        for(int i=0;i<nums.size();i++){
-            if(nums[i]%3==0){
-                continue;
-            }
-            else{
-                count += 1;
-            }
+        int n= nums.size();
+        int ans =0;
+        for(auto i:nums){
+            if(i%3!=0)ans+=1;
         }
-        return count;
+        return ans;
     }
 };
