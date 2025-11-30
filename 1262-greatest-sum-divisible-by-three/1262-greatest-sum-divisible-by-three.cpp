@@ -3,17 +3,16 @@ class Solution {
 public:
     int n;
     vector<int>* arr;
-    const int NEG_INF = -1000000000;
 
     int rec(int level, int sumr) {
         // base case FIRST
         if (level == n) {
             if (sumr == 0) return 0;
-            return NEG_INF;
+            return INT_MIN;
         }
 
         // now safe to check dp
-        if (dp[level][sumr] != INT_MIN)
+        if (dp[level][sumr] != -1)
             return dp[level][sumr];
 
         int temp = (*arr)[level];
@@ -31,11 +30,7 @@ public:
         n = nums.size();
         arr = &nums;
 
-        // initialize dp with INT_MIN
-        for (int i = 0; i <= n; i++)
-            for (int j = 0; j < 3; j++)
-                dp[i][j] = INT_MIN;
-
+        memset(dp,-1,sizeof(dp));
         return rec(0, 0);
     }
 };
