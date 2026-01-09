@@ -14,7 +14,6 @@
 class Solution
 {
 public:
-    unordered_map<TreeNode *, int> dp;
     int maxi = 0;
 
     int rec(TreeNode *node)
@@ -28,10 +27,6 @@ public:
         }
 
         // cache check
-        if (dp.count(node))
-        {
-            return dp[node];
-        }
 
         // compute;
         int ans1 = 1 + rec(node->left);
@@ -48,7 +43,7 @@ public:
             maxi = (node->left)?max(maxi, ans1 - 1):max(maxi, ans2 - 1);
         }
 
-        return dp[node]=ans;
+        return ans;
     }
     int diameterOfBinaryTree(TreeNode *root)
     {   rec(root);
