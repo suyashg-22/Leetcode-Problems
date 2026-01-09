@@ -23,8 +23,8 @@ public:
                 TreeNode* node = q.front();
                 q.pop();
                 temp.push_back(node);
-                if(node->left !=NULL)q.push(node->left);
-                if(node->right !=NULL)q.push(node->right);
+                if(node->left)q.push(node->left);
+                if(node->right)q.push(node->right);
             }
             ans.push_back(temp);
         }
