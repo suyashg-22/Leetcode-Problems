@@ -11,15 +11,31 @@
  */
 class Solution {
 public:
-    void preorder(TreeNode* root,vector<int>&ans){
-        if(root == NULL) return ;
-        ans.push_back(root->val);
-        preorder(root->left,ans);
-        preorder(root->right,ans);
-    }
+
     vector<int> preorderTraversal(TreeNode* root) {
+        TreeNode* cur =root;
         vector<int>ans;
-        preorder(root,ans);
+        while(cur){
+            if(!cur->left){
+                ans.push_back(cur->val);
+                cur=cur->right;
+            }
+            else{
+                TreeNode* prev = cur->left;
+                while(prev->right && prev->right!=cur){
+                    prev=prev->right;
+                }
+                if(prev->right==cur){
+                    prev->right=NULL;
+                    cur=cur->right;
+                }
+                else{
+                    prev->right=cur;
+                    ans.push_back(cur->val);
+                    cur=cur->left;
+                }
+            }
+        }
         return ans;
     }
 };
