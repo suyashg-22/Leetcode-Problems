@@ -9,13 +9,34 @@
  */
 class Solution {
 public:
-    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-        if(!root)return NULL;
-        if(root==p || root == q)return root;
-        TreeNode * l = lowestCommonAncestor(root->left,p,q);
-        TreeNode * r = lowestCommonAncestor(root->right,p,q);
+    TreeNode* P = NULL;
+    TreeNode* Q = NULL;
+    TreeNode* ans = NULL;
+    TreeNode* overlap =NULL;
+
+    TreeNode* rec(TreeNode* node){
+        if(!node)return NULL;
+        if(node==P || node==Q){
+            overlap = node;
+            return node;
+        }
+
+
+        TreeNode* l = rec(node->left);
+        TreeNode* r = rec(node->right);
+
+        if(l && r){
+            ans = node;
+        }
+        
         if(!l)return r;
-        else if (!r)return l;
-        return root;
+        return l;
+    }
+    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
+        P=p;
+        Q=q;
+        rec(root);
+        if(!ans)return overlap;
+        return ans;
     }
 };
