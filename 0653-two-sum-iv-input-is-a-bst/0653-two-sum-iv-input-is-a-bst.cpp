@@ -9,54 +9,41 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
-class BSTiterator {
-private:
-    stack<TreeNode*>st;
-    bool reverse=true;
-    void pushall(TreeNode* root){
-        while(root){
-            st.push(root);
-            if(reverse){
-                root=root->right;
-            }
-            else{
-                root=root->left;
-            }
-        }
-    }
-public:
-    BSTiterator(TreeNode* root,bool reverse){
-        this->reverse = reverse;
-        pushall(root);
-    }
-    bool isnext(){
-        return !st.empty();
-    }
-    int next(){
-        TreeNode * temp = st.top();
-        st.pop();
-        if(!reverse) pushall(temp->right);
-        else pushall(temp->left);
-        return temp->val;
-    }
-};
-
 class Solution {
 public:
-    bool findTarget(TreeNode* root, int k) {
-        if(!root) return false;
-        BSTiterator l(root,false);
-        BSTiterator r(root,true);
-        
-        int i = l.next();
-        int j = r.next();
-        while(i<j){
-            if( i+j == k) return true;
-            else if(i+j >k){
-                j= r.next();
-            }
-            else i = l.next();
+    TreeNode* head=NULL;
+    int K;
+   bool find(TreeNode* notnode, int x){
+    TreeNode* node = head;
+    while(node){
+        if(node->val == x){
+            if(node != notnode) return true;
+            // same node → must continue search
+            node = node->right;  // or left, depending on duplicates rule
         }
-        return false;
+        else if(node->val > x){
+            node = node->left;
+        }
+        else{
+            node = node->right;
+        }
+    }
+    return false;
+}
+
+    bool fun(TreeNode* node){
+        if(!node)return false;
+
+        int req = K-node->val;
+        if(find(node,req)) return true;
+
+        bool l = fun(node->left);
+        bool r = fun(node->right);
+        return (l|r);
+    }
+    bool findTarget(TreeNode* root, int k) {
+        head = root;
+        K=k;
+        return fun(root);
     }
 };
