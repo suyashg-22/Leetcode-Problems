@@ -8,32 +8,34 @@
  * };
  */
 
-class Solution {
+class Solution
+{
 public:
-    void f(TreeNode* root,TreeNode*p,TreeNode*q,TreeNode * & ans){
-        if(!root) return;
-
-        while(true){
-            if((root->val > p->val && root->val <q->val)||(root->val > q->val && root->val <p->val)){
-                ans =root;
+    TreeNode *lowestCommonAncestor(TreeNode *root, TreeNode *p, TreeNode *q)
+    {
+        TreeNode *node = root;
+        TreeNode *ans = NULL;
+        while (node)
+        {
+            if (node == p || node == q)
+            {
+                ans=node;
                 break;
             }
-            else if(root->val == p->val || root->val==q->val){
-                ans =root;
+            else if ((p->val < node->val && node->val < q->val) || (q->val < node->val && node->val < p->val))
+            {
+                ans=node;
                 break;
-            }
-            else if(root->val > p->val && root->val > q->val){
-                root=root->left;
             }
             else{
-                root=root->right;
+                if(node->val>p->val && node->val>q->val){
+                    node=node->left;
+                }
+                else{
+                    node=node->right;
+                }
             }
         }
-    }
-
-    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-        TreeNode * ans = root;
-        f(root,p,q,ans);
         return ans;
     }
 };
