@@ -13,23 +13,21 @@ class Solution {
 public:
     TreeNode* head=NULL;
     int K;
-   bool find(TreeNode* notnode, int x){
-    TreeNode* node = head;
-    while(node){
-        if(node->val == x){
-            if(node != notnode) return true;
-            // same node → must continue search
-            node = node->right;  // or left, depending on duplicates rule
+    bool find(TreeNode* notnode,int x){
+        TreeNode* node =head;
+        while(node){
+            if(node->val ==x){
+                if(node!=notnode)return true;
+                return false;
+            }
+
+            if(node->val>x){
+                node=node->left;
+            }
+            else node=node->right;
         }
-        else if(node->val > x){
-            node = node->left;
-        }
-        else{
-            node = node->right;
-        }
+        return false;
     }
-    return false;
-}
 
     bool fun(TreeNode* node){
         if(!node)return false;
