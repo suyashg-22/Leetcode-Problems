@@ -146,6 +146,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1236-n-th-tribonacci-number](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1236-n-th-tribonacci-number) |
 | [1250-longest-common-subsequence](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1250-longest-common-subsequence) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1262-greatest-sum-divisible-by-three) |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1669-minimum-cost-to-cut-a-stick) |
 ## Recursion
@@ -621,6 +622,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -687,6 +689,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 ## Stack
 |  |
 | ------- |
@@ -751,6 +754,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1073-number-of-enclaves](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1073-number-of-enclaves) |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1663-detect-cycles-in-2d-grid) |
 ## Design
 |  |
@@ -785,6 +789,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0975-range-sum-of-bst](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0975-range-sum-of-bst) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 ## Monotonic Stack
 |  |
 | ------- |
