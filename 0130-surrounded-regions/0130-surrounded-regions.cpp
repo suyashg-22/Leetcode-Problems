@@ -1,53 +1,71 @@
+#include <bits/stdc++.h>
+using namespace std;
+using ll = long long;
+const long long mod = 1000000009;
+
+#define asc(x) (x).begin(), (x).end()
+#define desc(x) (x).rbegin(), (x).rend()
+#define pb push_back
+#define ff first
+#define ss second
+#define forl(i, a, b) for (ll i = (a); i < (b); i++)
+#define fore(x, a) for (auto& x : a)
+#define yes cout << "YES\n"
+#define no cout << "NO\n"
 class Solution {
-private:
-    void dfs(int i ,int j,vector<vector<char>>& board,vector<vector<int>>&vis,int delr[],int delc[]){
-        vis[i][j]=1;
-        int row = board.size();
-        int col = board[0].size();
-        for(int k=0;k<4;k++){
-            int newr = i+delr[k];
-            int newc = j+delc[k];
-            if(newr>=0 && newr<row && newc>=0 && newc<col && vis[newr][newc]==0 && board[newr][newc]=='O'){
-                dfs(newr,newc,board,vis,delr,delc);
+public:
+    int n, m;
+    vector<vector<char>>* arr;
+    vector<vector<bool>> vis;
+    queue<pair<int, int>> q;
+
+    void bfs() {
+        vector<pair<int, int>> padosi{{-1, 0}, {+1, 0}, {0, -1}, {0, +1}};
+
+        while (!q.empty()) {
+            auto p = q.front();
+            int x = p.ff;
+            int y = p.ss;
+            vis[x][y] = 1;
+            q.pop();
+
+            for (auto it : padosi) {
+                int nx = x + it.ff;
+                int ny = y + it.ss;
+                if (nx >= 0 && nx < m && ny >= 0 && ny < n) {
+                    if (!vis[nx][ny] && (*arr)[nx][ny] == 'O') {
+                        vis[nx][ny] = 1;
+                        q.push({nx, ny});
+                    }
+                }
             }
         }
     }
-public:
-    void solve(vector<vector<char>>& board) {
-       int n =board.size();
-       int m = board[0].size();
-       int delr[]={-1,0,1,0};
-       int delc[]={0,1,0,-1};
-       vector<vector<int>>vis(n,vector<int>(m,0));
-        for(int i=0;i<n;i++){
-            if(i==0 || i==n-1){
-                for(int j=0;j<m;j++){
-                    if(vis[i][j]==0 && board[i][j]=='O'){
-                        vis[i][j]=1;
-                         dfs(i,j,board,vis,delr,delc);
-                    }
-                }
-            }    
-        }
-        for(int i=0;i<n;i++){
-                for(int j=0;j<m;j++){
-                    if(j==0 || j==m-1){
-                        if(vis[i][j]==0 && board[i][j]=='O'){
-                            vis[i][j]=1;
-                            dfs(i,j,board,vis,delr,delc);
-                        }
-                    }
-                }   
-        }
 
-        for(int i=0;i<n;i++){
-            for(int j=0;j<m;j++){
-                if(vis[i][j]==1){
-                    board[i][j] = 'O';
+    void solve(vector<vector<char>>& board) {
+        m = board.size();
+        n = board[0].size();
+        vis.assign(m, vector<bool>(n, 0));
+        arr = &board;
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (i == 0 || i == m - 1 || j == 0 || j == n - 1) {
+                    if (board[i][j] == 'O') {
+                        vis[i][j] = 1;
+                        q.push({i, j});
+                    }
                 }
-                else board[i][j]='X';
             }
         }
-
+        bfs();
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (board[i][j] == 'O') {
+                    if (!vis[i][j]) {
+                        board[i][j] = 'X';
+                    } 
+                }
+            }
+        }
     }
 };
