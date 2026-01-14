@@ -1,39 +1,37 @@
 class Solution {
+public:
 
-private:
-    void bfs(vector<vector<int>>& ans,int sr,int sc,int color,vector<vector<int>>& vis,int ini){
-        ans[sr][sc]=color;  
-        vis[sr][sc]=1;
+    vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
+        int start = image[sr][sc];
+        int n = image[0].size();
+        int m = image.size();
         queue<pair<int,int>>q;
+        vector<pair<int, int>> padosi{{-1, 0}, {+1, 0}, {0, -1}, {0, +1}};
+        vector<vector<int>>vis(m,vector<int>(n,0));
         q.push({sr,sc});
-        int row = ans.size();
-        int col = ans[0].size();
-        int delrow[] = {0,-1,0,1};
-        int delcol[] = {-1,0,1,0};
+        image[sr][sc]=color;
 
         while(!q.empty()){
-            int r = q.front().first;
-            int c = q.front().second;
+            auto p = q.front();
+            auto x = p.first;
+            auto y = p.second;
+            vis[x][y]=1;
             q.pop();
-            for(int k=0;k<4;k++){     
-                int newrow = r + delrow[k];
-                int newcol = c + delcol[k];
-                if(newrow>=0 && newrow <row && newcol>=0 && newcol<col &&ans[newrow][newcol]==ini && vis[newrow][newcol]==0){
-                    vis[newrow][newcol]=1;
-                    ans[newrow][newcol]=color;
-                    q.push({newrow,newcol});
+            for(int i=0;i<padosi.size();i++){
+                int a = x+padosi[i].first;
+                int b = y+padosi[i].second;
+                pair<int,int>z = {a,b};
+                if(a>=0 && a<m && b>=0 && b<n){
+                    if(image[a][b]==start){
+                        if(vis[a][b]==0){
+                            vis[a][b]=1;
+                            q.push(z);
+                            image[a][b]=color;
+                        }
+                    }
                 }
             }
         }
-    }
-public:
-    vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
-        vector<vector<int>>ans(image);
-        int n = image.size();
-        int m = image[0].size();
-        vector<vector<int>>vis(n,vector<int>(m,0));
-        int ini = image[sr][sc];
-        bfs(ans,sr,sc,color,vis,ini);
-        return ans;
+        return image;
     }
 };
