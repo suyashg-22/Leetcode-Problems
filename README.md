@@ -236,6 +236,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0540-single-element-in-a-sorted-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0540-single-element-in-a-sorted-array) |
 | [0542-01-matrix](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0560-subarray-sum-equals-k) |
+| [0695-max-area-of-island](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0735-asteroid-collision) |
 | [0792-binary-search](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0792-binary-search) |
@@ -549,6 +550,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0419-battleships-in-a-board](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0419-battleships-in-a-board) |
 | [0498-diagonal-traverse](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0498-diagonal-traverse) |
 | [0542-01-matrix](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0542-01-matrix) |
+| [0695-max-area-of-island](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1020-number-of-enclaves) |
@@ -649,6 +651,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0662-maximum-width-of-binary-tree) |
+| [0695-max-area-of-island](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0733-flood-fill) |
 | [0801-is-graph-bipartite](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0820-find-eventual-safe-states) |
@@ -758,6 +761,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0547-number-of-provinces) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0662-maximum-width-of-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0662-maximum-width-of-binary-tree) |
+| [0695-max-area-of-island](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0733-flood-fill) |
 | [0801-is-graph-bipartite](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0820-find-eventual-safe-states) |
@@ -952,4 +956,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0062-unique-paths](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0062-unique-paths) |
 | [3461-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3461-check-if-digits-are-equal-in-string-after-operations-i) |
+## Union-Find
+|  |
+| ------- |
+| [0695-max-area-of-island](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0695-max-area-of-island) |
 <!---LeetCode Topics End-->
