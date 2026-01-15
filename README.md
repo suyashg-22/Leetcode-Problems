@@ -249,6 +249,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1018-largest-perimeter-triangle](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1018-largest-perimeter-triangle) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1018-binary-prefix-divisible-by-5) |
+| [1020-number-of-enclaves](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1020-number-of-enclaves) |
 | [1034-subarrays-with-k-different-integers](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1034-subarrays-with-k-different-integers) |
 | [1036-rotting-oranges](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1036-rotting-oranges) |
 | [1039-find-the-town-judge](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1039-find-the-town-judge) |
@@ -548,6 +549,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0542-01-matrix](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0994-rotting-oranges) |
+| [1020-number-of-enclaves](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1020-number-of-enclaves) |
 | [1036-rotting-oranges](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1073-number-of-enclaves) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
@@ -651,6 +653,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [0994-rotting-oranges](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0994-rotting-oranges) |
+| [1020-number-of-enclaves](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1020-number-of-enclaves) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1073-number-of-enclaves) |
@@ -758,6 +761,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0975-range-sum-of-bst](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0975-range-sum-of-bst) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [1020-number-of-enclaves](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1020-number-of-enclaves) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1073-number-of-enclaves](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1073-number-of-enclaves) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1373-maximum-sum-bst-in-binary-tree) |
@@ -822,6 +826,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0547-number-of-provinces) |
 | [0801-is-graph-bipartite](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0801-is-graph-bipartite) |
+| [1020-number-of-enclaves](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1020-number-of-enclaves) |
 | [1073-number-of-enclaves](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1073-number-of-enclaves) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1663-detect-cycles-in-2d-grid) |
 ## Graph
