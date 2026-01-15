@@ -302,6 +302,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3542-minimum-operations-to-convert-all-elements-to-zero](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3542-minimum-operations-to-convert-all-elements-to-zero) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3748-sort-matrix-by-diagonals](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3748-sort-matrix-by-diagonals) |
 | [3790-fruits-into-baskets-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3790-fruits-into-baskets-ii) |
@@ -567,6 +568,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2047-find-a-peak-element-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2047-find-a-peak-element-ii) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [2658-maximum-number-of-fish-in-a-grid](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2658-maximum-number-of-fish-in-a-grid) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 | [3748-sort-matrix-by-diagonals](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3748-sort-matrix-by-diagonals) |
 ## Binary Indexed Tree
 |  |
@@ -673,6 +675,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1905-count-sub-islands](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1905-count-sub-islands) |
 | [1992-find-all-groups-of-farmland](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1992-find-all-groups-of-farmland) |
 | [2658-maximum-number-of-fish-in-a-grid](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2658-maximum-number-of-fish-in-a-grid) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 ## Binary Tree
 |  |
 | ------- |
@@ -785,6 +788,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1905-count-sub-islands](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1905-count-sub-islands) |
 | [1992-find-all-groups-of-farmland](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1992-find-all-groups-of-farmland) |
 | [2658-maximum-number-of-fish-in-a-grid](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2658-maximum-number-of-fish-in-a-grid) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 ## Design
 |  |
 | ------- |
@@ -974,4 +978,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0695-max-area-of-island](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0695-max-area-of-island) |
 | [1905-count-sub-islands](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1905-count-sub-islands) |
 | [2658-maximum-number-of-fish-in-a-grid](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2658-maximum-number-of-fish-in-a-grid) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 <!---LeetCode Topics End-->
