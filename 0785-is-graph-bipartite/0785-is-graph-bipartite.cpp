@@ -30,7 +30,7 @@ public:
         queue<pair<int,int> > q;
         // starting push and mark it vis:
         q.push({start,1});
-        vis[0]=1;
+        vis[start]=1;
 
         // logic:
         while (!q.empty())
@@ -63,7 +63,7 @@ public:
         n = graph.size();
         arr = &graph;
         vis.assign(n,0);
-        
+
         for(int i=0;i<n;i++){
             if(vis[i]==0){
                 bfs(i);
