@@ -19,44 +19,40 @@ class Solution
 public:
     vector<vector<int>> *arr;
     int n;
-    bool flag = true;
     vector<int>vis;
 
-    void bfs(int start)
+    bool bfs(int start)
     {
         // prereq-*arr,n,ans,vis
 
         // vector<pair<int , int >> padosi{{-1, 0}, {+1, 0}, {0, -1}, {0, +1}};
-        queue<pair<int,int> > q;
+        queue<int> q;
         // starting push and mark it vis:
-        q.push({start,1});
+        q.push(start);
         vis[start]=1;
 
         // logic:
         while (!q.empty())
         {
-            auto it = q.front();
+            int p = q.front();
             q.pop();
-            int p=it.ff;
-            int s=it.ss;
 
             for (auto x : (*arr)[p])
             {
                 if (vis[x]==0)
                 {
-                    int c = (s==1)?2:1;
+                    int c = (vis[p]==1)?2:1;
                     vis[x] = c;
-                    q.push({x,c});
+                    q.push(x);
                 }
                 else{
-                    if(vis[x]==s){
-                        flag =false;
-                        break;
+                    if(vis[x]==vis[p]){
+                        return false;
                     }
                 }
             }
-            if(!flag)break;
         }
+        return true;
     }
     bool isBipartite(vector<vector<int>> &graph)
     {
@@ -66,7 +62,7 @@ public:
 
         for(int i=0;i<n;i++){
             if(vis[i]==0){
-                bfs(i);
+                bool flag = bfs(i);
                 if(!flag)return false;
             }
         }
