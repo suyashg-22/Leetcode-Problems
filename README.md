@@ -663,6 +663,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0733-flood-fill](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0733-flood-fill) |
 | [0785-is-graph-bipartite](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0785-is-graph-bipartite) |
 | [0801-is-graph-bipartite](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0801-is-graph-bipartite) |
+| [0802-find-eventual-safe-states](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0802-find-eventual-safe-states) |
 | [0820-find-eventual-safe-states](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0820-find-eventual-safe-states) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
@@ -779,6 +780,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0733-flood-fill](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0733-flood-fill) |
 | [0785-is-graph-bipartite](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0785-is-graph-bipartite) |
 | [0801-is-graph-bipartite](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0801-is-graph-bipartite) |
+| [0802-find-eventual-safe-states](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0802-find-eventual-safe-states) |
 | [0820-find-eventual-safe-states](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0820-find-eventual-safe-states) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0975-range-sum-of-bst](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0975-range-sum-of-bst) |
@@ -870,6 +872,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0207-course-schedule](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0210-course-schedule-ii) |
+| [0802-find-eventual-safe-states](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0802-find-eventual-safe-states) |
 | [0820-find-eventual-safe-states](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0820-find-eventual-safe-states) |
 ## Linked List
 |  |
@@ -991,5 +994,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0207-course-schedule](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0210-course-schedule-ii) |
 | [0785-is-graph-bipartite](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0785-is-graph-bipartite) |
+| [0802-find-eventual-safe-states](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0802-find-eventual-safe-states) |
 | [2493-divide-nodes-into-the-maximum-number-of-groups](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2493-divide-nodes-into-the-maximum-number-of-groups) |
 <!---LeetCode Topics End-->
