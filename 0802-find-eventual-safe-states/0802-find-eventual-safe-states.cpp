@@ -112,7 +112,7 @@ public:
             }
             else{
                 vis[x]=3;
-                return 0;
+                break;
             }
         }
 
@@ -120,6 +120,7 @@ public:
             vis[node]=2;
             return 1;
         }
+        vis[node] = 3;
         return 0;
     }
     vector<int> eventualSafeNodes(vector<vector<int>>& graph) {
