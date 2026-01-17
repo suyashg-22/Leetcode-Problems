@@ -1,34 +1,48 @@
-class Solution {
+class Solution
+{
 public:
-    vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
-        int n = prerequisites.size();
-        vector<int>indegree(numCourses);
-        vector<vector<int>>adj(numCourses);
-        queue<int>q;
-        vector<int>topo;
-        for(int i=0;i<n;i++){
-            int a = prerequisites[i][0];
-            int b = prerequisites[i][1];
-            adj[b].push_back(a);
-            indegree[a]+=1;
-        }
-        for(int i=0;i<numCourses;i++){
-            if(indegree[i]==0){
+    int n;
+    vector<vector<int>> adj;
+    vector<int> inor;
+    vector<int> ans;
+
+    void bfs()
+    {
+        queue<int> q;
+        for (int i = 0; i < n; i++)
+        {
+            if (inor[i] == 0)
+            {
                 q.push(i);
             }
         }
-        while(!q.empty()){
-            int node = q.front();
+
+        while (!q.empty())
+        {
+            int p = q.front();
             q.pop();
-            topo.push_back(node);
-            for(auto it: adj[node]){
-                indegree[it]-=1;
-                if(indegree[it]==0){
-                    q.push(it);
-                }
+            ans.push_back(p);
+            for (auto x : adj[p])
+            {
+                inor[x] -= 1;
+                if (inor[x] == 0)
+                    q.push(x);
             }
         }
-        if(topo.size()==numCourses) return topo;
-        return {};
+    }
+    vector<int> findOrder(int numCourses, vector<vector<int>> &prerequisites)
+    {
+        this->n = numCourses;
+        this->adj.resize(n);
+        this->inor.assign(n, 0);
+        ans.clear();
+        for (int i = 0; i < prerequisites.size(); i++)
+        {
+            adj[prerequisites[i][1]].push_back(prerequisites[i][0]);
+            inor[prerequisites[i][0]]++;
+        }
+        bfs();
+        if(ans.size()!=n)return {};
+        return ans;
     }
 };
