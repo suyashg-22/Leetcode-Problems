@@ -16,43 +16,43 @@ const long long mod = 1000000009;
 
 class Solution {
 public:
-    unordered_map<string, vector<int>> mpp;
     string s1;
     string s2;
-    vector<vector<int>> adj;
     int n;
     vector<string>* arr;
-    vector<int> vis;
-    int index = -1;
+    unordered_set<string> st;
 
-    void bfs() {
+    int bfs() {
         // prereq-*adj,n,ans,vis
 
         // vector<pair<int, int>> padosi{{-1, 0}, {+1, 0}, {0, -1}, {0, +1}};
-        queue<int> q;
-
+        queue<pair<string, int>> q;
         // starting push and mark it vis:
-        q.push(n);
-        vis[n] = 0;
-        int d = 1;
+        q.push({s1, 1});
+        st.erase(s1);
 
         // logic:
         while (!q.empty()) {
-            int size = q.size();
-            for (int i = 0; i < size; i++) {
-                int p = q.front();
-                q.pop();
+            auto p = q.front();
+            q.pop();
+            string s = p.ff;
+            int d = p.ss;
 
-                for (auto x : adj[p]) {
-                    if (vis[x]==-1) {
-                        vis[x] = d;
-                        if(x==index)return;
-                        q.push(x);
+            
+            for (int i = 0; i < s.size(); i++) {
+
+                for (char c = 'a'; c <= 'z'; c++) {
+                    string temp = s;
+                    temp[i]=c;
+                    if(st.find(temp)!=st.end()){
+                        st.erase(temp);
+                        q.push({temp,d+1});
+                        if (temp == s2)return d+1;
                     }
                 }
             }
-            d += 1;
         }
+        return 0;
     }
 
     int ladderLength(string beginWord, string endWord,
@@ -61,39 +61,12 @@ public:
         this->s2 = endWord;
         this->n = wordList.size();
         this->arr = &wordList;
-        vis.assign(n + 1, -1);
-        adj.resize(n+1);
-
-        for (int i = 0; i < s1.size(); i++) {
-            string temp = s1;
-            temp[i] = '*';
-            mpp[temp].push_back(n);
+        bool flag = false;
+        for(int i=0;i<n;i++){
+            if(wordList[i]==s1)flag = true;
+            st.insert(wordList[i]);
         }
-        for (int i = 0; i < wordList.size(); i++) {
-            if (wordList[i] == s1)
-                continue;
-
-            if (wordList[i] == s2)
-                index = i;
-
-            string s = wordList[i];
-            int m = s.size();
-            for (int j = 0; j < m; j++) {
-                string temp = s;
-                temp[j] = '*';
-                if (mpp.count(temp)) {
-                    for (auto x : mpp[temp]) {
-                        adj[x].pb(i);
-                        adj[i].pb(x);
-                    }
-                }
-                mpp[temp].pb(i);
-            }
-        }
-        bfs();
-        if(index==-1)return 0;
-        if(vis[index]==-1)return 0;
-        return vis[index]+1;
+        if(!flag)st.insert(s1);
+        return bfs();
     }
 };
-
