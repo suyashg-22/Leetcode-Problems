@@ -1,24 +1,19 @@
 class Solution {
 public:
     int dp[46];
-    int rec(int level,int n){
-        if(level>n)return 0;
-        if(level==n)return 1;
+    int climbStairs(int n) {
 
-        if(dp[level]!=-1){
-            return dp[level];
-        }
-        int ways =0;
-        for(int choice=1;choice<=2;choice++){
-            if(level+choice<=n){
-                ways += rec(level+choice,n);
+        for(int level=n;level>=0;level--){
+            if(level==n){
+                dp[level]=1;
+            }
+            else{
+                int ans =0;
+                ans+= dp[level+1];
+                if(level+2<=n)ans+= dp[level+2];
+                dp[level]=ans;
             }
         }
-        dp[level]=ways;
-        return ways;
-    }
-    int climbStairs(int n) {
-        memset(dp,-1,sizeof(dp));
-        return rec(0,n);
+        return dp[0];
     }
 };
