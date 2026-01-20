@@ -17,47 +17,53 @@ class Solution {
 public:
     int n;
     vector<vector<int>>* arr;
+    vector<vector<int>> dist;
 
-    int bfs() {
-        queue<pair<int, int>> q;
+    void bfs() {
 
-        if ((*arr)[0][0] == 1)
-            return -1;
-        if (n == 1)
-            return 1;
-        q.push({0, 0});
-        (*arr)[0][0] = 1;
-        int level = 1;
+        priority_queue<pair<int, pair<int, int>>,
+                       vector<pair<int, pair<int, int>>>,
+                       greater<pair<int, pair<int, int>>>>
+            pq;
 
-        while (!q.empty()) {
+        if ((*arr)[0][0] == 1)return;
+        if (n == 1){
+            dist[0][0]=1;    
+            return ;
+        }
+        pq.push({1, {0, 0}});
+        dist[0][0]=1;
+
+        while (!pq.empty()) {
             vector<int> dx{0, -1, -1, -1, 0, 1, 1, 1};
             vector<int> dy{-1, -1, 0, 1, 1, 1, 0, -1};
-            int size = q.size();
-            for (int z = 0; z < size; z++) {
-                auto p = q.front();
-                q.pop();
-                int x = p.ff;
-                int y = p.ss;
-                for (int i = 0; i < 8; i++) {
-                    int nx = x + dx[i];
-                    int ny = y + dy[i];
-                    if (nx < n && nx >= 0 && ny < n && ny >= 0) {
-                        if ((*arr)[nx][ny] == 0) {
-                            if (nx == n - 1 && ny == n - 1)
-                                return level + 1;
-                            (*arr)[nx][ny] = 1;
-                            q.push({nx, ny});
+            auto p = pq.top();
+            pq.pop();
+            int x = p.ss.ff;
+            int y = p.ss.ss;
+            int d = p.ff;
+
+            for (int i = 0; i < 8; i++) {
+                int nx = x + dx[i];
+                int ny = y + dy[i];
+                if (nx < n && nx >= 0 && ny < n && ny >= 0) {
+                    if ((*arr)[nx][ny] == 0) {
+                        if(d+1<dist[nx][ny]){
+                            dist[nx][ny]=d+1;
+                            pq.push({d+1,{nx, ny}});
                         }
                     }
                 }
             }
-            level += 1;
         }
-        return -1;
     }
     int shortestPathBinaryMatrix(vector<vector<int>>& grid) {
         this->n = grid.size();
         arr = &grid;
-        return bfs();
+        dist.assign(n, vector<int>(n, INT_MAX));
+
+        bfs();
+        if(dist[n-1][n-1]==INT_MAX)return -1;
+        return dist[n-1][n-1];
     }
 };
