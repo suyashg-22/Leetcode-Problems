@@ -609,6 +609,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0215-kth-largest-element-in-an-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0239-sliding-window-maximum) |
 | [0451-sort-characters-by-frequency](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0451-sort-characters-by-frequency) |
+| [0743-network-delay-time](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0743-network-delay-time) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
 | [1612-avoid-flood-in-the-city](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1612-avoid-flood-in-the-city) |
 | [1631-path-with-minimum-effort](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1631-path-with-minimum-effort) |
@@ -678,6 +679,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0662-maximum-width-of-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0662-maximum-width-of-binary-tree) |
 | [0695-max-area-of-island](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0733-flood-fill) |
+| [0743-network-delay-time](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0785-is-graph-bipartite) |
 | [0801-is-graph-bipartite](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0801-is-graph-bipartite) |
 | [0802-find-eventual-safe-states](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0802-find-eventual-safe-states) |
@@ -797,6 +799,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0662-maximum-width-of-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0662-maximum-width-of-binary-tree) |
 | [0695-max-area-of-island](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0733-flood-fill) |
+| [0743-network-delay-time](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0785-is-graph-bipartite) |
 | [0801-is-graph-bipartite](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0801-is-graph-bipartite) |
 | [0802-find-eventual-safe-states](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0802-find-eventual-safe-states) |
@@ -1015,7 +1018,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0207-course-schedule](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0210-course-schedule-ii) |
+| [0743-network-delay-time](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0785-is-graph-bipartite) |
 | [0802-find-eventual-safe-states](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0802-find-eventual-safe-states) |
 | [2493-divide-nodes-into-the-maximum-number-of-groups](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2493-divide-nodes-into-the-maximum-number-of-groups) |
+## Shortest Path
+|  |
+| ------- |
+| [0743-network-delay-time](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0743-network-delay-time) |
 <!---LeetCode Topics End-->
