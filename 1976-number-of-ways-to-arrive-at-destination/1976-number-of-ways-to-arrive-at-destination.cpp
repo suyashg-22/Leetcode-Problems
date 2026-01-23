@@ -10,7 +10,7 @@ public:
 
     ll dijk() {
         ways.assign(n,0);
-        dist.assign(n, LONG_MAX);
+        dist.assign(n, LLONG_MAX);
         dist[0] = 0;
         ways[0]=1;
         priority_queue<pair<ll, ll>, vector<pair<ll, ll>>,
@@ -28,17 +28,17 @@ public:
                 ll newnode = x.first;
                 ll newd = x.second;
                 if(d+newd==dist[newnode]){
-                    ways[newnode]=ways[newnode]%mod + ways[node]%mod;
+                    ways[newnode]=(ways[newnode] + ways[node])%mod;
                 }
                 else if (d + newd < dist[newnode]) {
-                    ways[newnode]=ways[node]%mod;
+                    ways[newnode]=ways[node];
                     dist[newnode] = d + newd;
                     pq.push({dist[newnode], newnode});
                     
                 }
             }
         }
-        return ways[n-1]%mod;
+        return ways[n-1];
     }
     
     int countPaths(int n, vector<vector<int>>& roads) {
