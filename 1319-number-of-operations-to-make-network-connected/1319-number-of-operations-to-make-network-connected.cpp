@@ -31,23 +31,19 @@ public:
             parent[i] = i;
         rnk.assign(n, 0);
 
+        int cntex =0;
+        int req =0;
         for (auto it : connections) {
             int u = it[0];
             int v = it[1];
-            dsu(u, v);
+            if(findparent(u)==findparent(v))cntex+=1;
+            else dsu(u, v);
         }
         for(int i=0;i<n;i++){
-            parent[i]=findparent(i);
-            mpp[parent[i]]+=1;
+            if(findparent(i)==i)req+=1;
         }
-        int req = mpp.size()-1;
-        int ed = connections.size();
-        for(auto it:mpp){
-            ed-= (it.second-1);
-        }
-        if(ed>=req){
-            return req;
-        }
+
+        if(cntex>=req-1)return req-1;
         return -1;
     }
 };
