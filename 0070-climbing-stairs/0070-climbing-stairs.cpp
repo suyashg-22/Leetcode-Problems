@@ -1,19 +1,14 @@
 class Solution {
 public:
-    int dp[46];
     int climbStairs(int n) {
-
-        for(int level=n;level>=0;level--){
-            if(level==n){
-                dp[level]=1;
-            }
-            else{
-                int ans =0;
-                ans+= dp[level+1];
-                if(level+2<=n)ans+= dp[level+2];
-                dp[level]=ans;
-            }
+        int nxt = 1;
+        int nxt2nxt =0;
+        for(int level=n-1;level>=0;level--){
+                int ans1 = nxt;
+                int ans2 = nxt2nxt;
+                nxt2nxt=nxt;
+                nxt=ans1+ans2;            
         }
-        return dp[0];
+        return nxt;
     }
 };
