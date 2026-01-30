@@ -1,27 +1,23 @@
 class Solution {
 public:
-    int n;
-    int m;
-    int dp[201][201];
-    int rec(int r,int c,vector<vector<int>>&grid){
-        if(r<0 && c<0)return INT_MAX;
-        if(r==0 && c==0)return grid[0][0];
-        if(dp[r][c]!=-1)return dp[r][c];
-
-        int ans = INT_MAX;
-        if(r>0){
-            ans = grid[r][c]+rec(r-1,c,grid);
-        }
-        if(c>0){
-            ans = min(ans,grid[r][c]+rec(r,c-1,grid));
-        }
-        return dp[r][c]=ans;
-    }
-
     int minPathSum(vector<vector<int>>& grid) {
-        n = grid.size();
-        m = grid[0].size();
-        memset(dp,-1,sizeof(dp));
-        return rec(n-1,m-1,grid);
+        int r = grid.size();
+        int c = grid[0].size();
+
+        int dp[201][201];
+        for(int i=r-1;i>=0;i--){
+            for(int j=c-1;j>=0;j--){
+                if(i==r-1 && j==c-1){
+                    dp[i][j]=grid[i][j];
+                }
+                else{
+                    int ans =INT_MAX;
+                    if(j+1<c)ans=min(ans,grid[i][j]+dp[i][j+1]);
+                    if(i+1<r)ans=min(ans,grid[i][j]+dp[i+1][j]);
+                    dp[i][j]=ans;
+                }
+            }
+        }
+        return dp[0][0];
     }
 };
