@@ -1,27 +1,27 @@
 class Solution {
 public:
-    int N;
-    int dp[201][20001];
-    int total=0;
-    vector<int>*arr;
-    bool rec(int level,int sum){
-        if(level==N){
-            if(sum==total-sum)return true;
-            return false;
-        }
-        if(dp[level][sum]!=-1)return dp[level][sum];
-        bool ans =0;
-        if(rec(level+1,sum)==1)ans=1;
-        if(rec(level+1,(*arr)[level]+sum)==1)ans=1;
-
-        return dp[level][sum]=ans;
-    }
+    bool dp[201][20001];
     bool canPartition(vector<int>& nums) {
-        memset(dp,-1,sizeof(dp));
-        arr = & nums;
         int n = nums.size();
-        for(int i=0;i<n;i++)total+=nums[i];
-        N=n;
-        return rec(0,0);
+        int tot = 0;
+        for(auto it:nums)tot+=it;
+        int temp =tot;
+        for(int level=n;level>=0;level--){
+            if(level<n){
+                temp-=nums[level];
+            }
+            for(int sum1=temp;sum1>=0;sum1--){
+                if(level==n){
+                    if(2*sum1== tot)dp[level][sum1]=1;
+                    else dp[level][sum1]=0;
+                }
+                else{
+                    bool ans1= dp[level+1][sum1+nums[level]];
+                    bool ans2= dp[level+1][sum1];
+                    dp[level][sum1]=(ans1|ans2);
+                }
+            }
+        }
+        return dp[0][0];
     }
 };
