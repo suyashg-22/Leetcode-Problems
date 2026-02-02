@@ -10,7 +10,6 @@ public:
         for(int i=0;i<n;i++){
             if((*arr)[node][i]==1){
                 if(vis[i]==0){
-                    vis[i]=1;
                     dfs(i);
                 }
             }
