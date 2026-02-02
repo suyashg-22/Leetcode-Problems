@@ -1057,6 +1057,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Union-Find
 |  |
 | ------- |
+| [0547-number-of-provinces](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0547-number-of-provinces) |
 | [0695-max-area-of-island](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0721-accounts-merge) |
 | [0778-swim-in-rising-water](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0778-swim-in-rising-water) |
@@ -1074,6 +1075,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0207-course-schedule](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0210-course-schedule-ii) |
+| [0547-number-of-provinces](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0547-number-of-provinces) |
 | [0743-network-delay-time](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0787-cheapest-flights-within-k-stops) |
