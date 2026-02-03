@@ -13,14 +13,14 @@ public:
                 else{
                     int ans =dp[level+1][val];
                     int t = (amount-val)/coins[level];
-                    for(int i=0;i<t;i++){
+                    if(val<=amount-coins[level]){
                         ans=min(ans,1+dp[level][val+coins[level]]);
                     }
                     dp[level][val]=ans;
                 }
             }
         }
-        
+
         if(dp[0][0]>=1e9)return -1;
         return dp[0][0];
     }
