@@ -332,6 +332,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
+| [3637-trionic-array-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3637-trionic-array-i) |
 | [3748-sort-matrix-by-diagonals](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3748-sort-matrix-by-diagonals) |
 | [3755-find-maximum-balanced-xor-subarray-length](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3755-find-maximum-balanced-xor-subarray-length) |
 | [3790-fruits-into-baskets-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3790-fruits-into-baskets-ii) |
