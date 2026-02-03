@@ -20,6 +20,7 @@ public:
                 }
             }
         }
+        
         if(dp[0][0]>=1e9)return -1;
         return dp[0][0];
     }
