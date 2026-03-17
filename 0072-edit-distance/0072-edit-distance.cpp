@@ -6,6 +6,8 @@ public:
 
     int rec(int i,int j){
         if(i==n1 && j==n2)return 0;
+        if(i==n1)return n2-j;
+        if(j==n2)return n1-i;
         if(dp[i][j]!=-1)return dp[i][j];
 
         int ans = 1e8;
@@ -15,7 +17,7 @@ public:
         else{
             if(j<n2)ans=1+rec(i,j+1);
             if(i<n1)ans=min(ans,1+rec(i+1,j));
-            if(j<n2)ans=min(ans,1+rec(i+1,j+1));
+            if(i<n1 && j<n2)ans=min(ans,1+rec(i+1,j+1));
         }
         return dp[i][j]=ans;
     }
