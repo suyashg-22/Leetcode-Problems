@@ -11,13 +11,13 @@ public:
         if(dp[i][j]!=-1)return dp[i][j];
 
         int ans = 1e8;
-        if(i<n1 && j<n2 && s1[i]==s2[j]){
+        if(s1[i]==s2[j]){
             ans = rec(i+1,j+1);
         }
         else{
-            if(j<n2)ans=1+rec(i,j+1);
-            if(i<n1)ans=min(ans,1+rec(i+1,j));
-            if(i<n1 && j<n2)ans=min(ans,1+rec(i+1,j+1));
+            ans=1+rec(i,j+1);
+            ans=min(ans,1+rec(i+1,j));
+            ans=min(ans,1+rec(i+1,j+1));
         }
         return dp[i][j]=ans;
     }
