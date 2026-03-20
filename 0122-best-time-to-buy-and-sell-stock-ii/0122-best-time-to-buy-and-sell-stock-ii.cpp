@@ -22,7 +22,7 @@ public:
         this->arr= & prices;
         memset(dp,-1,sizeof(dp));
         for(int level=n;level>=0;level--){
-            for(int c=1;c>=0;c--){
+            for(int c=0;c<2;c++){
                 if(level==n){
                     dp[level][c]=0;
                 }
