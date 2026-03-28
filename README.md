@@ -71,6 +71,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0557-reverse-words-in-a-string-iii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0557-reverse-words-in-a-string-iii) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0908-middle-of-the-linked-list](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0908-middle-of-the-linked-list) |
+| [1048-longest-string-chain](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1048-longest-string-chain) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2392-successful-pairs-of-spells-and-potions) |
@@ -108,6 +109,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0721-accounts-merge](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0721-accounts-merge) |
 | [0812-rotate-string](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0812-rotate-string) |
 | [0953-verifying-an-alien-dictionary](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0953-verifying-an-alien-dictionary) |
+| [1048-longest-string-chain](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1048-longest-string-chain) |
 | [1078-remove-outermost-parentheses](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1078-remove-outermost-parentheses) |
 | [1092-shortest-common-supersequence](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1092-shortest-common-supersequence) |
 | [1143-longest-common-subsequence](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1143-longest-common-subsequence) |
@@ -175,6 +177,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0931-minimum-falling-path-sum](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0931-minimum-falling-path-sum) |
 | [0943-sum-of-subarray-minimums](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0943-sum-of-subarray-minimums) |
 | [1013-fibonacci-number](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1013-fibonacci-number) |
+| [1048-longest-string-chain](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1048-longest-string-chain) |
 | [1086-divisor-game](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1086-divisor-game) |
 | [1092-shortest-common-supersequence](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1092-shortest-common-supersequence) |
 | [1111-minimum-score-triangulation-of-polygon](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1111-minimum-score-triangulation-of-polygon) |
@@ -316,6 +319,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1036-rotting-oranges](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1036-rotting-oranges) |
 | [1039-find-the-town-judge](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1039-find-the-town-judge) |
 | [1046-max-consecutive-ones-iii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1046-max-consecutive-ones-iii) |
+| [1048-longest-string-chain](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1048-longest-string-chain) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1073-number-of-enclaves](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1073-number-of-enclaves) |
@@ -478,6 +482,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1018-largest-perimeter-triangle](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1018-largest-perimeter-triangle) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1048-longest-string-chain](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1048-longest-string-chain) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
@@ -546,6 +551,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1034-subarrays-with-k-different-integers](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1034-subarrays-with-k-different-integers) |
 | [1039-find-the-town-judge](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1039-find-the-town-judge) |
+| [1048-longest-string-chain](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1048-longest-string-chain) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1370-count-number-of-nice-subarrays](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1370-count-number-of-nice-subarrays) |
