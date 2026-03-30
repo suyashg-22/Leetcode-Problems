@@ -26,19 +26,17 @@ public:
     int maximalRectangle(vector<vector<char>>& matrix) {
         int n =matrix.size();
         int m = matrix[0].size();
-        vector<vector<int>>psum(n,vector<int>(m));
-        for(int j=0;j<m;j++){
-            int sum =0;
-            for(int i=0;i<n;i++){
-                if(matrix[i][j]=='1')sum+=1;
-                else sum=0;
-                psum[i][j]=sum;
-            }
-        }
-        int maxi =0;
+        vector<int>heights(m,0);
+        int maxi=0;
         for(int i=0;i<n;i++){
-            maxi = max(maxi,f(psum[i]));
-        }
+            for(int j=0;j<m;j++){
+                if(matrix[i][j]=='1'){
+                    heights[j]+=1;
+                }
+                else heights[j]=0;
+            }
+            maxi=max(maxi,f(heights));
+        }        
         return maxi;
     }
 };
