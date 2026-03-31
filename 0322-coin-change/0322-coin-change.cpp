@@ -12,7 +12,6 @@ public:
                 }
                 else{
                     int ans =dp[level+1][val];
-                    int t = (amount-val)/coins[level];
                     if(val<=amount-coins[level]){
                         ans=min(ans,1+dp[level][val+coins[level]]);
                     }
