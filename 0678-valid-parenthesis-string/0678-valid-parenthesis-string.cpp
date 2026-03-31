@@ -1,40 +1,37 @@
 class Solution {
 public:
     bool checkValidString(string s) {
-        int n =s.size();
-        int ob =0;
-        int used =0;
-        int unused =0;
+        int n = s.size();
+        int c1=0;
+        int temp =0;
+        int c2=0;
         for(int i=0;i<n;i++){
-            if(s[i]=='('){
-                ob+=1;
-            }
+            if(s[i]=='(')c1+=1;
             else if(s[i]=='*'){
-                if(ob>0){
-                    ob-=1;
-                    used+=1;
+                if(c1>0){
+                    temp+=1;
+                    c1-=1;
                 }
                 else{
-                    unused+=1;
+                    c2+=1;
                 }
             }
             else{
-                if(ob>0){
-                    ob-=1;
+                if(c1>0)c1-=1;
+                else if(temp>0){
+                    temp-=1;
+                    c2+=1;
                 }
-                else if(unused>0){
-                    unused-=1;
+                else if(c2>0){
+                    c2-=1;
                 }
-                else if(used>0){
-                    used-=1;
-                    unused+=1;
-                }
-                else {
+                else{
                     return false;
                 }
             }
         }
-        if(ob>0)return false;
+        if(c1>0)return false;
         return true;
+
     }
 };
