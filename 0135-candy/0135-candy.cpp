@@ -19,10 +19,6 @@ public:
             }
         }
         vector<pair<int,int>>arr(n,{0,0});
-        for(auto it:temp){
-            cout<<it.first<<" "<<it.second<<"    ";
-        }
-        cout<<endl;
         int last=n-1;
         for(int i=n-1;i>=0;i--){
             if(temp[i].second==0){
