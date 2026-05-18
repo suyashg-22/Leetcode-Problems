@@ -339,6 +339,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1111-minimum-score-triangulation-of-polygon](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1111-minimum-score-triangulation-of-polygon) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1277-count-square-submatrices-with-all-ones) |
+| [1345-jump-game-iv](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1345-jump-game-iv) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1370-count-number-of-nice-subarrays](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1370-count-number-of-nice-subarrays) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
@@ -570,6 +571,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1039-find-the-town-judge](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1039-find-the-town-judge) |
 | [1048-longest-string-chain](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1048-longest-string-chain) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1264-maximum-number-of-words-you-can-type) |
+| [1345-jump-game-iv](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1345-jump-game-iv) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1353-find-resultant-array-after-removing-anagrams) |
 | [1370-count-number-of-nice-subarrays](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -804,6 +806,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1073-number-of-enclaves](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1073-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1319-number-of-operations-to-make-network-connected) |
+| [1345-jump-game-iv](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1345-jump-game-iv) |
 | [1631-path-with-minimum-effort](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1631-path-with-minimum-effort) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1765-map-of-highest-peak](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1765-map-of-highest-peak) |
