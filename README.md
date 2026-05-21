@@ -127,6 +127,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2107-find-unique-binary-string](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2107-find-unique-binary-string) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2244-number-of-laser-beams-in-a-bank) |
+| [3043-find-the-length-of-the-longest-common-prefix](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 | [3461-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3461-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3800-longest-common-prefix-between-adjacent-strings-after-removals](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3800-longest-common-prefix-between-adjacent-strings-after-removals) |
 | [3893-generate-tag-for-video-caption](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3893-generate-tag-for-video-caption) |
@@ -377,6 +378,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2529-range-product-queries-of-powers](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2529-range-product-queries-of-powers) |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
 | [2658-maximum-number-of-fish-in-a-grid](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2658-maximum-number-of-fish-in-a-grid) |
+| [3043-find-the-length-of-the-longest-common-prefix](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 | [3094-minimum-number-of-operations-to-make-array-empty](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3094-minimum-number-of-operations-to-make-array-empty) |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3242-count-elements-with-maximum-frequency) |
@@ -581,6 +583,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2169-simple-bank-system](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2169-simple-bank-system) |
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
+| [3043-find-the-length-of-the-longest-common-prefix](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 | [3094-minimum-number-of-operations-to-make-array-empty](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3094-minimum-number-of-operations-to-make-array-empty) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
@@ -1102,6 +1105,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0014-longest-common-prefix) |
+| [3043-find-the-length-of-the-longest-common-prefix](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 ## String Matching
 |  |
 | ------- |
