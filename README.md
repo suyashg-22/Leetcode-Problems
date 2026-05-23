@@ -129,6 +129,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
+| [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
 | [3461-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3461-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3800-longest-common-prefix-between-adjacent-strings-after-removals](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3800-longest-common-prefix-between-adjacent-strings-after-removals) |
 | [3893-generate-tag-for-video-caption](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3893-generate-tag-for-video-caption) |
@@ -611,6 +612,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2529-range-product-queries-of-powers](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2529-range-product-queries-of-powers) |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
 | [2837-minimum-operations-to-make-the-integer-zero](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2837-minimum-operations-to-make-the-integer-zero) |
+| [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
 | [3755-find-maximum-balanced-xor-subarray-length](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3755-find-maximum-balanced-xor-subarray-length) |
 | [3998-minimum-operations-to-equalize-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3998-minimum-operations-to-equalize-array) |
 | [4009-bitwise-or-of-even-numbers-in-an-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/4009-bitwise-or-of-even-numbers-in-an-array) |
@@ -1104,6 +1106,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0126-word-ladder-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0126-word-ladder-ii) |
 | [0494-target-sum](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0494-target-sum) |
 | [2107-find-unique-binary-string](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2107-find-unique-binary-string) |
+| [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
 ## Trie
 |  |
 | ------- |
