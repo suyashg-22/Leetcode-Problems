@@ -6,7 +6,7 @@ public:
     int n;
 
     int rec(int level){
-        if(level<0 || level>=n)return 0;
+        // if(level<0 || level>=n)return 0;
         if(dp[level]!=-1)return dp[level];
 
         int ans =0;
