@@ -6,18 +6,12 @@ public:
     vector<int>*arr;
 
     void rec(int level,vector<int>&temp){
-        if(level==n){
-            ans.push_back(temp);
-            return;
-        }
-        for(int i=level;i<=n;i++){
-            if(i==n)ans.push_back(temp);
-            else{
-                if(i>level && (*arr)[i]==(*arr)[i-1])continue;
-                temp.push_back((*arr)[i]);
-                rec(i+1,temp);
-                temp.pop_back();
-            }
+        ans.push_back(temp);
+        for(int i=level;i<n;i++){
+            if(i>level && (*arr)[i]==(*arr)[i-1])continue;
+            temp.push_back((*arr)[i]);
+            rec(i+1,temp);
+            temp.pop_back();
         }
     }
     vector<vector<int>> subsetsWithDup(vector<int>& nums) {
