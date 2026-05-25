@@ -8,19 +8,13 @@ public:
 
         if(sum==0){
             ans.push_back(temp);
-            return;
         }
 
         for(int i=level;i<n;i++){
-
-            if(i>level && (*arr)[i]==(*arr)[i-1]) continue;
-
-            if((*arr)[i]>sum) break;
-
+            if(i>level && (*arr)[i]==(*arr)[i-1])continue;
+            if((*arr)[i]>sum)break;
             temp.push_back((*arr)[i]);
-
             rec(i+1,sum-(*arr)[i],temp);
-
             temp.pop_back();
         }
     }
@@ -37,5 +31,6 @@ public:
         rec(0,target,temp);
 
         return ans;
+        
     }
 };
