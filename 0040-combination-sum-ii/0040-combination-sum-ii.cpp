@@ -8,6 +8,7 @@ public:
 
         if(sum==0){
             ans.push_back(temp);
+            return;
         }
 
         for(int i=level;i<n;i++){
