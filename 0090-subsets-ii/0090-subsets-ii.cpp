@@ -1,29 +1,31 @@
 class Solution {
 public:
-    set<vector<int>>st;
+
+    vector<vector<int>>ans;
     int n;
     vector<int>*arr;
 
     void rec(int level,vector<int>&temp){
         if(level==n){
-            st.insert(temp);
+            ans.push_back(temp);
             return;
         }
-        rec(level+1,temp);
-        temp.push_back((*arr)[level]);
-        rec(level+1,temp);
-        temp.pop_back();
+        for(int i=level;i<=n;i++){
+            if(i==n)ans.push_back(temp);
+            else{
+                if(i>level && (*arr)[i]==(*arr)[i-1])continue;
+                temp.push_back((*arr)[i]);
+                rec(i+1,temp);
+                temp.pop_back();
+            }
+        }
     }
     vector<vector<int>> subsetsWithDup(vector<int>& nums) {
         this->n=nums.size();
         this->arr=&nums;
         sort(nums.begin(),nums.end());
-        vector<vector<int>>ans;
         vector<int>temp;
         rec(0,temp);
-        for(auto it:st){
-            ans.push_back(it);
-        }
         return ans;
     }
 };
