@@ -13,10 +13,10 @@ public:
             else{
                 x= 26 + c-'a';
             }
-            if(arr[x]==0)arr[x]+=1;
+            arr[x]+=1;
         }
         for(int i=0;i<26;i++){
-            if(arr[i]+arr[i+26]==2)cnt+=1;
+            if(arr[i]>0 && arr[i+26]>0)cnt+=1;
         }
         return cnt;
     }
