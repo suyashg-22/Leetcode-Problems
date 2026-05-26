@@ -131,6 +131,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
+| [3120-count-the-number-of-special-characters-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3120-count-the-number-of-special-characters-i) |
 | [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
 | [3461-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3461-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3800-longest-common-prefix-between-adjacent-strings-after-removals](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3800-longest-common-prefix-between-adjacent-strings-after-removals) |
@@ -602,6 +603,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 | [3094-minimum-number-of-operations-to-make-array-empty](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3094-minimum-number-of-operations-to-make-array-empty) |
+| [3120-count-the-number-of-special-characters-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3120-count-the-number-of-special-characters-i) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3542-minimum-operations-to-convert-all-elements-to-zero](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3542-minimum-operations-to-convert-all-elements-to-zero) |
