@@ -1,46 +1,42 @@
 class Solution {
 public:
-    int queen[10];
+    int n;
+    int dp[10];
     vector<vector<string>>ans;
-    int N;
-    bool check(int row,int col){
-        for(int i=0;i<row;i++){
-            int rowp = i;
-            int colp = queen[i];
-            if(colp==col || abs(colp-col)==abs(rowp-row)){
-                return false;
-            }
+
+
+    bool check(int level,int c){
+        for(int i=0;i<level;i++){
+            int qi = i;
+            int qj = dp[i];
+            if(c==qj || abs(qi-level)==abs(qj-c))return false;
         }
         return true;
     }
+
     void rec(int level){
-        //base
-        if(level==N){
-            vector<string>arr(N);
-            for(int i=0;i<N;i++){
-                string s(N,'.');
-                s[queen[i]]='Q';
-                arr[i]=s;
+        if(level==n){
+            vector<string>temp;
+            for(int i=0;i<n;i++){
+                string s(n,'.');
+                s[dp[i]]='Q';
+                temp.push_back(s);
             }
-            ans.push_back(arr);
+            ans.push_back(temp);
+            return;
         }
-        //cache check
-        // if(queen[level]!=-1){
-        //     return queen[level];
-        // }
-        //compute
-        for(int col =0;col<N;col++){
-            if(check(level,col)){
-                queen[level]=col;
+
+        for(int c = 0;c<n;c++){
+            if(check(level,c)){
+                dp[level]=c;
                 rec(level+1);
-                queen[level]=-1;
+                dp[level]=-1;
             }
         }
-        return;
     }
     vector<vector<string>> solveNQueens(int n) {
-        N=n;
-        memset(queen,-1,sizeof(queen));
+        this->n=n;
+        memset(dp,-1,sizeof(dp));
         rec(0);
         return ans;
     }
