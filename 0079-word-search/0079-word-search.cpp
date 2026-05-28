@@ -7,7 +7,7 @@ public:
     vector<int>dx{0,1,0,-1};
     vector<int>dy{-1,0,1,0};
 
-    bool rec(int i,int j,int c,string s){
+    bool rec(int i,int j,int c,string& s){
         if(c==nn){
             return true;
         }
