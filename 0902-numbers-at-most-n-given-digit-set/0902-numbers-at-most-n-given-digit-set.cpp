@@ -13,7 +13,7 @@ public:
         int limit = s[level]-'0';
         if(!alreadytaken)ans += rec(level+1,0,alreadytaken,s);
         for(int i=0;i<nn;i++){
-            int temp = stoi((*arr)[i]);
+            int temp = (*arr)[i][0]-'0';
             if(tight && temp>limit)break;
 
             if(tight && temp==limit){
