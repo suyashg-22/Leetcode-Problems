@@ -412,6 +412,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2574-left-and-right-sum-differences](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2574-left-and-right-sum-differences) |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
 | [2658-maximum-number-of-fish-in-a-grid](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2658-maximum-number-of-fish-in-a-grid) |
+| [2670-find-the-distinct-difference-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2670-find-the-distinct-difference-array) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 | [3094-minimum-number-of-operations-to-make-array-empty](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3094-minimum-number-of-operations-to-make-array-empty) |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
@@ -639,6 +640,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2169-simple-bank-system](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2169-simple-bank-system) |
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
+| [2670-find-the-distinct-difference-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2670-find-the-distinct-difference-array) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 | [3094-minimum-number-of-operations-to-make-array-empty](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3094-minimum-number-of-operations-to-make-array-empty) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3120-count-the-number-of-special-characters-i) |
