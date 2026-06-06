@@ -331,6 +331,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0695-max-area-of-island](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0695-max-area-of-island) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0721-accounts-merge](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0721-accounts-merge) |
+| [0724-find-pivot-index](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0724-find-pivot-index) |
 | [0733-flood-fill](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0735-asteroid-collision) |
 | [0741-cherry-pickup](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0741-cherry-pickup) |
@@ -568,6 +569,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0303-range-sum-query-immutable](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0303-range-sum-query-immutable) |
 | [0410-split-array-largest-sum](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0410-split-array-largest-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0560-subarray-sum-equals-k) |
+| [0724-find-pivot-index](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0724-find-pivot-index) |
 | [0966-binary-subarrays-with-sum](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0966-binary-subarrays-with-sum) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0974-subarray-sums-divisible-by-k) |
 | [1046-max-consecutive-ones-iii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1046-max-consecutive-ones-iii) |
