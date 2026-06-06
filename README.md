@@ -40,6 +40,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2032-largest-odd-number-in-string](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2032-largest-odd-number-in-string) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [2610-closest-prime-numbers-in-range](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2610-closest-prime-numbers-in-range) |
+| [3179-find-the-n-th-value-after-k-seconds](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3179-find-the-n-th-value-after-k-seconds) |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3279-alice-and-bob-playing-flower-game](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3279-alice-and-bob-playing-flower-game) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
@@ -415,6 +416,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2670-find-the-distinct-difference-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2670-find-the-distinct-difference-array) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 | [3094-minimum-number-of-operations-to-make-array-empty](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3094-minimum-number-of-operations-to-make-array-empty) |
+| [3179-find-the-n-th-value-after-k-seconds](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3179-find-the-n-th-value-after-k-seconds) |
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3251-maximum-area-of-longest-diagonal-rectangle](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3251-maximum-area-of-longest-diagonal-rectangle) |
@@ -584,6 +586,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1991-find-the-middle-index-in-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1991-find-the-middle-index-in-array) |
 | [2529-range-product-queries-of-powers](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2529-range-product-queries-of-powers) |
 | [2574-left-and-right-sum-differences](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2574-left-and-right-sum-differences) |
+| [3179-find-the-n-th-value-after-k-seconds](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3179-find-the-n-th-value-after-k-seconds) |
 | [3755-find-maximum-balanced-xor-subarray-length](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3755-find-maximum-balanced-xor-subarray-length) |
 ## Hash Table
 |  |
@@ -709,6 +712,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2169-simple-bank-system](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2169-simple-bank-system) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2271-rearrange-array-elements-by-sign) |
+| [3179-find-the-n-th-value-after-k-seconds](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3179-find-the-n-th-value-after-k-seconds) |
 | [3336-water-bottles-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3336-water-bottles-ii) |
 | [3461-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3461-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3790-fruits-into-baskets-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3790-fruits-into-baskets-ii) |
@@ -1211,6 +1215,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0062-unique-paths) |
+| [3179-find-the-n-th-value-after-k-seconds](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3179-find-the-n-th-value-after-k-seconds) |
 | [3461-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3461-check-if-digits-are-equal-in-string-after-operations-i) |
 ## Union-Find
 |  |
