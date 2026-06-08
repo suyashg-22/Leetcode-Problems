@@ -7,16 +7,23 @@ public:
         for(int i=0;i<n;i++){
             mpp[nums[i]]+=1;
         }
-        priority_queue<pair<int,int>>pq;
+        priority_queue<pair<int,int>,vector<pair<int,int>>,greater<pair<int,int>>>pq;
+        int temp = 0;
         for(auto it:mpp){
-            pq.push({it.second,it.first});
+            if(temp<k){
+                pq.push({it.second,it.first});
+            }
+            else{
+                if(pq.top().first<it.second){
+                    pq.pop();
+                    pq.push({it.second,it.first});
+                }
+            }
+            temp+=1;
         }
-        int cnt =0;
-        while(cnt<k && !pq.empty()){
-            auto it = pq.top();
-            ans.push_back(it.second);
+        while(!pq.empty()){
+            ans.push_back(pq.top().second);
             pq.pop();
-            cnt+=1;
         }
         return ans;
     }
