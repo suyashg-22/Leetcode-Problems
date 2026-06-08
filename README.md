@@ -315,6 +315,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0312-burst-balloons](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0322-coin-change) |
+| [0347-top-k-frequent-elements](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0368-largest-divisible-subset) |
 | [0410-split-array-largest-sum](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0416-partition-equal-subset-sum) |
@@ -554,6 +555,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0242-valid-anagram](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0268-missing-number) |
 | [0295-find-median-from-data-stream](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0295-find-median-from-data-stream) |
+| [0347-top-k-frequent-elements](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0347-top-k-frequent-elements) |
 | [0368-largest-divisible-subset](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0368-largest-divisible-subset) |
 | [0451-sort-characters-by-frequency](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0451-sort-characters-by-frequency) |
 | [0455-assign-cookies](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0455-assign-cookies) |
@@ -628,6 +630,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0229-majority-element-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0268-missing-number) |
+| [0347-top-k-frequent-elements](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0355-design-twitter) |
 | [0424-longest-repeating-character-replacement](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0451-sort-characters-by-frequency) |
@@ -708,12 +711,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0169-majority-element](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0215-kth-largest-element-in-an-array) |
 | [0240-search-a-2d-matrix-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0240-search-a-2d-matrix-ii) |
+| [0347-top-k-frequent-elements](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0347-top-k-frequent-elements) |
 | [0493-reverse-pairs](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0493-reverse-pairs) |
 ## Counting
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0229-majority-element-ii) |
+| [0347-top-k-frequent-elements](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0451-sort-characters-by-frequency) |
 | [0621-task-scheduler](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0621-task-scheduler) |
 | [0900-reordered-power-of-2](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0900-reordered-power-of-2) |
@@ -814,6 +819,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0215-kth-largest-element-in-an-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0239-sliding-window-maximum) |
 | [0295-find-median-from-data-stream](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0295-find-median-from-data-stream) |
+| [0347-top-k-frequent-elements](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0355-design-twitter) |
 | [0451-sort-characters-by-frequency](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0451-sort-characters-by-frequency) |
 | [0621-task-scheduler](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0621-task-scheduler) |
@@ -828,6 +834,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0347-top-k-frequent-elements) |
 ## Tree
 |  |
 | ------- |
@@ -1234,6 +1241,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bucket Sort
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0451-sort-characters-by-frequency) |
 ## Brainteaser
 |  |
