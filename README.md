@@ -78,6 +78,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0908-middle-of-the-linked-list](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0908-middle-of-the-linked-list) |
 | [1048-longest-string-chain](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1048-longest-string-chain) |
+| [2161-partition-array-according-to-given-pivot](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2392-successful-pairs-of-spells-and-potions) |
@@ -405,6 +406,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2126-destroying-asteroids](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2126-destroying-asteroids) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
+| [2161-partition-array-according-to-given-pivot](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2169-simple-bank-system](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2169-simple-bank-system) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2227-sum-of-subarray-ranges](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2227-sum-of-subarray-ranges) |
@@ -726,6 +728,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0735-asteroid-collision](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0735-asteroid-collision) |
 | [1642-water-bottles](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1642-water-bottles) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2137-final-value-of-variable-after-performing-operations) |
+| [2161-partition-array-according-to-given-pivot](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2169-simple-bank-system](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2169-simple-bank-system) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2271-rearrange-array-elements-by-sign) |
 | [3179-find-the-n-th-value-after-k-seconds](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3179-find-the-n-th-value-after-k-seconds) |
