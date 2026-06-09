@@ -1,24 +1,24 @@
 class Node{
 private:
-    vector<Node*>arr;
+    vector<Node*>links;
     bool flag;
 public:
     Node(){
-        this->arr.assign(26,NULL);
+        this->links.assign(26,NULL);
         this->flag=false;
     }
 
     bool contain(char ch){
-        return !(arr[ch-'a']==NULL);
+        return !(links[ch-'a']==NULL);
     }
 
     Node* next(char ch){
-        return  arr[ch-'a'];
+        return  links[ch-'a'];
     }
 
     void assign(char ch){
         Node* nnode = new Node();
-        this->arr[ch-'a']=nnode;
+        this->links[ch-'a']=nnode;
     }
 
     void modflag(bool f){
@@ -31,6 +31,7 @@ public:
 };
 
 class Trie {
+private:
     Node* root;
 public:
     Trie() {
