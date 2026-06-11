@@ -4,11 +4,11 @@ public:
     Node(){
         arr.assign(2,NULL);
     }
-    Node* next(char ch){
-        return arr[ch-'0'];
+    Node* next(int i){
+        return arr[i];
     }
-    bool isempty(char ch){
-        return arr[ch-'0']==NULL;
+    bool isempty(int i){
+        return arr[i]==NULL;
     }
 
 };
@@ -18,33 +18,34 @@ public:
     Trie(){
         root= new Node();
     }
-    void insert(string &s){
+    void insert(int num){
         Node* node = root;
-        for(auto ch:s){
-            if(node->isempty(ch)){
+        for(int i=31;i>=0;i--){
+            int b = (num>>i)&1;
+            if(node->isempty(b)){
                 Node* nnode = new Node();
-                node->arr[ch-'0']=nnode;
+                node->arr[b]=nnode;
             }
-            node=node->next(ch);
+            node=node->next(b);
         }
     }
-    int maxixor(string &s){
+    int maxixor(int num){
         int ans =0;
         Node* node =root;
-        for(int i=0;i<32;i++){
-            char ch = s[i];
-            if(ch=='0' && !node->isempty('1')){
-                int temp = (1<<(31-i));
+        for(int i=31;i>=0;i--){
+            int b = (num>>i)&1;
+            if(b==0 && !node->isempty(1)){
+                int temp = (1<<i);
                 ans+=temp;
-                node=node->next('1');
+                node=node->next(1);
             }
-            else if(ch=='1' && !node->isempty('0')){
-                int temp = (1<<(31-i));
+            else if(b==1 && !node->isempty(0)){
+                int temp = (1<<i);
                 ans+=temp;
-                node=node->next('0');
+                node=node->next(0);
             }
             else{
-                node=node->next(ch);
+                node=node->next(b);
             }
         }
         return ans;
@@ -57,13 +58,11 @@ public:
         int n= nums.size();
         Trie* t = new Trie();
         for(auto x:nums){
-            string s = bitset<32>(x).to_string();
-            t->insert(s);
+            t->insert(x);
         }
         int maxi =0;
         for(auto x:nums){
-            string s = bitset<32>(x).to_string();
-            maxi=max(maxi,t->maxixor(s));
+            maxi=max(maxi,t->maxixor(x));
         }
         return maxi;
     }
