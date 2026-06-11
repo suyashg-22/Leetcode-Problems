@@ -1,8 +1,13 @@
 class Node{
 public:
-    vector<Node*>arr;
+    Node* arr[2];
     Node(){
-        arr.assign(2,NULL);
+        arr[0]=NULL;
+        arr[1]=NULL;
+    }
+    ~Node(){
+        delete arr[0];
+        delete arr[1];
     }
     Node* next(int i){
         return arr[i];
@@ -17,6 +22,9 @@ public:
     Node* root;
     Trie(){
         root= new Node();
+    }
+    ~Trie(){
+        delete root;
     }
     void insert(int num){
         Node* node = root;
