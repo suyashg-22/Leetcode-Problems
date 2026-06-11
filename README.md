@@ -47,6 +47,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3336-water-bottles-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3336-water-bottles-ii) |
 | [3461-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3461-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
+| [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 | [3753-total-waviness-of-numbers-in-range-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3753-total-waviness-of-numbers-in-range-ii) |
@@ -891,6 +892,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1373-maximum-sum-bst-in-binary-tree) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2196-create-binary-tree-from-descriptions) |
+| [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -1068,6 +1070,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1992-find-all-groups-of-farmland](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1992-find-all-groups-of-farmland) |
 | [2493-divide-nodes-into-the-maximum-number-of-groups](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2493-divide-nodes-into-the-maximum-number-of-groups) |
 | [2658-maximum-number-of-fish-in-a-grid](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2658-maximum-number-of-fish-in-a-grid) |
+| [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 ## Design
 |  |
