@@ -403,6 +403,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1663-detect-cycles-in-2d-grid](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1675-magnetic-force-between-two-balls](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1675-magnetic-force-between-two-balls) |
+| [1707-maximum-xor-with-an-element-from-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1707-maximum-xor-with-an-element-from-array) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1765-map-of-highest-peak](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1765-map-of-highest-peak) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1878-check-if-array-is-sorted-and-rotated) |
@@ -707,6 +708,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0268-missing-number](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0268-missing-number) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1018-binary-prefix-divisible-by-5) |
+| [1707-maximum-xor-with-an-element-from-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1707-maximum-xor-with-an-element-from-array) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [2529-range-product-queries-of-powers](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2529-range-product-queries-of-powers) |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
@@ -1256,6 +1258,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0014-longest-common-prefix](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0014-longest-common-prefix) |
 | [0208-implement-trie-prefix-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0208-implement-trie-prefix-tree) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
+| [1707-maximum-xor-with-an-element-from-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1707-maximum-xor-with-an-element-from-array) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 ## String Matching
 |  |
