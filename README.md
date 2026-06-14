@@ -83,6 +83,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0908-middle-of-the-linked-list](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0908-middle-of-the-linked-list) |
 | [1048-longest-string-chain](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1048-longest-string-chain) |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [2161-partition-array-according-to-given-pivot](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2161-partition-array-according-to-given-pivot) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -1028,6 +1029,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1078-remove-outermost-parentheses](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1078-remove-outermost-parentheses) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [2227-sum-of-subarray-ranges](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2227-sum-of-subarray-ranges) |
 | [3542-minimum-operations-to-convert-all-elements-to-zero](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3542-minimum-operations-to-convert-all-elements-to-zero) |
 ## Depth-First Search
@@ -1196,6 +1198,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0328-odd-even-linked-list](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0328-odd-even-linked-list) |
 | [0355-design-twitter](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0355-design-twitter) |
 | [0908-middle-of-the-linked-list](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0908-middle-of-the-linked-list) |
+| [2130-maximum-twin-sum-of-a-linked-list](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Database
