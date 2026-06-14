@@ -140,6 +140,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1264-maximum-number-of-words-you-can-type](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1353-find-resultant-array-after-removing-anagrams](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1353-find-resultant-array-after-removing-anagrams) |
+| [1392-longest-happy-prefix](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1392-longest-happy-prefix) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
@@ -1111,6 +1112,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0535-encode-and-decode-tinyurl](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0535-encode-and-decode-tinyurl) |
+| [1392-longest-happy-prefix](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1392-longest-happy-prefix) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -1281,6 +1283,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0686-repeated-string-match](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0686-repeated-string-match) |
 | [0812-rotate-string](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0812-rotate-string) |
+| [1392-longest-happy-prefix](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1392-longest-happy-prefix) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -1350,4 +1353,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1192-critical-connections-in-a-network](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1192-critical-connections-in-a-network) |
+## Rolling Hash
+|  |
+| ------- |
+| [1392-longest-happy-prefix](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1392-longest-happy-prefix) |
 <!---LeetCode Topics End-->
