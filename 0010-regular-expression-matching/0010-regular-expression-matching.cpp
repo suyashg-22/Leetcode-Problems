@@ -13,13 +13,11 @@ public:
             if(p[j]=='.'){
                 ans=ans|rec(i,j+2,s,p);
                 if(i<n)ans=ans|rec(i+1,j,s,p);
-                // ans=ans|rec(i+1,j+2,s,p);
             }
             else{
                 ans = ans|rec(i,j+2,s,p);
                 if(s[i]==p[j]){
                     if(i<n)ans = ans|rec(i+1,j,s,p);
-                    // ans = ans|rec(i+1,j+2,s,p);
                 }
             }
         }
