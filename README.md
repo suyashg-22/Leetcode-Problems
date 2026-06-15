@@ -199,6 +199,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0312-burst-balloons](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0322-coin-change) |
+| [0338-counting-bits](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0338-counting-bits) |
 | [0368-largest-divisible-subset](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0368-largest-divisible-subset) |
 | [0410-split-array-largest-sum](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0410-split-array-largest-sum) |
 | [0416-partition-equal-subset-sum](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0416-partition-equal-subset-sum) |
@@ -728,6 +729,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0222-count-complete-tree-nodes](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0222-count-complete-tree-nodes) |
 | [0231-power-of-two](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0268-missing-number) |
+| [0338-counting-bits](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0338-counting-bits) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1018-binary-prefix-divisible-by-5) |
 | [1707-maximum-xor-with-an-element-from-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1707-maximum-xor-with-an-element-from-array) |
