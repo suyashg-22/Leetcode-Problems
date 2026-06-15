@@ -215,6 +215,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0678-valid-parenthesis-string](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0678-valid-parenthesis-string) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0741-cherry-pickup](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0741-cherry-pickup) |
+| [0746-min-cost-climbing-stairs](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0746-min-cost-climbing-stairs) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0902-numbers-at-most-n-given-digit-set](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0902-numbers-at-most-n-given-digit-set) |
 | [0909-stone-game](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0909-stone-game) |
@@ -366,6 +367,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0733-flood-fill](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0733-flood-fill) |
 | [0735-asteroid-collision](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0735-asteroid-collision) |
 | [0741-cherry-pickup](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0741-cherry-pickup) |
+| [0746-min-cost-climbing-stairs](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0746-min-cost-climbing-stairs) |
 | [0778-swim-in-rising-water](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0778-swim-in-rising-water) |
 | [0792-binary-search](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0792-binary-search) |
 | [0827-making-a-large-island](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0827-making-a-large-island) |
