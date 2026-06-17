@@ -113,6 +113,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0038-count-and-say](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0038-count-and-say) |
 | [0043-multiply-strings](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0043-multiply-strings) |
 | [0044-wildcard-matching](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0044-wildcard-matching) |
+| [0049-group-anagrams](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0049-group-anagrams) |
 | [0072-edit-distance](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0079-word-search) |
@@ -293,6 +294,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0045-jump-game-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0046-permutations) |
 | [0048-rotate-image](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0048-rotate-image) |
+| [0049-group-anagrams](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0054-spiral-matrix) |
@@ -588,6 +590,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0015-3sum](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0018-4sum) |
+| [0049-group-anagrams](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0088-merge-sorted-array) |
@@ -658,6 +661,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0017-letter-combinations-of-a-phone-number](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0036-valid-sudoku](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0037-sudoku-solver) |
+| [0049-group-anagrams](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0073-set-matrix-zeroes) |
 | [0076-minimum-window-substring](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0076-minimum-window-substring) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
