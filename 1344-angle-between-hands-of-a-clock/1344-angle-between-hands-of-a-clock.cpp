@@ -7,5 +7,6 @@ public:
         double b = mmin*6.0;
         double ans = abs(b-a);
         return min(ans,abs(360-ans));
+        
     }
 };
