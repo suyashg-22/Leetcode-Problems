@@ -443,6 +443,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1675-magnetic-force-between-two-balls](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1675-magnetic-force-between-two-balls) |
 | [1707-maximum-xor-with-an-element-from-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1707-maximum-xor-with-an-element-from-array) |
+| [1732-find-the-highest-altitude](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1732-find-the-highest-altitude) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1765-map-of-highest-peak](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1765-map-of-highest-peak) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1878-check-if-array-is-sorted-and-rotated) |
@@ -655,6 +656,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1370-count-number-of-nice-subarrays](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1370-count-number-of-nice-subarrays) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1603-running-sum-of-1d-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1603-running-sum-of-1d-array) |
+| [1732-find-the-highest-altitude](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1732-find-the-highest-altitude) |
 | [1871-jump-game-vii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1871-jump-game-vii) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1966-frequency-of-the-most-frequent-element) |
