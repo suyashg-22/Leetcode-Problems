@@ -263,6 +263,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 | [3753-total-waviness-of-numbers-in-range-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3753-total-waviness-of-numbers-in-range-ii) |
 | [3938-maximum-path-intersection-sum-in-a-grid](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3938-maximum-path-intersection-sum-in-a-grid) |
+| [3946-maximum-number-of-items-from-sale-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3946-maximum-number-of-items-from-sale-i) |
 ## Recursion
 |  |
 | ------- |
@@ -504,6 +505,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3885-count-special-triplets](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3885-count-special-triplets) |
 | [3914-check-if-any-element-has-prime-frequency](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3914-check-if-any-element-has-prime-frequency) |
 | [3938-maximum-path-intersection-sum-in-a-grid](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3938-maximum-path-intersection-sum-in-a-grid) |
+| [3946-maximum-number-of-items-from-sale-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3946-maximum-number-of-items-from-sale-i) |
 | [3998-minimum-operations-to-equalize-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3998-minimum-operations-to-equalize-array) |
 | [4005-maximum-total-subarray-value-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/4005-maximum-total-subarray-value-i) |
 | [4009-bitwise-or-of-even-numbers-in-an-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/4009-bitwise-or-of-even-numbers-in-an-array) |
@@ -584,6 +586,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 | [3689-maximum-total-subarray-value-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3689-maximum-total-subarray-value-i) |
 | [3691-maximum-total-subarray-value-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3691-maximum-total-subarray-value-ii) |
+| [3946-maximum-number-of-items-from-sale-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3946-maximum-number-of-items-from-sale-i) |
 | [3999-minimum-operations-to-transform-string](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3999-minimum-operations-to-transform-string) |
 | [4005-maximum-total-subarray-value-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/4005-maximum-total-subarray-value-i) |
 ## Sliding Window
