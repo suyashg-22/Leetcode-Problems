@@ -54,6 +54,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3558-number-of-ways-to-assign-edge-weights-i) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
+| [3700-number-of-zigzag-arrays-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3700-number-of-zigzag-arrays-ii) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 | [3753-total-waviness-of-numbers-in-range-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3753-total-waviness-of-numbers-in-range-ii) |
 | [3879-find-minimum-log-transportation-cost](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3879-find-minimum-log-transportation-cost) |
@@ -261,6 +262,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3699-number-of-zigzag-arrays-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3699-number-of-zigzag-arrays-i) |
+| [3700-number-of-zigzag-arrays-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3700-number-of-zigzag-arrays-ii) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 | [3753-total-waviness-of-numbers-in-range-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3753-total-waviness-of-numbers-in-range-ii) |
 | [3938-maximum-path-intersection-sum-in-a-grid](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3938-maximum-path-intersection-sum-in-a-grid) |
