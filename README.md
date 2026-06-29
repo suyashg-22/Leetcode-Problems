@@ -166,6 +166,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1758-minimum-changes-to-make-alternating-binary-string) |
 | [1871-jump-game-vii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1871-jump-game-vii) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
+| [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [2032-largest-odd-number-in-string](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2032-largest-odd-number-in-string) |
 | [2107-find-unique-binary-string](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2107-find-unique-binary-string) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2137-final-value-of-variable-after-performing-operations) |
@@ -461,6 +462,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1905-count-sub-islands](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1905-count-sub-islands) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1966-frequency-of-the-most-frequent-element) |
+| [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
 | [1991-find-the-middle-index-in-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1991-find-the-middle-index-in-array) |
 | [1992-find-all-groups-of-farmland](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1992-find-all-groups-of-farmland) |
 | [2047-find-a-peak-element-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2047-find-a-peak-element-ii) |
