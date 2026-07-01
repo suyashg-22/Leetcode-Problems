@@ -516,6 +516,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3838-weighted-word-mapping](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3838-weighted-word-mapping) |
 | [3885-count-special-triplets](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3885-count-special-triplets) |
 | [3914-check-if-any-element-has-prime-frequency](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3914-check-if-any-element-has-prime-frequency) |
+| [3919-minimum-cost-to-move-between-indices](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3919-minimum-cost-to-move-between-indices) |
 | [3938-maximum-path-intersection-sum-in-a-grid](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3938-maximum-path-intersection-sum-in-a-grid) |
 | [3946-maximum-number-of-items-from-sale-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3946-maximum-number-of-items-from-sale-i) |
 | [3976-maximum-subarray-sum-after-multiplier](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3976-maximum-subarray-sum-after-multiplier) |
@@ -600,6 +601,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 | [3689-maximum-total-subarray-value-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3689-maximum-total-subarray-value-i) |
 | [3691-maximum-total-subarray-value-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3691-maximum-total-subarray-value-ii) |
+| [3919-minimum-cost-to-move-between-indices](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3919-minimum-cost-to-move-between-indices) |
 | [3946-maximum-number-of-items-from-sale-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3946-maximum-number-of-items-from-sale-i) |
 | [3999-minimum-operations-to-transform-string](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3999-minimum-operations-to-transform-string) |
 | [4005-maximum-total-subarray-value-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/4005-maximum-total-subarray-value-i) |
@@ -695,6 +697,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3737-count-subarrays-with-majority-element-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3739-count-subarrays-with-majority-element-ii) |
 | [3755-find-maximum-balanced-xor-subarray-length](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3755-find-maximum-balanced-xor-subarray-length) |
+| [3919-minimum-cost-to-move-between-indices](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3919-minimum-cost-to-move-between-indices) |
 | [3938-maximum-path-intersection-sum-in-a-grid](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3938-maximum-path-intersection-sum-in-a-grid) |
 ## Hash Table
 |  |
