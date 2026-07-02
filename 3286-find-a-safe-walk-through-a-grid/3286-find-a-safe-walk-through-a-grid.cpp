@@ -1,34 +1,38 @@
 class Solution {
 public:
-    int dp[51][51][101];
-    vector<int>dx{0,1,0,-1};
-    vector<int>dy{-1,0,1,0};
-    bool dfs(int i,int j,int h,vector<vector<int>>&arr,int n,int m){
-        if(i==n-1 && j==m-1)return true;
-        if(dp[i][j][h]!=-1)return dp[i][j][h];
+    bool bfs(vector<vector<int>>& arr, int health) {
+        int n = arr.size();
+        int m = arr[0].size();
+        vector<int> dx{0, 1, 0, -1};
+        vector<int> dy{-1, 0, 1, 0};
 
-        dp[i][j][h]=0;
-        bool ans = false;
-        for(int z=0;z<4;z++){
-            int ni = i+dx[z];
-            int nj = j+dy[z];
-            if(ni>=0 && ni<n && nj>=0 && nj<m){
-                if(h-arr[ni][nj]>=1){
-                    if(dfs(ni,nj,h-arr[ni][nj],arr,n,m)){
-                        ans=true;
-                        break;
+        priority_queue<pair<pair<int, int>, int>,
+                       vector<pair<pair<int, int>, int>>,
+                       greater<pair<pair<int, int>, int>>>
+            pq;
+        vector<vector<int>> dis(n, vector<int>(m, 1e9));
+        dis[0][0] = arr[0][0];
+        pq.push({{0, 0}, arr[0][0]});
+        while (!pq.empty()) {
+            auto it = pq.top();
+            int i = it.first.first;
+            int j = it.first.second;
+            int d = it.second;
+            pq.pop();
+            for (int z = 0; z < 4; z++) {
+                int ni = i + dx[z];
+                int nj = j + dy[z];
+                if (ni >= 0 && ni < n && nj >= 0 && nj < m) {
+                    if (d + arr[ni][nj] < dis[ni][nj]) {
+                        dis[ni][nj] = d+arr[ni][nj];
+                        pq.push({{ni, nj}, d + arr[ni][nj]});
                     }
                 }
             }
         }
-        return dp[i][j][h]=ans;
+        return dis[n-1][m-1]<health;
     }
     bool findSafeWalk(vector<vector<int>>& grid, int health) {
-        memset(dp,-1,sizeof(dp));
-        int n = grid.size();
-        int m = grid[0].size();
-        health-= grid[0][0];
-        if(health<1)return false;
-        return dfs(0,0,health,grid,n,m);
+        return bfs(grid, health);
     }
 };
