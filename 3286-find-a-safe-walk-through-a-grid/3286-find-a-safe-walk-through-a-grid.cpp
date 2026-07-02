@@ -1,6 +1,6 @@
 class Solution {
 public:
-    bool bfs(vector<vector<int>>& arr, int health) {
+    bool dijk(vector<vector<int>>& arr, int health) {
         int n = arr.size();
         int m = arr[0].size();
         vector<int> dx{0, 1, 0, -1};
@@ -33,6 +33,6 @@ public:
         return dis[n-1][m-1]<health;
     }
     bool findSafeWalk(vector<vector<int>>& grid, int health) {
-        return bfs(grid, health);
+        return dijk(grid, health);
     }
 };
