@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int dijk(vector<vector<int>>&arr,int k){
+    int bfs(vector<vector<int>>&arr,int k){
         int n = arr.size();
         int m = arr[0].size();
         if(n==1 && m==1)return 0;
@@ -43,6 +43,6 @@ public:
         return -1;
     }
     int shortestPath(vector<vector<int>>& grid, int k) {
-        return dijk(grid,k);
+        return bfs(grid,k);
     }
 };
