@@ -494,6 +494,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3190-find-minimum-operations-to-make-all-elements-divisible-by-three](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3190-find-minimum-operations-to-make-all-elements-divisible-by-three) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3251-maximum-area-of-longest-diagonal-rectangle](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3251-maximum-area-of-longest-diagonal-rectangle) |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
@@ -915,6 +916,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [2658-maximum-number-of-fish-in-a-grid](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2658-maximum-number-of-fish-in-a-grid) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2812-find-the-safest-path-in-a-grid) |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 | [3748-sort-matrix-by-diagonals](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3748-sort-matrix-by-diagonals) |
 | [3938-maximum-path-intersection-sum-in-a-grid](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3938-maximum-path-intersection-sum-in-a-grid) |
@@ -966,6 +968,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1612-avoid-flood-in-the-city](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1612-avoid-flood-in-the-city) |
 | [1631-path-with-minimum-effort](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1631-path-with-minimum-effort) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2812-find-the-safest-path-in-a-grid) |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3691-maximum-total-subarray-value-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3691-maximum-total-subarray-value-ii) |
 ## Quickselect
 |  |
@@ -1071,6 +1074,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2493-divide-nodes-into-the-maximum-number-of-groups](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2493-divide-nodes-into-the-maximum-number-of-groups) |
 | [2658-maximum-number-of-fish-in-a-grid](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2658-maximum-number-of-fish-in-a-grid) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2812-find-the-safest-path-in-a-grid) |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3619-count-islands-with-total-value-divisible-by-k) |
 ## Binary Tree
 |  |
@@ -1470,6 +1474,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [2493-divide-nodes-into-the-maximum-number-of-groups](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2493-divide-nodes-into-the-maximum-number-of-groups) |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3286-find-a-safe-walk-through-a-grid) |
 ## Shortest Path
 |  |
 | ------- |
@@ -1477,6 +1482,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0787-cheapest-flights-within-k-stops](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1976-number-of-ways-to-arrive-at-destination) |
+| [3286-find-a-safe-walk-through-a-grid](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3286-find-a-safe-walk-through-a-grid) |
 ## Biconnected Component
 |  |
 | ------- |
