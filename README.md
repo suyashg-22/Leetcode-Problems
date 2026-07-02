@@ -432,6 +432,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1111-minimum-score-triangulation-of-polygon](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1111-minimum-score-triangulation-of-polygon) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1277-count-square-submatrices-with-all-ones) |
+| [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1340-jump-game-v](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1340-jump-game-v) |
 | [1345-jump-game-iv](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1345-jump-game-iv) |
@@ -904,6 +905,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1073-number-of-enclaves](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1073-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1277-count-square-submatrices-with-all-ones) |
+| [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1463-the-k-weakest-rows-in-a-matrix](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1463-the-k-weakest-rows-in-a-matrix) |
 | [1463-cherry-pickup-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1463-cherry-pickup-ii) |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1582-special-positions-in-a-binary-matrix) |
@@ -1063,6 +1065,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1036-rotting-oranges](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1073-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1091-shortest-path-in-binary-matrix) |
+| [1293-shortest-path-in-a-grid-with-obstacles-elimination](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1293-shortest-path-in-a-grid-with-obstacles-elimination) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1345-jump-game-iv](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1345-jump-game-iv) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1448-count-good-nodes-in-binary-tree) |
