@@ -5,7 +5,7 @@ public:
     int rec(int i,int j,vector<string>&arr){
         if(i==0 && j==0)return dp[i][j]= 0;
         if(dp[i][j]!=-1)return dp[i][j];
-        int ans = -1;
+        int ans = -1e9;
         int cur=arr[i][j]-'0';
         if(j-1>=0 && arr[i][j-1]!='X'){
             ans=max(ans,cur+rec(i,j-1,arr));
@@ -36,7 +36,7 @@ public:
         board[n-1][n-1]='0';
         board[0][0]='0';
         int sum = rec(n-1,n-1,board);
-        if(sum==-1)return {0,0};
+        if(sum<0)return {0,0};
         vector<int>ans(2);
         ans[0]=sum;
         ans[1]=rec2(n-1,n-1,board);
