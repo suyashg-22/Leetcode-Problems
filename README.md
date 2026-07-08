@@ -58,6 +58,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3751-total-waviness-of-numbers-in-range-i) |
 | [3753-total-waviness-of-numbers-in-range-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3753-total-waviness-of-numbers-in-range-ii) |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
+| [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 | [3879-find-minimum-log-transportation-cost](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3879-find-minimum-log-transportation-cost) |
 | [3914-check-if-any-element-has-prime-frequency](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3914-check-if-any-element-has-prime-frequency) |
 ## Two Pointers
@@ -181,6 +182,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3461-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3461-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3612-process-string-with-special-operations-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3612-process-string-with-special-operations-i) |
 | [3614-process-string-with-special-operations-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3614-process-string-with-special-operations-ii) |
+| [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 | [3800-longest-common-prefix-between-adjacent-strings-after-removals](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3800-longest-common-prefix-between-adjacent-strings-after-removals) |
 | [3838-weighted-word-mapping](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3838-weighted-word-mapping) |
 | [3893-generate-tag-for-video-caption](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3893-generate-tag-for-video-caption) |
@@ -709,6 +711,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3737-count-subarrays-with-majority-element-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3737-count-subarrays-with-majority-element-i) |
 | [3739-count-subarrays-with-majority-element-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3739-count-subarrays-with-majority-element-ii) |
 | [3755-find-maximum-balanced-xor-subarray-length](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3755-find-maximum-balanced-xor-subarray-length) |
+| [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 | [3919-minimum-cost-to-move-between-indices](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3919-minimum-cost-to-move-between-indices) |
 | [3938-maximum-path-intersection-sum-in-a-grid](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3938-maximum-path-intersection-sum-in-a-grid) |
 ## Hash Table
