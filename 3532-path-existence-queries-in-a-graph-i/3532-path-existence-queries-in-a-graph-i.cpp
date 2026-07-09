@@ -1,6 +1,5 @@
 class Solution {
 public:
-    int dp[100001];
     bool check(int base,int mid,vector<int>&nums,int md){
         return (nums[mid]-base<=md);
     }
@@ -21,7 +20,7 @@ public:
     }
     
     vector<bool> pathExistenceQueries(int n, vector<int>& nums, int maxDiff, vector<vector<int>>& queries) {
-        memset(dp,-1,sizeof(dp));
+        vector<int>dp(n,-1);
         for(int i=n-1;i>=0;i--){
             if(i==n-1){
                 dp[i]=n-1;
