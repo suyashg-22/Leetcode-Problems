@@ -102,6 +102,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2271-rearrange-array-elements-by-sign](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2497-maximum-matching-of-players-with-trainers) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
 ## String
@@ -267,6 +268,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [1871-jump-game-vii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1871-jump-game-vii) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1976-number-of-ways-to-arrive-at-destination) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3620-network-recovery-pathways](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3620-network-recovery-pathways) |
 | [3699-number-of-zigzag-arrays-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3699-number-of-zigzag-arrays-i) |
@@ -508,6 +510,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3532-path-existence-queries-in-a-graph-i) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3542-minimum-operations-to-convert-all-elements-to-zero](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3542-minimum-operations-to-convert-all-elements-to-zero) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
@@ -575,6 +578,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3532-path-existence-queries-in-a-graph-i) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3620-network-recovery-pathways](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3620-network-recovery-pathways) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
@@ -611,6 +615,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [3094-minimum-number-of-operations-to-make-array-empty](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3094-minimum-number-of-operations-to-make-array-empty) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3542-minimum-operations-to-convert-all-elements-to-zero](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3542-minimum-operations-to-convert-all-elements-to-zero) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
@@ -685,6 +690,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2144-minimum-cost-of-buying-candies-with-discount](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2144-minimum-cost-of-buying-candies-with-discount) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2497-maximum-matching-of-players-with-trainers) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3633-earliest-finish-time-for-land-and-water-rides-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3633-earliest-finish-time-for-land-and-water-rides-i) |
 | [3635-earliest-finish-time-for-land-and-water-rides-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3635-earliest-finish-time-for-land-and-water-rides-ii) |
@@ -827,6 +833,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
 | [2837-minimum-operations-to-make-the-integer-zero](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2837-minimum-operations-to-make-the-integer-zero) |
 | [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3755-find-maximum-balanced-xor-subarray-length](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3755-find-maximum-balanced-xor-subarray-length) |
 | [3998-minimum-operations-to-equalize-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3998-minimum-operations-to-equalize-array) |
@@ -1504,6 +1511,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2493-divide-nodes-into-the-maximum-number-of-groups](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2493-divide-nodes-into-the-maximum-number-of-groups) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3532-path-existence-queries-in-a-graph-i) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3620-network-recovery-pathways](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3620-network-recovery-pathways) |
 ## Shortest Path
 |  |
