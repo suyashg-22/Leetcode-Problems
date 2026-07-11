@@ -23,6 +23,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0204-count-primes](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0204-count-primes) |
 | [0231-power-of-two](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0268-missing-number) |
+| [0282-expression-add-operators](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0282-expression-add-operators) |
 | [0368-largest-divisible-subset](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0368-largest-divisible-subset) |
 | [0830-largest-triangle-area](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0830-largest-triangle-area) |
 | [0900-reordered-power-of-2](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0900-reordered-power-of-2) |
@@ -137,6 +138,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0205-isomorphic-strings](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0205-isomorphic-strings) |
 | [0208-implement-trie-prefix-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0242-valid-anagram) |
+| [0282-expression-add-operators](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0282-expression-add-operators) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0402-remove-k-digits](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0402-remove-k-digits) |
 | [0424-longest-repeating-character-replacement](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0424-longest-repeating-character-replacement) |
@@ -1436,6 +1438,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0126-word-ladder-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0126-word-ladder-ii) |
 | [0131-palindrome-partitioning](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0216-combination-sum-iii) |
+| [0282-expression-add-operators](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0282-expression-add-operators) |
 | [0494-target-sum](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0494-target-sum) |
 | [2107-find-unique-binary-string](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2107-find-unique-binary-string) |
 | [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
