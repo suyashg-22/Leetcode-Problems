@@ -2,8 +2,14 @@ using ll = long long;
 class Solution {
 public:
     ll gcd(ll a, ll b){
-        if(b==0)return a;
-        return gcd(b,a%b);;
+        while(a>0 && b>0){
+            if(a>=b){
+                a = a%b;
+            }
+            else b= b%a;
+        }
+        if(a==0)return b;
+        return a;
     }
     long long gcdSum(vector<int>& nums) {
         int n = nums.size();
