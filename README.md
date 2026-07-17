@@ -464,6 +464,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1582-special-positions-in-a-binary-matrix) |
+| [1584-min-cost-to-connect-all-points](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1584-min-cost-to-connect-all-points) |
 | [1603-running-sum-of-1d-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1603-running-sum-of-1d-array) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1612-avoid-flood-in-the-city](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1612-avoid-flood-in-the-city) |
@@ -1508,6 +1509,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0827-making-a-large-island](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0827-making-a-large-island) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1319-number-of-operations-to-make-network-connected) |
+| [1584-min-cost-to-connect-all-points](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1584-min-cost-to-connect-all-points) |
 | [1631-path-with-minimum-effort](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1631-path-with-minimum-effort) |
 | [1905-count-sub-islands](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1905-count-sub-islands) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
@@ -1531,6 +1533,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1192-critical-connections-in-a-network](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1192-critical-connections-in-a-network) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [1584-min-cost-to-connect-all-points](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1584-min-cost-to-connect-all-points) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2492-minimum-score-of-a-path-between-two-cities) |
 | [2493-divide-nodes-into-the-maximum-number-of-groups](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2493-divide-nodes-into-the-maximum-number-of-groups) |
@@ -1564,4 +1567,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
+## Minimum Spanning Tree
+|  |
+| ------- |
+| [1584-min-cost-to-connect-all-points](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1584-min-cost-to-connect-all-points) |
 <!---LeetCode Topics End-->
