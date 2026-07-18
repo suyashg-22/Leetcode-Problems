@@ -8,6 +8,7 @@ public:
         if(a==0)return b;
         return a;
     }
+    
     int findGCD(vector<int>& nums) {
         int mini=1e9;
         int maxi=-1e9;
