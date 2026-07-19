@@ -162,6 +162,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0953-verifying-an-alien-dictionary](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0953-verifying-an-alien-dictionary) |
 | [1048-longest-string-chain](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1048-longest-string-chain) |
 | [1078-remove-outermost-parentheses](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1078-remove-outermost-parentheses) |
+| [1081-smallest-subsequence-of-distinct-characters](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1092-shortest-common-supersequence](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1092-shortest-common-supersequence) |
 | [1143-longest-common-subsequence](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1143-longest-common-subsequence) |
 | [1189-maximum-number-of-balloons](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1189-maximum-number-of-balloons) |
@@ -617,6 +618,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0860-lemonade-change](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0860-lemonade-change) |
 | [0890-lemonade-change](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0890-lemonade-change) |
 | [1018-largest-perimeter-triangle](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1018-largest-perimeter-triangle) |
+| [1081-smallest-subsequence-of-distinct-characters](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1296-divide-array-in-sets-of-k-consecutive-numbers](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1296-divide-array-in-sets-of-k-consecutive-numbers) |
 | [1612-avoid-flood-in-the-city](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1612-avoid-flood-in-the-city) |
@@ -1200,6 +1202,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1078-remove-outermost-parentheses](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1078-remove-outermost-parentheses) |
+| [1081-smallest-subsequence-of-distinct-characters](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [1737-maximum-nesting-depth-of-the-parentheses](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1737-maximum-nesting-depth-of-the-parentheses) |
 | [2130-maximum-twin-sum-of-a-linked-list](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2130-maximum-twin-sum-of-a-linked-list) |
 | [2227-sum-of-subarray-ranges](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2227-sum-of-subarray-ranges) |
@@ -1323,6 +1326,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0943-sum-of-subarray-minimums](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0943-sum-of-subarray-minimums) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
+| [1081-smallest-subsequence-of-distinct-characters](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [2227-sum-of-subarray-ranges](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2227-sum-of-subarray-ranges) |
 | [3542-minimum-operations-to-convert-all-elements-to-zero](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3542-minimum-operations-to-convert-all-elements-to-zero) |
 ## Iterator
