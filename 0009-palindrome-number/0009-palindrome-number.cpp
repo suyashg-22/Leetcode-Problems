@@ -1,24 +1,19 @@
 class Solution {
 public:
     bool isPalindrome(int x) {
-        if(x<10&&x>=0){
-            return true;
+        if(x<0)return false;
+        int start =x;
+        long long xx =x%10;
+        x/=10;
+        while(x>0){
+            int d = x%10;
+            xx*=10;
+            xx+=d;
+            x/=10;
         }
-        else if(x<0){
-            return false;
-        }
-        else {
-            string str= to_string(x);
-            int i=0;
-            int j=str.size()-1;
-            while(i<j){
-                if(str[i]!=str[j]){
-                    return false;
-                }
-                i++;
-                j--;
-            }
-            return true;
-        }
+        cout<<xx<<endl;
+        if(xx<INT_MIN || xx>INT_MAX)return false;
+        if((int)xx==start)return true;
+        return false;
     }
 };
