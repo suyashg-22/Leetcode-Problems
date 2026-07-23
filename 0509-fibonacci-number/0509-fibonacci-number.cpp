@@ -1,17 +1,10 @@
 class Solution {
 public:
-    int recur(int n) {
-        if (n == 0) {
-            return 0;
-        }
-        if (n == 1) {
-            return 1;
-        }
-        int ans = recur(n - 1) + recur(n - 2);
-        return ans;
+    int rec(int n){
+        if(n<2)return n;
+        return rec(n-1)+rec(n-2);
     }
-
     int fib(int n) {
-        return recur(n);
+        return rec(n);
     }
 };
