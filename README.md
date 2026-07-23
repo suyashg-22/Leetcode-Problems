@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0002-add-two-numbers](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0002-add-two-numbers) |
 | [0007-reverse-integer](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0007-reverse-integer) |
+| [0009-palindrome-number](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0009-palindrome-number) |
 | [0012-integer-to-roman](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0012-integer-to-roman) |
 | [0029-divide-two-integers](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0029-divide-two-integers) |
 | [0043-multiply-strings](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0043-multiply-strings) |
