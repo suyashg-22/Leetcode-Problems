@@ -194,6 +194,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2244-number-of-laser-beams-in-a-bank](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2244-number-of-laser-beams-in-a-bank) |
 | [2287-rearrange-characters-to-make-target-string](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2287-rearrange-characters-to-make-target-string) |
+| [2767-partition-string-into-minimum-beautiful-substrings](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2767-partition-string-into-minimum-beautiful-substrings) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 | [3120-count-the-number-of-special-characters-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3120-count-the-number-of-special-characters-i) |
 | [3121-count-the-number-of-special-characters-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3121-count-the-number-of-special-characters-ii) |
@@ -288,6 +289,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1871-jump-game-vii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1871-jump-game-vii) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
+| [2767-partition-string-into-minimum-beautiful-substrings](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2767-partition-string-into-minimum-beautiful-substrings) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3559-number-of-ways-to-assign-edge-weights-ii) |
 | [3620-network-recovery-pathways](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3620-network-recovery-pathways) |
@@ -848,6 +850,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
 | [2657-find-the-prefix-common-array-of-two-arrays](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2657-find-the-prefix-common-array-of-two-arrays) |
 | [2670-find-the-distinct-difference-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2670-find-the-distinct-difference-array) |
+| [2767-partition-string-into-minimum-beautiful-substrings](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2767-partition-string-into-minimum-beautiful-substrings) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 | [3043-find-the-length-of-the-longest-common-prefix](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3043-find-the-length-of-the-longest-common-prefix) |
 | [3094-minimum-number-of-operations-to-make-array-empty](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3094-minimum-number-of-operations-to-make-array-empty) |
@@ -1508,6 +1511,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0282-expression-add-operators](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0282-expression-add-operators) |
 | [0494-target-sum](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0494-target-sum) |
 | [2107-find-unique-binary-string](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2107-find-unique-binary-string) |
+| [2767-partition-string-into-minimum-beautiful-substrings](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2767-partition-string-into-minimum-beautiful-substrings) |
 | [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3211-generate-binary-strings-without-adjacent-zeros) |
 ## Trie
 |  |
