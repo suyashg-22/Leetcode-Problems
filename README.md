@@ -26,6 +26,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0268-missing-number](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0268-missing-number) |
 | [0282-expression-add-operators](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0282-expression-add-operators) |
 | [0368-largest-divisible-subset](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0368-largest-divisible-subset) |
+| [0486-predict-the-winner](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0509-fibonacci-number) |
 | [0628-maximum-product-of-three-numbers](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0628-maximum-product-of-three-numbers) |
 | [0830-largest-triangle-area](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0830-largest-triangle-area) |
@@ -253,6 +254,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0416-partition-equal-subset-sum](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0416-partition-equal-subset-sum) |
 | [0435-non-overlapping-intervals](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0435-non-overlapping-intervals) |
 | [0474-ones-and-zeroes](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0474-ones-and-zeroes) |
+| [0486-predict-the-winner](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0486-predict-the-winner) |
 | [0494-target-sum](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0494-target-sum) |
 | [0509-fibonacci-number](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0509-fibonacci-number) |
 | [0516-longest-palindromic-subsequence](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0516-longest-palindromic-subsequence) |
@@ -316,6 +318,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0206-reverse-linked-list](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0231-power-of-two) |
 | [0234-palindrome-linked-list](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0234-palindrome-linked-list) |
+| [0486-predict-the-winner](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0486-predict-the-winner) |
 | [0509-fibonacci-number](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0509-fibonacci-number) |
 | [1013-fibonacci-number](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1013-fibonacci-number) |
 | [1922-count-good-numbers](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1922-count-good-numbers) |
@@ -415,6 +418,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0455-assign-cookies](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0455-assign-cookies) |
 | [0474-ones-and-zeroes](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0474-ones-and-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0485-max-consecutive-ones) |
+| [0486-predict-the-winner](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0486-predict-the-winner) |
 | [0493-reverse-pairs](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0493-reverse-pairs) |
 | [0494-target-sum](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0496-next-greater-element-i) |
@@ -1560,6 +1564,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Game Theory
 |  |
 | ------- |
+| [0486-predict-the-winner](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0486-predict-the-winner) |
 | [0909-stone-game](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0909-stone-game) |
 | [1086-divisor-game](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1086-divisor-game) |
 ## Combinatorics
