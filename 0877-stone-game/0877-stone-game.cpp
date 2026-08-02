@@ -8,6 +8,7 @@ public:
         ans = max(ans,arr[r]-rec(l,r-1,arr));
         return dp[l][r]=ans;
     }
+    
     bool stoneGame(vector<int>& piles) {
         memset(dp,-1,sizeof(dp));
         int n = piles.size();
