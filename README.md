@@ -30,6 +30,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0509-fibonacci-number](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0509-fibonacci-number) |
 | [0628-maximum-product-of-three-numbers](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0628-maximum-product-of-three-numbers) |
 | [0830-largest-triangle-area](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0830-largest-triangle-area) |
+| [0877-stone-game](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0877-stone-game) |
 | [0900-reordered-power-of-2](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0900-reordered-power-of-2) |
 | [0902-numbers-at-most-n-given-digit-set](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0902-numbers-at-most-n-given-digit-set) |
 | [0909-stone-game](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0909-stone-game) |
@@ -268,6 +269,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0741-cherry-pickup](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0741-cherry-pickup) |
 | [0746-min-cost-climbing-stairs](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0746-min-cost-climbing-stairs) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0787-cheapest-flights-within-k-stops) |
+| [0877-stone-game](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0877-stone-game) |
 | [0902-numbers-at-most-n-given-digit-set](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0902-numbers-at-most-n-given-digit-set) |
 | [0909-stone-game](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0909-stone-game) |
 | [0931-minimum-falling-path-sum](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0931-minimum-falling-path-sum) |
@@ -446,6 +448,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0830-largest-triangle-area](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0830-largest-triangle-area) |
 | [0846-hand-of-straights](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0846-hand-of-straights) |
 | [0860-lemonade-change](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0860-lemonade-change) |
+| [0877-stone-game](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0877-stone-game) |
 | [0890-lemonade-change](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0890-lemonade-change) |
 | [0902-numbers-at-most-n-given-digit-set](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0902-numbers-at-most-n-given-digit-set) |
 | [0907-koko-eating-bananas](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0907-koko-eating-bananas) |
@@ -1565,6 +1568,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0486-predict-the-winner](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0486-predict-the-winner) |
+| [0877-stone-game](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0877-stone-game) |
 | [0909-stone-game](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0909-stone-game) |
 | [1086-divisor-game](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1086-divisor-game) |
 ## Combinatorics
