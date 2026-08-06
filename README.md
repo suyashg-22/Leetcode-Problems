@@ -59,6 +59,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3279-alice-and-bob-playing-flower-game](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3279-alice-and-bob-playing-flower-game) |
 | [3300-minimum-element-after-replacement-with-digit-sum](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3300-minimum-element-after-replacement-with-digit-sum) |
 | [3336-water-bottles-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3336-water-bottles-ii) |
+| [3345-smallest-divisible-digit-product-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3461-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3461-check-if-digits-are-equal-in-string-after-operations-i) |
 | [3512-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3512-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3513-number-of-unique-xor-triplets-i) |
@@ -1484,6 +1485,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1291-sequential-digits](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1291-sequential-digits) |
 | [2837-minimum-operations-to-make-the-integer-zero](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2837-minimum-operations-to-make-the-integer-zero) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
+| [3345-smallest-divisible-digit-product-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3499-maximize-active-section-with-trade-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3499-maximize-active-section-with-trade-i) |
 | [3514-number-of-unique-xor-triplets-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3514-number-of-unique-xor-triplets-ii) |
 | [3751-total-waviness-of-numbers-in-range-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3751-total-waviness-of-numbers-in-range-i) |
