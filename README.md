@@ -1664,4 +1664,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1584-min-cost-to-connect-all-points](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1584-min-cost-to-connect-all-points) |
+## Quicksort
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0075-sort-colors) |
+## Bubble Sort
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0075-sort-colors) |
 <!---LeetCode Topics End-->
