@@ -1,23 +1,21 @@
-using ll = long long int;
 class Solution {
 public:
-    vector<int> nthRowOfPascalTriangle(int row) {
-        vector<int>ansrow;
-        ansrow.push_back(1);
-        ll ans =1;
-        for(int c=1;c<row;c++){
-            ans = ans*(row-c);
-            ans = ans/c;
-            ansrow.push_back(ans);
+    vector<int> f(int r){
+        vector<int>ans;
+        long long res=1;
+        ans.push_back(1);
+        for(int c=1;c<r;c++){
+            res= res*(r-c)/c;
+            ans.push_back(res);
         }
-        return ansrow;
+        return ans;
     }
     vector<vector<int>> generate(int numRows) {
-        vector<vector<int>>ansfinal;
-        int row = numRows;
-        for(int i=1;i<=row;i++){
-            ansfinal.push_back(nthRowOfPascalTriangle(i));
+        vector<vector<int>>ans;
+        for(int r=1;r<=numRows;r++){
+            vector<int>temp = f(r);
+            ans.push_back(temp);
         }
-        return ansfinal;
+        return ans;
     }
 };
