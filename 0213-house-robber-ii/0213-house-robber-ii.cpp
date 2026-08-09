@@ -1,40 +1,22 @@
 class Solution {
 public:
+    int dp[101][2];
+    int rec(int level,int c,vector<int>&arr,int n){
+        if(level>=n)return 0;
+        if(dp[level][c]!=-1)return dp[level][c];
+        int ans= rec(level+1,c,arr,n);
+        if(c==1 && level==n-1){
+            return dp[level][c]=ans;
+        }
+        else{
+            if(level==0)ans=max(ans,arr[level]+rec(level+2,1,arr,n));
+            else ans= max(ans,arr[level]+rec(level+2,c,arr,n));
+        }
+        return dp[level][c]=ans;
+    }
     int rob(vector<int>& nums) {
-        int n = nums.size();
-        int nxt = 0;
-        int nxt2 = 0;
-
-        for (int level = n - 1; level >= 0; level--) {
-            int ans = 0;
-            if (level == 0) {
-                ans = nxt;
-            } else {
-                int ans1 = nxt;
-                int ans2 = nums[level] + nxt2;
-                ans = max(ans1, ans2);
-            }
-            nxt2 = nxt;
-            nxt = ans;
-        }
-        int ans1 = nxt;
-        nxt = 0;
-        nxt2 = 0;
-        for (int level = n - 1; level >= 0; level--) {
-            int ans = 0;
-            if (level == 0) {
-                ans = nums[level] + nxt2;
-            } else if (level == n - 1) {
-                ans = nxt;
-            } else {
-                int ans1 = nxt;
-                int ans2 = nums[level] + nxt2;
-                ans = max(ans1, ans2);
-            }
-            nxt2 = nxt;
-            nxt = ans;
-        }
-        int ans2 = nxt;
-        return max(ans1, ans2);
+        int n= nums.size();
+        memset(dp,-1,sizeof(dp));
+        return rec(0,0,nums,n);
     }
 };
