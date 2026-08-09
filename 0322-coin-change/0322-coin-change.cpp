@@ -1,26 +1,23 @@
 class Solution {
 public:
     int dp[13][10001];
+    int rec(int level,int amnt,vector<int>&arr,int n){
+        if(level==n){
+            if(amnt==0)return 0;
+            return 1e9;
+        }
+        if(dp[level][amnt]!=-1)return dp[level][amnt];
+        int ans = rec(level+1,amnt,arr,n);
+        if(arr[level]<=amnt){
+            ans = min(ans,1+rec(level,amnt-arr[level],arr,n));
+        }
+        return dp[level][amnt]=ans;
+    }
     int coinChange(vector<int>& coins, int amount) {
         int n = coins.size();
-
-        for(int level=n;level>=0;level--){
-            for(int val=amount;val>=0;val--){
-                if(level==n){
-                    if(val==amount)dp[level][val]=0;
-                    else dp[level][val]=1e9;
-                }
-                else{
-                    int ans =dp[level+1][val];
-                    if(val<=amount-coins[level]){
-                        ans=min(ans,1+dp[level][val+coins[level]]);
-                    }
-                    dp[level][val]=ans;
-                }
-            }
-        }
-
-        if(dp[0][0]>=1e9)return -1;
-        return dp[0][0];
+        memset(dp,-1,sizeof(dp));
+        int ans= rec(0,amount,coins,n);
+        if(ans>=1e9)return -1;
+        return ans;
     }
 };
