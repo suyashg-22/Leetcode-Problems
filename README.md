@@ -1691,9 +1691,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Knapsack Problem
 |  |
 | ------- |
+| [0322-coin-change](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0416-partition-equal-subset-sum) |
 ## 0-1 Knapsack
 |  |
 | ------- |
 | [0416-partition-equal-subset-sum](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0416-partition-equal-subset-sum) |
+## Complete Knapsack
+|  |
+| ------- |
+| [0322-coin-change](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0322-coin-change) |
 <!---LeetCode Topics End-->
