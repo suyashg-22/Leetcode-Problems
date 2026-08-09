@@ -1694,6 +1694,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0322-coin-change](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0494-target-sum) |
+| [0518-coin-change-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0518-coin-change-ii) |
 ## 0-1 Knapsack
 |  |
 | ------- |
@@ -1703,4 +1704,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0322-coin-change) |
+| [0518-coin-change-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0518-coin-change-ii) |
 <!---LeetCode Topics End-->
