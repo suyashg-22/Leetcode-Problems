@@ -1,26 +1,19 @@
-using ll =long long;
 class Solution {
 public:
+    int dp[101][101];
+    int rec(int i,int j,int n,int m,vector<vector<int>>&arr){
+        if(i==n-1 && j==m-1)return 1;
+        if(dp[i][j]!=-1)return dp[i][j];
+        int ans=0;
+        if(j+1<m && arr[i][j+1]!=1)ans+= rec(i,j+1,n,m,arr);
+        if(i+1<n && arr[i+1][j]!=1)ans+= rec(i+1,j,n,m,arr);
+        return dp[i][j]=ans;
+    }
     int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
-        ll r= obstacleGrid.size();
-        ll c= obstacleGrid[0].size();
-        ll dp[101][101];
-        if(obstacleGrid[0][0]==1)return 0;
-
-        for(ll i=r-1;i>=0;i--){
-            for(ll j=c-1;j>=0;j--){
-                if(i==r-1 && j==c-1){
-                    if(obstacleGrid[i][j]==0)dp[i][j]=1;
-                    else dp[i][j]=0;
-                }
-                else{
-                    ll ans =0;
-                    if(i+1<r && obstacleGrid[i+1][j]==0)ans+=dp[i+1][j];
-                    if(j+1<c && obstacleGrid[i][j+1]==0)ans+=dp[i][j+1];
-                    dp[i][j]=ans;
-                }
-            }
-        }
-        return dp[0][0];
+        int n =obstacleGrid.size();
+        int m =obstacleGrid[0].size();
+        if(obstacleGrid[n-1][m-1]==1 ||obstacleGrid[0][0]==1 )return 0;
+        memset(dp,-1,sizeof(dp));
+        return rec(0,0,n,m,obstacleGrid);
     }
 };
