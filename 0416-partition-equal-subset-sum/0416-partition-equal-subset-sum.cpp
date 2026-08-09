@@ -1,27 +1,21 @@
 class Solution {
 public:
-    bool dp[201][20001];
-    bool canPartition(vector<int>& nums) {
-        int n = nums.size();
-        int tot = 0;
-        for(auto it:nums)tot+=it;
-        int temp =tot;
-        for(int level=n;level>=0;level--){
-            if(level<n){
-                temp-=nums[level];
-            }
-            for(int sum1=temp;sum1>=0;sum1--){
-                if(level==n){
-                    if(2*sum1== tot)dp[level][sum1]=1;
-                    else dp[level][sum1]=0;
-                }
-                else{
-                    bool ans1= dp[level+1][sum1+nums[level]];
-                    bool ans2= dp[level+1][sum1];
-                    dp[level][sum1]=(ans1|ans2);
-                }
-            }
+    int dp[201][20001];
+    int sum=0;
+    bool rec(int level,int s,vector<int>&arr,int n){
+        if(level==n){
+            return (s*2==sum);
         }
-        return dp[0][0];
+        if(dp[level][s]!=-1)return dp[level][s];
+        bool ans=false;
+        ans|= rec(level+1,s,arr,n);
+        ans|= rec(level+1,s+arr[level],arr,n);
+        return dp[level][s]=ans;
+    }
+    bool canPartition(vector<int>& nums) {
+        int n= nums.size();
+        for(auto it:nums)sum+=it;
+        memset(dp,-1,sizeof(dp));
+        return rec(0,0,nums,n);
     }
 };
