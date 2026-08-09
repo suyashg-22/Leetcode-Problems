@@ -1,14 +1,18 @@
 class Solution {
 public:
-    int climbStairs(int n) {
-        int nxt = 1;
-        int nxt2nxt =0;
-        for(int level=n-1;level>=0;level--){
-                int ans1 = nxt;
-                int ans2 = nxt2nxt;
-                nxt2nxt=nxt;
-                nxt=ans1+ans2;            
+    int dp[46];
+    int rec(int level,int n){
+        if(level==n)return 1;
+        if(dp[level]!=-1)return dp[level];
+        int ans=0;
+        ans+=rec(level+1,n);
+        if(level+2<=n){
+            ans+=rec(level+2,n);
         }
-        return nxt;
+        return dp[level]=ans;
+    }
+    int climbStairs(int n) {
+        memset(dp,-1,sizeof(dp));
+        return rec(0,n);
     }
 };
