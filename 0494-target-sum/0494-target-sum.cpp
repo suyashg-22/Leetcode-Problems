@@ -1,27 +1,22 @@
 class Solution {
 public:
-    int n ;
-    vector<int>*arr;
-    int target;
     int dp[21][2001];
-    int rec(int level,int sum){
+    int target;
+    int rec(int level,int sum,vector<int>&arr,int n){
         if(level==n){
             if(sum==target)return 1;
-            else return 0;
+            return 0;
         }
-        int ind = sum>=0?sum:1000-sum;
+        int ind = (sum<0)?1000-sum:sum;
         if(dp[level][ind]!=-1)return dp[level][ind];
-
-        int ans=0;
-        ans+=rec(level+1,sum+(*arr)[level]);
-        ans+=rec(level+1,sum-(*arr)[level]);
+        int ans = rec(level+1,sum-arr[level],arr,n);
+        ans+= rec(level+1,sum+arr[level],arr,n);
         return dp[level][ind]=ans;
     }
     int findTargetSumWays(vector<int>& nums, int target) {
-        this->n=nums.size();
-        this->target=target;
-        this->arr=&nums;
+        this->target = target;
+        int n =nums.size();
         memset(dp,-1,sizeof(dp));
-        return rec(0,0);
+        return rec(0,0,nums,n);
     }
 };
