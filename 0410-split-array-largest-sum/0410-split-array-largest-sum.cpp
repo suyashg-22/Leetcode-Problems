@@ -1,34 +1,41 @@
 class Solution {
 public:
-    int fun(vector<int>&arr,int k,int mid){
-        int cnt =1;
-        int cnts =0;
-        for(int i =0;i<arr.size();i++){
-            if(cnts+arr[i]<=mid){
-                cnts += arr[i];
+    bool check(vector<int>&arr,int mid,int k){
+        int n = arr.size();
+        int sum=0;
+        int cnt =0;
+        for(int i=0;i<n;i++){
+            if(sum+arr[i]<=mid){
+                sum+=arr[i];
             }
             else{
-                cnt+=1;
-                cnts=arr[i];
+                cnt++;
+                sum=arr[i];
             }
         }
-        return cnt;
+        cnt++;
+        if(cnt<=k)return true;
+        return false;
     }
     int splitArray(vector<int>& nums, int k) {
-        int n = nums.size();
-        if(k>n) return -1;
-        int low = *max_element(nums.begin(),nums.end());
-        int high = accumulate(nums.begin(),nums.end(),0);
-        int ans =low;
-        while(low<=high){
-            int mid = low+(high-low)/2;
-            int cnt = fun(nums,k,mid);
-            if(cnt>k){
-                low =mid+1;
+        int n =nums.size();
+        int maxi = INT_MIN;
+        int sum =0;
+        for(int i=0;i<n;i++){
+            maxi=max(maxi,nums[i]);
+            sum+=nums[i];
+        }
+        int l= maxi;
+        int h=sum;
+        int ans=-1;
+        while(l<=h){
+            int mid =l+(h-l)/2;
+            if(check(nums,mid,k)){
+                ans=mid;
+                h=mid-1;
             }
             else{
-                if(cnt==k) ans = mid;
-                high=mid-1;
+                l=mid+1;
             }
         }
         return ans;
