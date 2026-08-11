@@ -1705,4 +1705,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0322-coin-change](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0322-coin-change) |
 | [0518-coin-change-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0518-coin-change-ii) |
+## Longest Increasing Subsequence
+|  |
+| ------- |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0673-number-of-longest-increasing-subsequence) |
 <!---LeetCode Topics End-->
