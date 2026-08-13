@@ -1709,4 +1709,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0673-number-of-longest-increasing-subsequence) |
+## DP on Trees
+|  |
+| ------- |
+| [0543-diameter-of-binary-tree](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0543-diameter-of-binary-tree) |
 <!---LeetCode Topics End-->
