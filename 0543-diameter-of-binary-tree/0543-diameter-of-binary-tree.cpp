@@ -9,44 +9,18 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
-
-
-class Solution
-{
+class Solution {
 public:
-    int maxi = 0;
-
-    int rec(TreeNode *node)
-    {
-        // pruning;
-
-        // base case;
-        if (!node)
-        {
-            return 0;
-        }
-
-        // cache check
-
-        // compute;
-        int ans1 = 1 + rec(node->left);
-        int ans2 = 1 + rec(node->right);
-        int ans = max(ans1, ans2);
-
-        // save and return;
-        if (node->left && node->right)
-        {
-            maxi = max(maxi, ans1 + ans2 - 2);
-        }
-        else
-        {
-            maxi = (node->left)?max(maxi, ans1 - 1):max(maxi, ans2 - 1);
-        }
-
-        return ans;
+    int rec(TreeNode* node,int& maxi){
+        if(!node)return 0;
+        int l = rec(node->left,maxi);
+        int r = rec(node->right,maxi);
+        maxi=max(maxi,l+r);
+        return 1+max(l,r);
     }
-    int diameterOfBinaryTree(TreeNode *root)
-    {   rec(root);
+    int diameterOfBinaryTree(TreeNode* root) {
+        int maxi= 0;
+        rec(root,maxi);
         return maxi;
     }
 };
