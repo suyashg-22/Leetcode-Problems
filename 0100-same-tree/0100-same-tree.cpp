@@ -11,16 +11,15 @@
  */
 class Solution {
 public:
-    bool rec(TreeNode* p,TreeNode* q){
-        if(!p && !q) return true;
-        if((p && !q)||(!p &&q))return false;
-        if(p->val != q->val)return false;
-
-        bool l = rec(p->left,q->left);
-        bool r = rec(p->right,q->right);
-
-        if(!l || !r)return false;
-        else return true;
+    bool rec(TreeNode* node1 ,TreeNode* node2){
+        if(!node1 && !node2)return true;
+        else if(!node1 || !node2)return false;
+        
+        bool ans =rec(node1->left,node2->left);
+        ans&= rec(node1->right,node2->right);
+        if(!ans)return false;
+        if(node1->val != node2->val)return false;
+        return true;
     }
     bool isSameTree(TreeNode* p, TreeNode* q) {
         return rec(p,q);
