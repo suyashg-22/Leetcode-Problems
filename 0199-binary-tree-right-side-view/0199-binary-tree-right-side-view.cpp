@@ -11,16 +11,18 @@
  */
 class Solution {
 public:
-    void f(TreeNode* node,int level,vector<int>&ans){
-        if(node==NULL) return;
-
-        if(level==ans.size()) ans.push_back(node->val);
-        f(node->right,level+1,ans);
-        f(node->left,level+1,ans);
+    void rec(TreeNode* node,vector<int>&ans,int l){
+        if(!node)return;
+        if(ans.size()==l){
+            ans.push_back(node->val);
+        }
+        rec(node->right,ans,l+1);
+        rec(node->left,ans,l+1);
+        return;
     }
     vector<int> rightSideView(TreeNode* root) {
         vector<int>ans;
-        f(root,0,ans);
+        rec(root,ans,0);
         return ans;
     }
 };
