@@ -9,34 +9,17 @@
  */
 class Solution {
 public:
-    TreeNode* P = NULL;
-    TreeNode* Q = NULL;
-    TreeNode* ans = NULL;
-    TreeNode* overlap =NULL;
+    TreeNode* rec(TreeNode* node,TreeNode* p,TreeNode* q){
+        if(!node) return NULL;
+        if(node==p || node==q)return node;
 
-    TreeNode* rec(TreeNode* node){
-        if(!node)return NULL;
-        if(node==P || node==Q){
-            overlap = node;
-            return node;
-        }
-
-
-        TreeNode* l = rec(node->left);
-        TreeNode* r = rec(node->right);
-
-        if(l && r){
-            ans = node;
-        }
-        
-        if(!l)return r;
-        return l;
+        TreeNode* l = rec(node->left,p,q);
+        TreeNode* r = rec(node->right,p,q);
+        if(l && r)return node;
+        else if(r)return r;
+        return l; 
     }
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-        P=p;
-        Q=q;
-        rec(root);
-        if(!ans)return overlap;
-        return ans;
+        return rec(root,p,q);
     }
 };
