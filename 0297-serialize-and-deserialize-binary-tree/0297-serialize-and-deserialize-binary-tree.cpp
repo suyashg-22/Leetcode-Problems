@@ -12,98 +12,61 @@ public:
 
     // Encodes a tree to a single string.
     string serialize(TreeNode* root) {
-         if (!root) {
-            return "";
-        }
-
-        // Initialize an empty string
-        // to store the serialized data
         string s = "";
-        // Use a queue for
-        // level-order traversal
-        queue<TreeNode*> q;
-        // Start with the root node
+        if(!root)return s;
+        queue<TreeNode*>q;
         q.push(root);
-
-        // Perform level-order traversal
-        while (!q.empty()) {
-            // Get the front node in the queue
-            TreeNode* curNode = q.front();
+        while(!q.empty()){
+            TreeNode* node =q.front();
             q.pop();
-
-            // Check if the current node is
-            // null and append "#" to the string
-            if (curNode == nullptr) {
-                s += "#,";
-            } else {
-                // Append the value of the
-                // current node to the string
-                s += to_string(curNode->val) + ",";
-                // Push the left and right children
-                // to the queue for further traversal
-                q.push(curNode->left);
-                q.push(curNode->right);
+            if(node){
+                int x = node->val;
+                string ss = to_string(x);
+                s+=ss;
+                s+=',';
+                q.push(node->left);
+                q.push(node->right);
             }
+            else s+="#,";
         }
-
-        // Return the
-        // serialized string
         return s;
     }
 
     // Decodes your encoded data to tree.
     TreeNode* deserialize(string data) {
-        if (data.empty()) {
-            return nullptr;
-        }
+        int n =data.size();
+        if(n==0)return NULL;
 
-        // Use a stringstream to
-        // tokenize the serialized data
         stringstream s(data);
         string str;
-        // Read the root value
-        // from the serialized data
-        getline(s, str, ',');
+        getline(s,str,',');
         TreeNode* root = new TreeNode(stoi(str));
-
-        // Use a queue for 
-        // level-order traversal
-        queue<TreeNode*> q;
-        // Start with the root node
+        queue<TreeNode*>q;
         q.push(root);
-
-        // Perform level-order traversal
-        // to reconstruct the tree
-        while (!q.empty()) {
-            // Get the front node in the queue
+        while(!q.empty()){
             TreeNode* node = q.front();
             q.pop();
-
-            // Read the value of the left
-            // child from the serialized data
-            getline(s, str, ',');
-            // If the value is not "#", create a new
-            // left child and push it to the queue
-            if (str != "#") {
-                TreeNode* leftNode = new TreeNode(stoi(str));
-                node->left = leftNode;
-                q.push(leftNode);
+            
+            getline(s,str,',');
+            if(str=="#"){
+                node->left=NULL;
+            }
+            else{
+                TreeNode* temp = new TreeNode(stoi(str));
+                node->left=temp;
+                q.push(temp);
             }
 
-            // Read the value of the right child
-            // from the serialized data
-            getline(s, str, ',');
-            // If the value is not "#", create a
-            // new right child and push it to the queue
-            if (str != "#") {
-                TreeNode* rightNode = new TreeNode(stoi(str));
-                node->right = rightNode;
-                q.push(rightNode);
+            getline(s,str,',');
+            if(str=="#"){
+                node->right=NULL;
+            }
+            else{
+                TreeNode* temp = new TreeNode(stoi(str));
+                node->right=temp;
+                q.push(temp);
             }
         }
-
-        // Return the reconstructed
-        // root of the tree
         return root;
     }
 };
