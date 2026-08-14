@@ -11,26 +11,33 @@
  */
 class Solution {
 public:
-    int cnt =0;
-    int level =0;
-    void rec(TreeNode* node,int l){
-        if(l==level-1){
-            cnt+=1;
-            return;
-        }
-        if(node->left)rec(node->left,l+1);
-        if(node->right)rec(node->right,l+1);
-    }
-
-    int countNodes(TreeNode* root) {
-       TreeNode * node = root;
-       while(node){
-            level+=1;
+    int lefth(TreeNode* node){
+        int h =0;
+        while(node){
+            h++;
             node=node->left;
         }
-        if(!root)return 0;
-        cnt= (1<<(level-1))-1;
-        rec(root,0);
-        return cnt;
+        return h;
+    }
+    int righth(TreeNode* node){
+        int h =0;
+        while(node){
+            h++;
+            node=node->right;
+        }
+        return h;
+    }
+    int rec(TreeNode* node){
+        if(!node)return 0;
+        int lh = lefth(node);
+        int rh = righth(node);
+        if(lh==rh){
+            int ans = (1<<lh)-1;
+            return ans;
+        }
+        return 1+ rec(node->left)+rec(node->right);
+    }
+    int countNodes(TreeNode* root) {
+        return rec(root);
     }
 };
