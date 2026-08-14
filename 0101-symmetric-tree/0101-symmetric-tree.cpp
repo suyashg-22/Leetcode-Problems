@@ -11,19 +11,17 @@
  */
 class Solution {
 public:
-    bool f(TreeNode* n1,TreeNode* n2){
-        if(!n1 && !n2)return true;
-        if((!n1 && n2)||(n1 && !n2))return false;
-        if(n1->val != n2->val)return false;
+    bool rec(TreeNode* p,TreeNode* q){
+        if(!p && !q)return true;
+        else if(!p || !q)return false;
+        else if(p->val != q->val)return false;
 
-        bool temp1 = f(n1->left,n2->right);
-        if(!temp1)return false;
-        bool temp2 = f(n1->right,n2->left);
-        if(!temp2)return false;
-
-        return true;
+        bool ans = rec(p->left,q->right);
+        ans &= rec(p->right,q->left);
+        return ans;
     }
     bool isSymmetric(TreeNode* root) {
-       return  f(root->left,root->right);
+        if(!root)return true;
+        return rec(root->left,root->right);
     }
 };
