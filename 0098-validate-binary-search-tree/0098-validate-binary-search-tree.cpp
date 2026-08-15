@@ -11,17 +11,12 @@
  */
 class Solution {
 public:
-    bool rec(TreeNode * node,long long num1,long long num2){
+    bool rec(TreeNode* node,long long l,long long r){
         if(!node)return true;
-        if(node->left && node->val <= node->left->val)return false;
-        if(node->right && node->val >= node->right->val)return false;
-        
-        if(node->val <= num1 || node->val >=num2)return false;
-
-        bool l = rec(node->left,num1,node->val);
-        bool r = rec(node->right,node->val,num2);
-
-        return (l&r);
+        if(node->val<=l || node->val>=r)return false;
+        bool ans = rec(node->left,l,node->val);
+        ans&=rec(node->right,node->val,r);
+        return ans;
     }
     bool isValidBST(TreeNode* root) {
         return rec(root,LONG_MIN,LONG_MAX);
