@@ -11,39 +11,40 @@
  */
 class Solution {
 public:
-    TreeNode* f (TreeNode*root){
-        if(!root->right) return root;
-        return f(root->right);
-    }
-    TreeNode * helper(TreeNode* root){
-        if(!root->left) return root->right;
-        else if(!root->right) return root->left;
-
-        TreeNode* rightchild = root->right;
-        TreeNode* mostright = f(root->left);
-        mostright->right=rightchild;
-
-        return root->left;
+    TreeNode* del(TreeNode* node){
+        TreeNode* l = node->left;
+        TreeNode* r = node->right;
+        if(!l && !r)return NULL;
+        else if(!l)return r;
+        else if(!r)return l;
+        TreeNode*ll=l;
+        while(ll->right)ll=ll->right;
+        ll->right=r;
+        return l;
     }
     TreeNode* deleteNode(TreeNode* root, int key) {
-        if(!root) return NULL;
-        if(root->val==key) return helper(root);
-
-        TreeNode * temp = root;
-        while(temp){
-            if(temp->val>key){
-                if(temp->left && temp->left->val==key){
-                    temp->left=helper(temp->left);
+        if(!root)return NULL;
+        if(root->val==key){
+            return del(root);
+        }
+        TreeNode* node= root;
+        while(node){
+            int x = node->val;
+            if(x<key){
+                if(node->right && node->right->val==key){
+                    TreeNode* temp = del(node->right);
+                    node->right = temp;
                     break;
                 }
-                else temp=temp->left;
+                node=node->right;
             }
             else{
-                if(temp->right && temp->right->val==key){
-                    temp->right=helper(temp->right);
+                if(node->left && node->left->val==key){
+                    TreeNode* temp=del(node->left);
+                    node->left=temp;
                     break;
                 }
-                else temp = temp->right;
+                node=node->left;
             }
         }
         return root;
