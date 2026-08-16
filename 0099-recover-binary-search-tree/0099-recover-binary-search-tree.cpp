@@ -11,38 +11,34 @@
  */
 class Solution {
 public:
-    TreeNode* prev = NULL;
-    TreeNode* fault1 = NULL;
-    TreeNode* temp = NULL;
-    TreeNode* fault2 = NULL;
-
-    void rec(TreeNode* node){
+    TreeNode* prev=NULL;
+    void rec(TreeNode* node,TreeNode* &f,TreeNode* &s,TreeNode* &t){
         if(!node)return;
+        rec(node->left,f,s,t);
 
-        rec(node->left);
-        if(prev){
-            if(!fault1){
-                if(node->val<prev->val){
-                    fault1=prev;
-                    temp = node;
-                }
+        if(prev && prev->val>node->val){
+            if(s){
+                t=node;
             }
             else{
-                if(node->val<prev->val){
-                    fault2=node;
-                }
+                f=prev;
+                s=node;
             }
         }
         prev=node;
-        rec(node->right);
 
+        rec(node->right,f,s,t);
     }
     void recoverTree(TreeNode* root) {
-        TreeNode* node = root;
-        rec(node);
-        if(!fault2){
-            fault2=temp;
+        TreeNode*f=NULL;
+        TreeNode*s=NULL;
+        TreeNode*t=NULL;
+        rec(root,f,s,t);
+        if(!t){
+            swap(f->val,s->val);
         }
-        swap(fault1->val,fault2->val);
+        else{
+            swap(f->val,t->val);
+        }
     }
 };
