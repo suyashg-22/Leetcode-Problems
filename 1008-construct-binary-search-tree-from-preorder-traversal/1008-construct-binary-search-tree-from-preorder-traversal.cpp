@@ -11,22 +11,19 @@
  */
 class Solution {
 public:
-    int n=0;
-    vector<int> *arr;
-    int i=0;
-
-    TreeNode * build(int limit){
-        if(i>=n || (*arr)[i]>limit)return NULL;
-        TreeNode* node = new TreeNode((*arr)[i]);
-        i+=1;
-        node->left=build((*arr)[i-1]);
-        node->right=build(limit);
-
-        return node;
+    TreeNode* rec(int& level,int u,vector<int>&arr,int n){
+        if(level>=n)return NULL;
+        int x = arr[level];
+        if(x>=u)return NULL;
+        TreeNode* temp = new TreeNode(x);
+        level++;
+        temp->left= rec(level,x,arr,n);
+        temp->right= rec(level,u,arr,n);
+        return temp;
     }
     TreeNode* bstFromPreorder(vector<int>& preorder) {
-        arr=&preorder;
-        n=preorder.size();
-        return build(INT_MAX);
+        int n = preorder.size();
+        int level=0;
+        return rec(level,1e9,preorder,n);
     }
 };
