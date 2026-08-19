@@ -1,31 +1,32 @@
 class Solution {
 public:
-
     vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
-        if(image[sr][sc]==color)return image;
-
-        int start = image[sr][sc];
-        int n = image[0].size();
-        int m = image.size();
+        int n = image.size();
+        int m = image[0].size();
+        int c = image[sr][sc];
         queue<pair<int,int>>q;
-        vector<pair<int, int>> padosi{{-1, 0}, {+1, 0}, {0, -1}, {0, +1}};
-        vector<vector<int>>vis(m,vector<int>(n,0));
+        vector<vector<int>>vis(n,vector<int>(m,-1));
+        vis[sr][sc]=1;
+        image[sr][sc]=color;
         q.push({sr,sc});
-
+        vector<int>dx{0,1,0,-1};
+        vector<int>dy{-1,0,1,0};
         while(!q.empty()){
-            auto p = q.front();
-            auto x = p.first;
-            auto y = p.second;
-            image[x][y]=color;
-            q.pop();
-            for(int i=0;i<padosi.size();i++){
-                int a = x+padosi[i].first;
-                int b = y+padosi[i].second;
-                pair<int,int>z = {a,b};
-                if(a>=0 && a<m && b>=0 && b<n){
-                    if(image[a][b]==start){
-                            q.push(z);
-                            image[a][b]=color;
+            int size=q.size();
+            for(int i=0;i<size;i++){
+                auto it =q.front();
+                q.pop();
+                int x = it.first;
+                int y = it.second;
+                for(int z=0;z<4;z++){
+                    int nx=x+dx[z];
+                    int ny=y+dy[z];
+                    if(nx>=0 && nx<n && ny>=0 && ny<m){
+                        if(vis[nx][ny]==-1 && image[nx][ny]==c){
+                            vis[nx][ny]=1;
+                            image[nx][ny]=color;
+                            q.push({nx,ny});
+                        }
                     }
                 }
             }
