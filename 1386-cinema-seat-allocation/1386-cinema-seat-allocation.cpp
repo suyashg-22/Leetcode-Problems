@@ -9,12 +9,8 @@ public:
         bool f2=true;
         bool f3=true;
         int temp=n;
-        unordered_map<int,int>mpp;
         for(int i=0;i<m;i++){
-            if(!mpp.count(arr[i][0])){
-                temp-=1;
-                mpp[arr[i][0]]=1;
-            }
+            if(i==0 || arr[i][0]!=arr[i-1][0])temp-=1;
             if(i>0 && arr[i][0]!=arr[i-1][0]){
                 if(!f1 && !f2 && !f3)ans+=0;
                 else if((!f1 && !f2)||(!f1 && !f3) || (!f2 && !f3)||(!f1)||(!f2)||(!f3))ans+=1;
