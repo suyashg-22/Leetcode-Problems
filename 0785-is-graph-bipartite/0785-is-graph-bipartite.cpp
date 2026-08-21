@@ -1,69 +1,32 @@
-#include <bits/stdc++.h>
-using namespace std;
-using ll  = long long;
-const long long mod = 1000000009;
-
-#define asc(x) (x).begin(), (x).end()
-#define desc(x) (x).rbegin(), (x).rend()
-#define pb push_back
-#define ff first
-#define ss second
-#define forl(i, a, b) for (int  i = (a); i < (b); i++)
-#define fore(x, a) for (auto &x : a)
-#define yes cout << "YES\n"
-#define no cout << "NO\n"
-// #define endl '\n'
-
-class Solution
-{
+class Solution {
 public:
-    vector<vector<int>> *arr;
-    int n;
-    vector<int>vis;
-
-    bool bfs(int start)
-    {
-        // prereq-*arr,n,ans,vis
-
-        // vector<pair<int , int >> padosi{{-1, 0}, {+1, 0}, {0, -1}, {0, +1}};
-        queue<int> q;
-        // starting push and mark it vis:
-        q.push(start);
-        vis[start]=1;
-
-        // logic:
-        while (!q.empty())
-        {
-            int p = q.front();
+    bool bfs(int node,vector<int>&vis,vector<vector<int>>&graph,int n){
+        queue<int>q;
+        q.push(node);
+        vis[node]=0;
+        while(!q.empty()){
+            auto node =q.front();
             q.pop();
-
-            for (auto x : (*arr)[p])
-            {
-                if (vis[x]==0)
-                {
-                    int c = (vis[p]==1)?2:1;
-                    vis[x] = c;
-                    q.push(x);
+            int c = vis[node];
+            for(auto nnode:graph[node]){
+                if(vis[nnode]==-1){
+                    vis[nnode]= c^1;
+                    q.push(nnode);
                 }
                 else{
-                    if(vis[x]==vis[p]){
-                        return false;
-                    }
+                    if(c==vis[nnode])return false;
                 }
             }
         }
         return true;
     }
-    bool isBipartite(vector<vector<int>> &graph)
-    {
-        n = graph.size();
-        arr = &graph;
-        vis.assign(n,0);
-
+    bool isBipartite(vector<vector<int>>& graph) {
+        int n= graph.size();
+        vector<int>vis(n,-1);
         for(int i=0;i<n;i++){
-            if(vis[i]==0){
-                bool flag = bfs(i);
-                if(!flag)return false;
+            if(vis[i]==-1){
+                bool ans = bfs(i,vis,graph,n);
+                if(!ans)return false;
             }
         }
         return true;
