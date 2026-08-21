@@ -4,14 +4,12 @@ public:
         int n =mat.size();
         int m= mat[0].size();
         vector<vector<int>>vis(n,vector<int>(m,-1));
-        vector<vector<int>>dis(n,vector<int>(m,-1));
         queue<vector<int>>q;
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
                 if(mat[i][j]==0){
                     q.push({i,j,0});
-                    vis[i][j]=1;
-                    dis[i][j]=0;
+                    vis[i][j]=0;
                 }
             }
         }
@@ -29,12 +27,11 @@ public:
                 if(nx>=0 && nx<n && ny>=0 && ny<m){
                     if(vis[nx][ny]==-1 && mat[nx][ny]==1){
                         q.push({nx,ny,d+1});
-                        dis[nx][ny]=d+1;
-                        vis[nx][ny]=1;
+                        vis[nx][ny]=d+1;
                     }
                 }
             }
         }
-        return dis;
+        return vis;
     }
 };
