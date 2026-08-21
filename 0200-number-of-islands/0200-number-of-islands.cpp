@@ -1,52 +1,33 @@
 class Solution {
-    private:
-    void bfs(vector<vector<char>>& grid,int i,int j,vector<vector<int>>&vis)
-    {
-    vis[i][j]=1;
-    queue<pair<int,int>>q;
-    q.push({i,j});
-    int row=grid.size();
-    int col=grid[0].size();
-    int delrow[4]={-1,0,1,0};
-    int delcol[4]={0,1,0,-1};
-    while(!q.empty())
-    {
-        int r=q.front().first;
-        int c=q.front().second;
-        q.pop();
-
-        for(int k=0;k<4;k++)
-        {
-        int newrow=r+delrow[k];
-        int newcol=c+delcol[k];
-
-        if(newrow>=0 && newrow<row && newcol>=0 && newcol<col && grid[newrow][newcol]=='1' &&       !vis[newrow][newcol])
-        {
-            vis[newrow][newcol]=1;
-            q.push({newrow,newcol});
-        }
-        }
-        
-    }
-    }
 public:
-    int numIslands(vector<vector<char>>& grid) {
-        int n=grid.size();
-        int m=grid[0].size();
-
-        vector<vector<int>>vis(n,vector<int>(m,0));
-        int count=0;
-        for(int i=0;i<n;i++)
-        {
-            for(int j=0;j<m;j++)
-            {
-                if(!vis[i][j] && grid[i][j]=='1')
-                {
-                    bfs(grid,i,j,vis);
-                    count++;
+    vector<int>dx{0,1,0,-1};
+    vector<int>dy{-1,0,1,0};
+    void dfs(int x,int y,int n,int m,vector<vector<char>>&arr,vector<vector<int>>&vis){
+        vis[x][y]=1;
+        for(int z=0;z<4;z++){
+            int nx=x+dx[z];
+            int ny=y+dy[z];
+            if(nx<n && nx>=0 && ny>=0 && ny<m){
+                if(arr[nx][ny]=='1' && vis[nx][ny]==-1){
+                    dfs(nx,ny,n,m,arr,vis);
                 }
             }
         }
-        return count;
+        return;
+    }
+    int numIslands(vector<vector<char>>& grid) {
+        int n =grid.size();
+        int m =grid[0].size();
+        int cnt=0;
+        vector<vector<int>>vis(n,vector<int>(m,-1));
+        for(int i=0;i<n;i++){
+            for(int j=0;j<m;j++){
+                if(vis[i][j]==-1 && grid[i][j]=='1'){
+                    cnt++;
+                    dfs(i,j,n,m,grid,vis);
+                }
+            }
+        }
+        return cnt;
     }
 };
