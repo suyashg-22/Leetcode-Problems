@@ -1,10 +1,10 @@
 class Solution {
 public:
+    vector<int>dx{0,1,0,-1};
+    vector<int>dy{-1,0,1,0};
     void dfs(int x,int y,vector<vector<int>>&vis,int n,int m,vector<vector<char>>&arr){
         vis[x][y]=1;
         arr[x][y]='*';
-        vector<int>dx{0,1,0,-1};
-        vector<int>dy{-1,0,1,0};
         for(int z=0;z<4;z++){
             int nx=x+dx[z];
             int ny=y+dy[z];
