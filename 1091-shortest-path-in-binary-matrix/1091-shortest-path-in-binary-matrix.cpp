@@ -1,36 +1,38 @@
 class Solution {
 public:
-    vector<int> dx{0, -1, -1, -1, 0, 1, 1, 1};
-    vector<int> dy{-1, -1, 0, 1, 1, 1, 0, -1};
-    int dijk(vector<vector<int>>&arr){
-        int n= arr.size();
-        vector<vector<int>>dist(n,vector<int>(n,1e9));
-        dist[0][0]=1;
-        priority_queue<vector<int>,vector<vector<int>>,greater<vector<int>>>pq;
-        pq.push({1,0,0});
-        while(!pq.empty()){
-            auto it = pq.top();
-            pq.pop();
-            int i= it[1];
-            int j= it[2];
-            int d= it[0];
-            for(int x=0;x<8;x++){
-                int ni = i+dx[x];
-                int nj = j+dy[x];
-                if(ni>=0 && ni<n && nj>=0 && nj<n && arr[ni][nj]==0){
-                    if(d+1<dist[ni][nj]){
-                        dist[ni][nj]=d+1;
-                        pq.push({dist[ni][nj],ni,nj});
+    int shortestPathBinaryMatrix(vector<vector<int>>& grid) {
+        int n=grid.size();
+        int m=grid[0].size();
+        if(n==1 && m==1)return (grid[0][0]==0)?1:-1;
+        if(grid[0][0]==1 || grid[n-1][m-1]==1)return -1;
+        vector<int>dx{0,1,1,1,0,-1,-1,-1};
+        vector<int>dy{-1,-1,0,1,1,1,0,-1};
+        vector<vector<int>>vis(n,vector<int>(m,0));
+        queue<pair<int,int>>q;
+        q.push({0,0});
+        vis[0][0]=1;
+        int d=1;
+        while(!q.empty()){
+            int size=q.size();
+            for(int i=0;i<size;i++){
+                auto it =q.front();
+                q.pop();
+                int x =it.first;
+                int y=it.second;
+                for(int z=0;z<8;z++){
+                    int nx=x+dx[z];
+                    int ny=y+dy[z];
+                    if(nx>=0 && nx<n && ny>=0 && ny<m){
+                        if(!vis[nx][ny] && grid[nx][ny]==0){
+                            vis[nx][ny]=1;
+                            q.push({nx,ny});
+                            if(nx==n-1 && ny==m-1)return d+1;
+                        }
                     }
                 }
             }
+            d++;
         }
-        if(dist[n-1][n-1]==1e9)return -1;
-        return dist[n-1][n-1];
-    }
-    int shortestPathBinaryMatrix(vector<vector<int>>& grid) {
-        int n= grid.size();
-        if(grid[0][0]==1 || grid[n-1][n-1]==1)return -1;
-        return dijk(grid);
+        return -1;
     }
 };
