@@ -15,6 +15,7 @@ public:
             int d = it.first;
             int x=it.second.first;
             int y=it.second.second;
+            if(x==n-1 && y==m-1)return d;
             for(int z=0;z<4;z++){
                 int nx=x+dx[z];
                 int ny=y+dy[z];
