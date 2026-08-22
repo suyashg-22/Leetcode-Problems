@@ -1,8 +1,6 @@
 class Solution {
 public:
-    unordered_set<string>st;
-    unordered_map<string,int>mpp;
-    void dfs(string word,string beginWord,vector<string>&temp,vector<vector<string>>&ans){
+    void dfs(string word,string beginWord,vector<string>&temp,vector<vector<string>>&ans,unordered_map<string,int>&mpp){
         if(word==beginWord){
             reverse(temp.begin(),temp.end());
             ans.push_back(temp);
@@ -16,7 +14,7 @@ public:
                 ss[i]=c;
                 if(mpp.count(ss) && mpp[ss]+1==level){
                     temp.push_back(ss);
-                    dfs(ss,beginWord,temp,ans);
+                    dfs(ss,beginWord,temp,ans,mpp);
                     temp.pop_back();
                 }
             }
@@ -24,9 +22,11 @@ public:
         return;
     }
     vector<vector<string>> findLadders(string beginWord, string endWord, vector<string>& wordList) {
+        unordered_set<string>st;
         for(auto s:wordList){
             st.insert(s);
         }
+        unordered_map<string,int>mpp;
         queue<string>q;
         st.erase(beginWord);
         q.push(beginWord);
@@ -56,7 +56,7 @@ public:
         vector<vector<string>>ans;
         vector<string>temp;
         temp.push_back(endWord);
-        dfs(endWord,beginWord,temp,ans);
+        dfs(endWord,beginWord,temp,ans,mpp);
         return ans;
     }
 };
