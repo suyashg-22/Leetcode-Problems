@@ -1752,4 +1752,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0207-course-schedule) |
+## Bidirectional Search
+|  |
+| ------- |
+| [0127-word-ladder](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0127-word-ladder) |
 <!---LeetCode Topics End-->
