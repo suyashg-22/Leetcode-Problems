@@ -1,39 +1,37 @@
 class Solution {
 public:
     int findTheCity(int n, vector<vector<int>>& edges, int distanceThreshold) {
-        vector<vector<int>> adj(n, vector<int>(n, INT_MAX));
-        for (auto x : edges) {
-            adj[x[0]][x[1]] = x[2];
-            adj[x[1]][x[0]] = x[2];
+        int t =distanceThreshold;
+        vector<vector<int>>dist(n,vector<int>(n,1e8));
+        for(auto it:edges){
+            int a=it[0];
+            int b=it[1];
+            int w=it[2];
+            dist[a][b]=w;
+            dist[b][a]=w;
         }
-
-        for (int k = 0; k < n; k++) {
-            for (int i = 0; i < n; i++) {
-                for (int j = 0; j < n; j++) {
-                    if (i == j)
-                        adj[i][j] = 0;
-                    else {
-                        if (adj[i][k] != INT_MAX && adj[k][j] != INT_MAX) {
-                            adj[i][j] = min(adj[i][j], adj[i][k] + adj[k][j]);
-                        }
+        for(int k=0;k<n;k++){
+            for(int i=0;i<n;i++){
+                for(int j=0;j<n;j++){
+                    if(i==j)dist[i][j]=0;
+                    else if(dist[i][k]!=1e8 && dist[k][j]!=1e8){
+                        dist[i][j]=min(dist[i][j],dist[i][k]+dist[k][j]);
                     }
                 }
             }
         }
-        int th = distanceThreshold;
-        int minicnt = INT_MAX;
-        int ans = INT_MAX;
-        for (int i = n-1; i>=0; i--) {
-            int temp =0;
-            for (int j = 0; j < n; j++) {
-                if(adj[i][j]<=th)temp+=1;
+        int mini=INT_MAX;
+        int minicnt=INT_MAX;
+        for(int i=n-1;i>=0;i--){
+            int cnt=0;
+            for(int j=0;j<n;j++){
+                if(dist[i][j]<=t)cnt++;
             }
-
-            if(temp<minicnt){
-                minicnt = temp;
-                ans = i;
+            if(cnt<minicnt){
+                minicnt=cnt;
+                mini=i;
             }
         }
-        return ans;
+        return mini;
     }
 };
