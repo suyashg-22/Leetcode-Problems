@@ -1,54 +1,40 @@
-const long long mod = 1000000007;
-using ll = long long;
-
+const long long mod =1e9+7;
+using ll=long long;
 class Solution {
 public:
-    ll n;
-    vector<vector<pair<ll, ll>>> adj;
-    vector<ll> dist;
-    vector<ll> ways;
-
-    ll dijk() {
-        ways.assign(n,0);
-        dist.assign(n, LLONG_MAX);
-        dist[0] = 0;
+    int countPaths(int n, vector<vector<int>>& roads) {
+        vector<vector<pair<ll,ll>>>adj(n);
+        for(auto it:roads){
+            ll a =it[0];
+            ll b=it[1];
+            ll c=it[2];
+            adj[a].push_back({b,c});
+            adj[b].push_back({a,c});
+        }
+        priority_queue<pair<ll,ll>,vector<pair<ll,ll>>,greater<pair<ll,ll>>>pq;
+        vector<ll>dist(n,LONG_MAX);
+        vector<ll>ways(n,0);
+        dist[0]=0;
         ways[0]=1;
-        priority_queue<pair<ll, ll>, vector<pair<ll, ll>>,
-                       greater<pair<ll, ll>>>
-            pq;
-        pq.push({0, 0});
-
-        while (!pq.empty()) {
-            auto it = pq.top();
-            ll node = it.second;
-            ll d = it.first;
+        pq.push({0,0});
+        while(!pq.empty()){
+            auto it=pq.top();
             pq.pop();
-
-            for (auto x : adj[node]) {
-                ll newnode = x.first;
-                ll newd = x.second;
-                if(d+newd==dist[newnode]){
-                    ways[newnode]=(ways[newnode] + ways[node])%mod;
+            ll d = it.first;
+            ll node = it.second;
+            for(auto iit:adj[node]){
+                ll nnode= iit.first;
+                ll w = iit.second;
+                if(d<dist[nnode]-w){
+                    dist[nnode]=d+w;
+                    ways[nnode]=ways[node];
+                    pq.push({dist[nnode],nnode});
                 }
-                else if (d + newd < dist[newnode]) {
-                    ways[newnode]=ways[node];
-                    dist[newnode] = d + newd;
-                    pq.push({dist[newnode], newnode});
-                    
+                else if(d==dist[nnode]-w){
+                    ways[nnode]=(ways[nnode]+ways[node])%mod;
                 }
             }
         }
         return ways[n-1];
-    }
-    
-    int countPaths(int n, vector<vector<int>>& roads) {
-        this->n = n;
-        adj.resize(n);
-        for (auto it : roads) {
-            adj[it[0]].push_back({it[1], it[2]});
-            adj[it[1]].push_back({it[0], it[2]});
-        }
-        
-        return dijk();
     }
 };
