@@ -531,6 +531,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1979-find-greatest-common-divisor-of-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [1991-find-the-middle-index-in-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1991-find-the-middle-index-in-array) |
 | [1992-find-all-groups-of-farmland](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1992-find-all-groups-of-farmland) |
+| [2032-two-out-of-three](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2032-two-out-of-three) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2047-find-a-peak-element-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2047-find-a-peak-element-ii) |
 | [2107-find-unique-binary-string](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2107-find-unique-binary-string) |
@@ -877,6 +878,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1612-avoid-flood-in-the-city](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1612-avoid-flood-in-the-city) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1781-sum-of-beauty-of-all-substrings) |
+| [2032-two-out-of-three](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2032-two-out-of-three) |
 | [2107-find-unique-binary-string](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2107-find-unique-binary-string) |
 | [2169-simple-bank-system](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2169-simple-bank-system) |
 | [2196-create-binary-tree-from-descriptions](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2196-create-binary-tree-from-descriptions) |
@@ -923,6 +925,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1018-binary-prefix-divisible-by-5](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1018-binary-prefix-divisible-by-5) |
 | [1386-cinema-seat-allocation](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1386-cinema-seat-allocation) |
 | [1707-maximum-xor-with-an-element-from-array](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1707-maximum-xor-with-an-element-from-array) |
+| [2032-two-out-of-three](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2032-two-out-of-three) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
 | [2323-minimum-bit-flips-to-convert-number](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2323-minimum-bit-flips-to-convert-number) |
 | [2529-range-product-queries-of-powers](https://github.com/suyashg-22/Leetcode-Problems/tree/master/2529-range-product-queries-of-powers) |
