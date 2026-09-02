@@ -75,6 +75,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3867-sum-of-gcd-of-formed-pairs) |
+| [3875-construct-uniform-parity-array-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3875-construct-uniform-parity-array-i) |
 | [3879-find-minimum-log-transportation-cost](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3879-find-minimum-log-transportation-cost) |
 | [3914-check-if-any-element-has-prime-frequency](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3914-check-if-any-element-has-prime-frequency) |
 ## Two Pointers
@@ -591,6 +592,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3800-longest-common-prefix-between-adjacent-strings-after-removals](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3800-longest-common-prefix-between-adjacent-strings-after-removals) |
 | [3838-weighted-word-mapping](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3838-weighted-word-mapping) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3867-sum-of-gcd-of-formed-pairs) |
+| [3875-construct-uniform-parity-array-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3875-construct-uniform-parity-array-i) |
 | [3885-count-special-triplets](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3885-count-special-triplets) |
 | [3914-check-if-any-element-has-prime-frequency](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3914-check-if-any-element-has-prime-frequency) |
 | [3919-minimum-cost-to-move-between-indices](https://github.com/suyashg-22/Leetcode-Problems/tree/master/3919-minimum-cost-to-move-between-indices) |
