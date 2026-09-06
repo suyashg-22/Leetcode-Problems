@@ -15,9 +15,6 @@ public:
                 }
             }
             else{
-                if(cnt==k){
-                    ans++;
-                }
                 cnt=0;
             }
         }
