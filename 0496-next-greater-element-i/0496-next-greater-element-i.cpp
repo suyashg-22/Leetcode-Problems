@@ -6,7 +6,6 @@ public:
         stack<int>st;
         for(int i=n-1;i>=0;i--){
             int x = nums2[i];
-            mpp[x]=i;
             while(!st.empty() && st.top()<=x){
                 st.pop();
             }               
