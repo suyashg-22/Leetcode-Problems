@@ -12,7 +12,6 @@ public:
             while(i<j && mpp[c]>1){
                 char cc = s[i];
                 mpp[cc]--;
-                if(mpp[cc]<=0)mpp.erase(cc);
                 i++;
             }
             maxi=max(maxi,j-i+1);
