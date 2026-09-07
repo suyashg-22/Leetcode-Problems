@@ -1,11 +1,11 @@
 class Solution {
 public:
     int orangesRotting(vector<vector<int>>& grid) {
-        int n = grid.size();
-        int m = grid[0].size();
+        int n =grid.size();
+        int m =grid[0].size();
+        queue<pair<int,int>>q;
         vector<int>dx{0,1,0,-1};
         vector<int>dy{-1,0,1,0};
-        queue<pair<int,int>>q;
         vector<vector<int>>vis(n,vector<int>(m,0));
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
@@ -18,8 +18,7 @@ public:
         int t=0;
         while(!q.empty()){
             int size=q.size();
-            bool flag = false;
-            for(int i=0;i<size;i++){
+            for(int s=0;s<size;s++){
                 auto it = q.front();
                 q.pop();
                 int x = it.first;
@@ -28,21 +27,21 @@ public:
                     int nx=x+dx[z];
                     int ny=y+dy[z];
                     if(nx>=0 && nx<n && ny>=0 && ny<m){
-                        if(grid[nx][ny]==1 && vis[nx][ny]==0){
-                            vis[nx][ny]=1;
+                        if(grid[nx][ny]==1 && !vis[nx][ny]){
                             q.push({nx,ny});
-                            flag=true;
+                            vis[nx][ny]=1;
                         }
                     }
                 }
             }
-            if(flag)t++;
+            t++;
         }
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
-                if(grid[i][j]==1 && vis[i][j]==0)return -1;
+                if(grid[i][j]==1 && !vis[i][j])return -1;
             }
         }
-        return t;
+        if(t==0)return 0;
+        return t-1;
     }
 };
