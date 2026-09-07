@@ -472,6 +472,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0973-k-closest-points-to-origin](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0973-k-closest-points-to-origin) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0974-subarray-sums-divisible-by-k) |
 | [0994-rotting-oranges](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0994-rotting-oranges) |
+| [1004-max-consecutive-ones-iii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1004-max-consecutive-ones-iii) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1018-largest-perimeter-triangle](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1018-largest-perimeter-triangle) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1018-binary-prefix-divisible-by-5) |
@@ -634,6 +635,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0875-koko-eating-bananas](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0875-koko-eating-bananas) |
 | [0902-numbers-at-most-n-given-digit-set](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0902-numbers-at-most-n-given-digit-set) |
 | [0907-koko-eating-bananas](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0907-koko-eating-bananas) |
+| [1004-max-consecutive-ones-iii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1004-max-consecutive-ones-iii) |
 | [1046-max-consecutive-ones-iii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
@@ -717,6 +719,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0567-permutation-in-string](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0567-permutation-in-string) |
 | [0940-fruit-into-baskets](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0966-binary-subarrays-with-sum) |
+| [1004-max-consecutive-ones-iii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1004-max-consecutive-ones-iii) |
 | [1034-subarrays-with-k-different-integers](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1046-max-consecutive-ones-iii) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1358-number-of-substrings-containing-all-three-characters) |
@@ -801,6 +804,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0724-find-pivot-index](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0724-find-pivot-index) |
 | [0966-binary-subarrays-with-sum](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0966-binary-subarrays-with-sum) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0974-subarray-sums-divisible-by-k) |
+| [1004-max-consecutive-ones-iii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1004-max-consecutive-ones-iii) |
 | [1046-max-consecutive-ones-iii](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1046-max-consecutive-ones-iii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1370-count-number-of-nice-subarrays) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
