@@ -1517,6 +1517,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0183-customers-who-never-order](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0183-customers-who-never-order) |
 | [0184-department-highest-salary](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0184-department-highest-salary) |
 | [0197-rising-temperature](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0197-rising-temperature) |
+| [0584-find-customer-referee](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0584-find-customer-referee) |
 | [0595-big-countries](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0595-big-countries) |
 | [0620-not-boring-movies](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0620-not-boring-movies) |
 | [1452-restaurant-growth](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1452-restaurant-growth) |
