@@ -1524,6 +1524,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0620-not-boring-movies](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0620-not-boring-movies) |
 | [1148-article-views-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1148-article-views-i) |
 | [1452-restaurant-growth](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1452-restaurant-growth) |
+| [1683-invalid-tweets](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1683-invalid-tweets) |
 | [1757-recyclable-and-low-fat-products](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1757-recyclable-and-low-fat-products) |
 | [1892-find-total-time-spent-by-each-employee](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1892-find-total-time-spent-by-each-employee) |
 | [1908-recyclable-and-low-fat-products](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1908-recyclable-and-low-fat-products) |
