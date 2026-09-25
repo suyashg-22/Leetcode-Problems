@@ -1523,6 +1523,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0595-big-countries](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0595-big-countries) |
 | [0620-not-boring-movies](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0620-not-boring-movies) |
 | [1148-article-views-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1148-article-views-i) |
+| [1378-replace-employee-id-with-the-unique-identifier](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1378-replace-employee-id-with-the-unique-identifier) |
 | [1452-restaurant-growth](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1452-restaurant-growth) |
 | [1683-invalid-tweets](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1683-invalid-tweets) |
 | [1757-recyclable-and-low-fat-products](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1757-recyclable-and-low-fat-products) |
