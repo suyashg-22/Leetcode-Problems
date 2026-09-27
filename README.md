@@ -1526,6 +1526,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0620-not-boring-movies](https://github.com/suyashg-22/Leetcode-Problems/tree/master/0620-not-boring-movies) |
 | [1068-product-sales-analysis-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1068-product-sales-analysis-i) |
 | [1148-article-views-i](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1148-article-views-i) |
+| [1251-average-selling-price](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1251-average-selling-price) |
 | [1280-students-and-examinations](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1280-students-and-examinations) |
 | [1378-replace-employee-id-with-the-unique-identifier](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1378-replace-employee-id-with-the-unique-identifier) |
 | [1452-restaurant-growth](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1452-restaurant-growth) |
