@@ -2,9 +2,11 @@
 select name
 from employee 
 where id in
-    (select managerid
+    (select managerid 
+    from(select managerid, count(managerid) as cnt
         from employee
         group by managerid
-        having count(managerid)>=5
+        ) as t
+    where t.cnt>=5
     )
 ;
