@@ -1547,6 +1547,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1729-find-followers-count](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1729-find-followers-count) |
 | [1731-the-number-of-employees-which-report-to-each-employee](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1731-the-number-of-employees-which-report-to-each-employee) |
 | [1757-recyclable-and-low-fat-products](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1757-recyclable-and-low-fat-products) |
+| [1789-primary-department-for-each-employee](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1789-primary-department-for-each-employee) |
 | [1892-find-total-time-spent-by-each-employee](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1892-find-total-time-spent-by-each-employee) |
 | [1908-recyclable-and-low-fat-products](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1908-recyclable-and-low-fat-products) |
 | [1934-confirmation-rate](https://github.com/suyashg-22/Leetcode-Problems/tree/master/1934-confirmation-rate) |
