@@ -7,10 +7,7 @@ where reports_to is not null
 group by reports_to
 )
 
-select b.employee_id,
-b.name,
-a.cnt as reports_count,
-a.avage as average_age
+select b.employee_id,b.name,a.cnt as reports_count,a.avage as average_age
 from a
 inner join
 employees as b
