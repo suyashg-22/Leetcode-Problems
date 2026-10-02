@@ -11,16 +11,17 @@
  */
 class Solution {
 public:
-    bool rec(TreeNode* node1 ,TreeNode* node2){
+    bool dfs(TreeNode* node1,TreeNode* node2){
         if(!node1 && !node2)return true;
-        else if(!node1 || !node2)return false;
-        else if(node1->val !=node2->val)return false;
+        else if(node1 && !node2)return false;
+        else if(!node1 && node2)return false;
 
-        bool ans =rec(node1->left,node2->left);
-        ans&= rec(node1->right,node2->right);
-        return ans;
+        if(node1->val!=node2->val)return false;
+        bool l = dfs(node1->left,node2->left);
+        bool r = dfs(node1->right,node2->right);
+        return (l&r);
     }
     bool isSameTree(TreeNode* p, TreeNode* q) {
-        return rec(p,q);
+        return dfs(p,q);
     }
 };
