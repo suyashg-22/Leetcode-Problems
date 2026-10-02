@@ -11,17 +11,16 @@
  */
 class Solution {
 public:
-    bool rec(TreeNode* p,TreeNode* q){
-        if(!p && !q)return true;
-        else if(!p || !q)return false;
-        else if(p->val != q->val)return false;
-
-        bool ans = rec(p->left,q->right);
-        ans &= rec(p->right,q->left);
+    bool dfs(TreeNode*node1, TreeNode* node2){
+        if(!node1 && !node2)return true;
+        if(!node1 || !node2)return false;
+        if(node1->val!=node2->val)return false;
+        bool ans = dfs(node1->left,node2->right);
+        ans=ans & dfs(node1->right,node2->left);
         return ans;
     }
     bool isSymmetric(TreeNode* root) {
         if(!root)return true;
-        return rec(root->left,root->right);
+        return dfs(root->left,root->right);
     }
 };
