@@ -12,10 +12,11 @@
 class Solution {
 public:
     int dfs(TreeNode* node,int &maxi){
-        int l = (node->left)?dfs(node->left,maxi):-1e9;
-        int r = (node->right)?dfs(node->right,maxi):-1e9;
-        maxi= max({maxi,l,r,node->val,l+r+node->val,l+node->val,r+node->val});
-        return max({node->val,l+node->val,r+node->val});
+        if(!node)return 0;
+        int l = max(0,dfs(node->left,maxi));
+        int r = max(0,dfs(node->right,maxi));
+        maxi=max(maxi,l+r+node->val);
+        return node->val+max(l,r);
     }
     int maxPathSum(TreeNode* root) {
         if(!root)return 0;
