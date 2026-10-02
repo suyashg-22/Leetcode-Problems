@@ -20,11 +20,15 @@ public:
             int s = q.size();
             vector<int>temp;
             for(int i=0;i<s;i++){
-                auto it = q.front();
+                TreeNode* node = q.front();
                 q.pop();
-                temp.push_back(it->val);
-                if(it->left)q.push(it->left);
-                if(it->right)q.push(it->right);
+                temp.push_back(node->val);
+                if(node->left){
+                    q.push(node->left);
+                }
+                if(node->right){
+                    q.push(node->right);
+                }
             }
             ans.push_back(temp);
         }
