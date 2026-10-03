@@ -9,60 +9,47 @@
  */
 class Solution {
 public:
-    void parent(TreeNode* root,unordered_map<TreeNode*,TreeNode*>&mpp){
-        queue<TreeNode*>q;
-        q.push(root);
-        while(!q.empty()){
-            int size = q.size();
-            for(int i=0;i<size;i++){
-                auto node =q.front();
-                q.pop();
-                if(node->left){
-                    q.push(node->left);
-                    mpp[node->left]=node;
-                }
-                if(node->right){
-                    q.push(node->right);
-                    mpp[node->right]=node;
-                }
-            }
-        }
-        return;
+    void dfs(TreeNode* node,TreeNode* p,unordered_map<TreeNode*,TreeNode*>&mpp){
+        if(!node)return;
+        if(p)mpp[node]=p;
+        dfs(node->left,node,mpp);
+        dfs(node->right,node,mpp);
     }
-    vector<int> distanceK(TreeNode* root, TreeNode* target, int k) {
-        if(k==0)return{target->val};
-        unordered_map<TreeNode*,TreeNode*>mpp;
-        parent(root,mpp);
 
+    vector<int> distanceK(TreeNode* root, TreeNode* target, int k) {
+        if(!root)return {};
         vector<int>ans;
+        unordered_map<TreeNode*,TreeNode*>mpp;
+        unordered_map<TreeNode*,bool>vis;
+        dfs(root,NULL,mpp);
         queue<TreeNode*>q;
         q.push(target);
-        int d=1;
-        unordered_map<TreeNode*,int>vis;
         vis[target]=1;
+        int d=0;
         while(!q.empty()){
-            int size = q.size();
+            int size=q.size();
             for(int i=0;i<size;i++){
-                auto node = q.front();
+                TreeNode* node =q.front();
                 q.pop();
-                if(node->left && !vis.count(node->left)){
-                    q.push(node->left);
-                    vis[node->left]=1;
-                    if(d==k)ans.push_back(node->left->val);
+                if(d==k){
+                    ans.push_back(node->val);
                 }
-                if(node->right && !vis.count(node->right)){
-                    q.push(node->right);
-                    vis[node->right]=1;
-                    if(d==k)ans.push_back(node->right->val);
-                }
-                if(mpp.count(node) && !vis.count(mpp[node])){
-                    q.push(mpp[node]);
-                    vis[mpp[node]]=1;
-                    if(d==k)ans.push_back(mpp[node]->val);
+                else if(d<k){
+                    if(node->left && !vis.count(node->left)){
+                        q.push(node->left);
+                        vis[node->left]=1;
+                    }
+                    if(node->right && !vis.count(node->right)){
+                        q.push(node->right);
+                        vis[node->right]=1;
+                    }
+                    if(mpp.count(node) && !vis.count(mpp[node])){
+                        q.push(mpp[node]);
+                        vis[mpp[node]]=1;
+                    }
                 }
             }
             d++;
-            if(d>k)break;
         }
         return ans;
     }
