@@ -9,17 +9,17 @@
  */
 class Solution {
 public:
-    TreeNode* rec(TreeNode* node,TreeNode* p,TreeNode* q){
-        if(!node) return NULL;
+    TreeNode* dfs(TreeNode* node,TreeNode*p,TreeNode* q){
+        if(!node)return NULL;
         if(node==p || node==q)return node;
-
-        TreeNode* l = rec(node->left,p,q);
-        TreeNode* r = rec(node->right,p,q);
-        if(l && r)return node;
-        else if(r)return r;
-        return l; 
+        TreeNode* l = dfs(node->left,p,q);
+        TreeNode* r = dfs(node->right,p,q);
+        if(!l && !r)return NULL;
+        else if(!l)return r;
+        else if(!r)return l;
+        return node;
     }
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-        return rec(root,p,q);
+        return dfs(root,p,q);
     }
 };
