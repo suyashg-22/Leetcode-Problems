@@ -11,40 +11,42 @@
  */
 class Solution {
 public:
-    TreeNode* del(TreeNode* node){
+    TreeNode* adjust(TreeNode* node){
         TreeNode* l = node->left;
         TreeNode* r = node->right;
-        if(!l && !r)return NULL;
-        else if(!l)return r;
-        else if(!r)return l;
-        TreeNode*ll=l;
-        while(ll->right)ll=ll->right;
-        ll->right=r;
-        return l;
+        if(!l && !r) return NULL;
+        else if(!l) return r;
+        else if(!r) return l;
+
+        TreeNode* temp= r;
+        while(temp){
+            if(temp->left)temp=temp->left;
+            else break;
+        }
+        temp->left=l;
+        return r;
     }
     TreeNode* deleteNode(TreeNode* root, int key) {
         if(!root)return NULL;
-        if(root->val==key){
-            return del(root);
+        if(root->val == key){
+            return adjust(root);
         }
-        TreeNode* node= root;
+        TreeNode* node =root;
         while(node){
             int x = node->val;
             if(x<key){
                 if(node->right && node->right->val==key){
-                    TreeNode* temp = del(node->right);
-                    node->right = temp;
+                    node->right=adjust(node->right);
                     break;
                 }
-                node=node->right;
+                else node=node->right;
             }
             else{
                 if(node->left && node->left->val==key){
-                    TreeNode* temp=del(node->left);
-                    node->left=temp;
+                    node->left=adjust(node->left);
                     break;
                 }
-                node=node->left;
+                else node=node->left;
             }
         }
         return root;
