@@ -15,30 +15,28 @@ public:
     void rec(TreeNode* node,TreeNode* &f,TreeNode* &s,TreeNode* &t){
         if(!node)return;
         rec(node->left,f,s,t);
-
-        if(prev && prev->val>node->val){
-            if(s){
-                t=node;
-            }
-            else{
+        int x = node->val;
+        if(prev && prev->val>x){
+            if(!s){
                 f=prev;
                 s=node;
             }
+            else{
+                t=node;
+            }
         }
         prev=node;
-
         rec(node->right,f,s,t);
     }
+
     void recoverTree(TreeNode* root) {
-        TreeNode*f=NULL;
-        TreeNode*s=NULL;
-        TreeNode*t=NULL;
+        TreeNode* f = NULL;
+        TreeNode* s = NULL;
+        TreeNode* t = NULL;
         rec(root,f,s,t);
         if(!t){
             swap(f->val,s->val);
         }
-        else{
-            swap(f->val,t->val);
-        }
+        else swap(f->val,t->val);
     }
 };
