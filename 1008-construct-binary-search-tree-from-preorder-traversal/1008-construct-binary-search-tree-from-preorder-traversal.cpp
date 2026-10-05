@@ -15,15 +15,15 @@ public:
         if(level>=n)return NULL;
         int x = arr[level];
         if(x>=u)return NULL;
-        TreeNode* temp = new TreeNode(x);
+        TreeNode* nnode = new TreeNode(x);
         level++;
-        temp->left= rec(level,x,arr,n);
-        temp->right= rec(level,u,arr,n);
-        return temp;
+        nnode->left= rec(level,x,arr,n);
+        nnode->right= rec(level,u,arr,n);
+        return nnode;
     }
     TreeNode* bstFromPreorder(vector<int>& preorder) {
         int n = preorder.size();
         int level=0;
-        return rec(level,1e9,preorder,n);
+        return rec(level,1e9,preorder,n);   
     }
 };
