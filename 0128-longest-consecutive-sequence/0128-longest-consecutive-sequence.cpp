@@ -5,8 +5,7 @@ public:
         int n = nums.size();
         for(auto x:nums)st.insert(x);
         int maxi=0;
-        for(int i=0;i<n;i++){
-            int x = nums[i];
+        for(auto x:st){
             if(st.find(x+1)!=st.end())continue;
             else{
                 int len=1;
