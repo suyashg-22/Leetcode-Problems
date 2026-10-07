@@ -4,11 +4,9 @@ public:
     int rec(int level,int n){
         if(level==n)return 1;
         if(dp[level]!=-1)return dp[level];
-        int ans=0;
-        ans+=rec(level+1,n);
-        if(level+2<=n){
-            ans+=rec(level+2,n);
-        }
+        int ans = 0;
+        if(level+1<=n)ans+=rec(level+1,n);
+        if(level+2<=n)ans+=rec(level+2,n);
         return dp[level]=ans;
     }
     int climbStairs(int n) {
