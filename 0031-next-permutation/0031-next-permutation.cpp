@@ -5,7 +5,7 @@ public:
         int ind = n-2;
         while(ind>=0 && nums[ind]>=nums[ind+1])ind--;
         if(ind==-1){
-            sort(nums.begin(),nums.end());
+            reverse(nums.begin(),nums.end());
             return;
         }
         for(int i=n-1;i>ind;i--){
@@ -14,7 +14,7 @@ public:
                 break;
             }
         }
-        sort(nums.begin()+ind+1,nums.end());
+        reverse(nums.begin()+ind+1,nums.end());
         return;
     }
 };
