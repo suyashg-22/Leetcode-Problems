@@ -1,29 +1,15 @@
 class Solution {
 public:
-    vector<int>* arr;
-    int dp[100001][2];
-    int n;
-
-    int rec(int level,int c){
-        if(c==2 || level==n) return 0;
-        if(dp[level][c]!=-1)return dp[level][c];
-
-        int ans =0;
-        if(c==0){
-            ans = max(ans,rec(level+1,c));
-            ans = max(ans,rec(level+1,c+1)-(*arr)[level]);
-        }
-        else if(c==1){
-            ans = max(ans,rec(level+1,c));
-            ans = max(ans,(*arr)[level]+rec(level+1,c+1));
-        }
-        return dp[level][c]=ans;
-    }
-
     int maxProfit(vector<int>& prices) {
-        this->arr= &prices;
-        this->n = prices.size();
-        memset(dp,-1,sizeof(dp));
-        return rec(0,0);    
+        int n = prices.size();
+        vector<int>arr(n);
+        arr[n-1]=-1e9;
+        for(int i=n-2;i>=0;i--)arr[i]=max(arr[i+1],prices[i+1]);
+        int maxi =INT_MIN;
+        for(int i=0;i<n;i++){
+            maxi=max(maxi,arr[i]-prices[i]);
+        }
+        if(maxi<=0)return 0;
+        return maxi;
     }
 };
